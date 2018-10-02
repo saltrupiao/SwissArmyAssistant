@@ -15,12 +15,11 @@ body
 {
     /*Center the calculator*/
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     /*Hack the size together. This is not a good way to do this honestly*/
     width: 40%;
     height: 150%;
     padding: 20px;
-    margin-left: 30%;
     margin-top: 5%;
     /*Create the new grid to position the buttons*/
     display: grid;
@@ -28,12 +27,6 @@ body
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 10px;
     /*Final styling*/
-    background-color: lightgray;
-    border-style: solid;
-    border-bottom-color: darkgray;
-    border-right-color: darkgray;
-    border-left-color: white;
-    border-top-color: white;
 }
 
 /*Below, all the buttons are positioned on the grid inside the container*/
@@ -185,7 +178,7 @@ body
 .container>#display
 {
     height: 100%;
-    width: 90%;
+    width: 340px;
     border-radius: 10px;
     font-size: 24px;
 }
