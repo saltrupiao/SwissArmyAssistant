@@ -193,7 +193,7 @@ body
 .container>.calcButton:hover
 {
     transition: ease .3s;
-    background-color: orange;
+    background-color: limegreen;
     cursor: pointer;
     box-shadow: 2px 2px 10px #000000;
 }
