@@ -1,0 +1,36 @@
+body
+{
+    background-color: ghostwhite;
+}
+
+.head
+{
+    font-family: sans-serif;
+}
+
+.fancyButton
+{
+    transition: ease, .3s;
+    border: none;
+    background-color: dimgrey;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.fancyButton:hover
+{
+    transition: ease, .3s;
+    background-color: limegreen;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron
+{
+    text-align: center;
+    font-size: 32px;
+}
