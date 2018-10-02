@@ -59,8 +59,9 @@ def my_form_post():
 @app.route("/fileBrowse")
 def dir_listing():
     # Show directory contents
-    files = os.listdir('/home/connor/Documents/smproject/SwissArmyAssistant/media/pictures/')
-    return render_template('fileBrowse.html', files=files)
+    rootDir = "/home/connor/Documents/smproject/SwissArmyAssistant/media/"
+    files = os.listdir(rootDir)
+    return render_template('fileBrowse.html', files=files, path=rootDir)
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
