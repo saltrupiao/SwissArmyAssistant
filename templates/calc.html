@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+
+{% block body%}
+<title>DOM Calculator</title>
+<meta charset="utf-8">
+<script src="Assets/Js/calc.js"></script>
+<link rel="stylesheet" href="static/styles/calc.css">
+<script>
+function getElement(){  //inserts this line, makes the form information look cleaner
+        return document.getElementById("display");
+}
+</script>
+    <body>
+        <div class="outerContainer">
+            <form class="container" method="POST">
+                <input id="display" type="text" maxlength="30" style="text-align: right" name="display" value="{{result}}" onclick="this.select()"/>
+                <input class="calcButton" value="C" id="c" type="button" onclick="getElement().value=''"/>
+                <input class="calcButton" value="=" id="equals" type="submit" onclick="display('=')"/>
+                <input class="calcButton" value="1" id="one" type="button" onclick="getElement().value+='1'"/>
+                <input class="calcButton" value="2" id="two" type="button" onclick="getElement().value+='2'"/>
+                <input class="calcButton" value="3" id="three" type="button" onclick="getElement().value+='3'"/>
+                <input class="calcButton" value="4" id="four" type="button" onclick="getElement().value+='4'"/>
+                <input class="calcButton" value="5" id="five" type="button" onclick="getElement().value+='5'"/>
+                <input class="calcButton" value="6" id="six" type="button" onclick="getElement().value+='6'"/>
+                <input class="calcButton" value="7" id="seven" type="button" onclick="getElement().value+='7'"/>
+                <input class="calcButton" value="8" id="eight" type="button" onclick="getElement().value+='8'"/>
+                <input class="calcButton" value="9" id="nine" type="button" onclick="getElement().value+='9'"/>
+                <input class="calcButton" value="0" id="zero" type="button" onclick="getElement().value+='0'"/>
+                <input class="calcButton" value="." id="dec" type="button" onclick="getElement().value+='.'"/>
+                <input class="calcButton" value="+" id="plus" type="button" onclick="getElement().value+='+'"/>
+                <input class="calcButton" value="-" id="minus" type="button" onclick="getElement().value+='-'"/>
+                <input class="calcButton" value="*" id="star" type="button" onclick="getElement().value+='*'"/>
+                <input class="calcButton" value="/" id="slash" type="button" onclick="getElement().value+='/'"/>
+                <input class="calcButton" value="(" id="parentheses" type="button" onclick="getElement().value+='('">
+                <input class="calcButton" value=")" id="parentheses2" type="button" onclick="getElement().value+=')'">
+                <input class="calcButton" value="%" id="percent" type="button" onclick="getElement().value+='%'">
+                <input class="calcButton" value="^" id="exponential" type="button" onclick="getElement().value+='^'">
+            </form>
+        </div>
+        <div>
+            <br>
+            <a class="fancyButton" href="/">Go Home</a>
+            <!--<p id="answer">{{result}}</p>-->
+        </div>
+    </body>
+
+
+
+{% endblock %}
