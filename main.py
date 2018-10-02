@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, abort, send_file
+import os
 
 
 # Placeholder for the application
@@ -52,6 +53,14 @@ def my_form_post():
     new_text = "You entered the word " + text
     return render_template('home.html', new_text = new_text)
 
+
+
+# https://stackoverflow.com/questions/23718236/python-flask-browsing-through-directory-with-files
+@app.route("/fileBrowse")
+def dir_listing():
+    # Show directory contents
+    files = os.listdir('/home/connor/Documents/smproject/SwissArmyAssistant/media/pictures/')
+    return render_template('fileBrowse.html', files=files)
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
