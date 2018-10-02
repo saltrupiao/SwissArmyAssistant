@@ -1,4 +1,3 @@
-from flask import render_template, request
 
 
 class CalcClass(object):
