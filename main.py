@@ -4,9 +4,8 @@ from NoteClass import NoteClass
 import os.path
 
 
-
 # Placeholder for the application
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__)
 
 
 # This tells our program the route to our server
@@ -28,7 +27,26 @@ def calcpage():
 @app.route('/calc', methods=['POST'])
 def calc():
     inp = request.form['display']  # pull expression from text field
+
     result = CalcClass.calculation(inp)
+
+    try:  # Data validation, will prevent program crash if user enters invalid expression
+        eval(inp)
+    except ZeroDivisionError:  # Ex: 8/0
+        result = 'Error: Divide by Zero'
+        return render_template('calc.html', result=result)
+    except NameError:  # Ex: a+1
+        result = 'Error: Check your syntax'
+        return render_template('calc.html', result=result)
+    except SyntaxError:  # Ex: 3a+1, 3-+
+        result = 'Error: Check your syntax'
+        return render_template('calc.html', result=result)
+
+    result = eval(inp)  # builds string result from the evaluation of user input expression
+
+    if isinstance(result, float):
+        result = round(result, 3)
+
     return render_template('calc.html', result=result)  # sends result to page
 
 
@@ -56,12 +74,6 @@ def noteFunctions():
         data = NoteClass.loadNote()
         return render_template('note.html', text=data)
 
-
-# @app.route('/note', methods=['POST'])
-# def loadNote():
-#     data = NoteClass.loadNote()
-#     return render_template('note.html', text=data)
-
-
 if __name__ == '__main__':
-    app.run(debug=True)  # so the page refreshes live and doesn't need to be restarted
+    app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
+
