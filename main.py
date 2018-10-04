@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
-import os.path
-
 
 # Placeholder for the application
 app = Flask(__name__)
@@ -60,19 +58,26 @@ def my_form_post():
 
 @app.route('/note')
 def notepad():
-    return render_template('note.html', text = "New Note")
+    return render_template('note.html', text = "New Note", fn="Enter filename to save or load (refrain from typing .txt)")
 
 
 @app.route('/note', methods=['POST'])
 def noteFunctions():
-    ans = request.form['tag']
+    ans = request.form['tag']  # determine which submit button was pressed
+    filename = request.form['filename']
     if ans == "Save":
         data = request.form['notepad']
-        NoteClass.saveNote(data)
-        return render_template('note.html', text=data)
+        NoteClass.saveNote(filename, data)
+        return render_template('note.html', text=data, fn=filename)
     if ans == "Load":
+<<<<<<< HEAD
+        data = NoteClass.loadNote(filename)
+        return render_template('note.html', text=data, fn=filename)
+
+=======
         data = NoteClass.loadNote()
         return render_template('note.html', text=data)
+>>>>>>> 53fbbde85f5f7f5d97b0e427baf9b5202632a657
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted

@@ -20,6 +20,7 @@
 
     <input type="submit" class="fancyButton" id="save" name="save" value="Save Note" onclick="document.getElementById('tag').value='Save'">
     <input type="submit" class="fancyButton" id="load" name="load" value="Load Note" onclick="document.getElementById('tag').value='Load'">
+    <input style="width:560px" type="text" name="filename" id="filename" value="{{fn}}">
     <input type="hidden" id="tag" name="tag" value="null">
 </form>
 {% endblock %}
