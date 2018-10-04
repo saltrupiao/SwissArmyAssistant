@@ -53,7 +53,7 @@ def noteFunctions():
     if ans == "Load":
         data = NoteClass.loadNote(filename)
         return render_template('note.html', text=data, fn=filename)
-    
+
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
