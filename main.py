@@ -39,7 +39,7 @@ def my_form_post():
 
 @app.route('/note')
 def notepad():
-    return render_template('note.html', text = "New Note", fn="Enter filename to save or load (refrain from typing .txt)")
+    return render_template('note.html', text = "New Note", fn="Enter filename to save/load (refrain from typing .txt)")
 
 
 @app.route('/note', methods=['POST'])

@@ -4,7 +4,7 @@ from io import open
 class NoteClass(object):
     @staticmethod
     def saveNote(file, data):
-        f = open(file+".txt", "w", newline='')
+        f = open(file + ".txt", "w", newline='')
         f.write("%s" % data)
         f.close()
         return
