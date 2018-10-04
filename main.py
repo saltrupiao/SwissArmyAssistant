@@ -11,6 +11,10 @@ app = Flask(__name__)
 def hello_world():
     return render_template('home.html')
 
+@app.route('/note')
+def note():
+    return render_template('note.html')
+
 
 @app.route('/about')
 def about():
