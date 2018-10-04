@@ -1,12 +1,17 @@
 {% extends 'layout.html' %}
 
 {% block body%}
-<link rel="stylesheet" href="static/styles/note.css">
+<head>
+    <title>SwissArmyAssistant: Notepad</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/styles/note.css">
+</head>
+
+
 <form method = "POST">
     <div>
         <textarea id="notepad" name="notepad" cols="100" rows="25">
-{{text}}
-        </textarea>
+{{text}}</textarea>
     </div>
 
         <br>
