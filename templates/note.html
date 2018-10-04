@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body%}
+<head>
+    <title>SwissArmyAssistant: Notepad</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/styles/note.css">
+</head>
+
+
+<form method = "POST">
+    <div>
+        <textarea id="notepad" name="notepad" cols="100" rows="25">
+{{text}}</textarea>
+    </div>
+
+        <br>
+        <br>
+        <a class="fancyButton" href="/">Go Home</a>
+
+    <input type="submit" class="fancyButton" id="save" name="save" value="Save Note" onclick="document.getElementById('tag').value='Save'">
+    <input type="submit" class="fancyButton" id="load" name="load" value="Load Note" onclick="document.getElementById('tag').value='Load'">
+    <input type="hidden" id="tag" name="tag" value="null">
+</form>
+{% endblock %}
