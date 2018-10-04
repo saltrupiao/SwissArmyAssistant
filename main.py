@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
-
+from CalcClass import CalcClass
+from NoteClass import NoteClass
 
 # Placeholder for the application
 app = Flask(__name__)
@@ -29,6 +30,8 @@ def calcpage():
 def calc():
     inp = request.form['display']  # pull expression from text field
 
+    result = CalcClass.calculation(inp)
+
     try:  # Data validation, will prevent program crash if user enters invalid expression
         eval(inp)
     except ZeroDivisionError:  # Ex: 8/0
@@ -57,5 +60,24 @@ def my_form_post():
     return render_template('home.html', new_text = new_text)
 
 
+@app.route('/note')
+def notepad():
+    return render_template('note.html', text = "New Note", fn="Enter filename to save or load (refrain from typing .txt)")
+
+
+@app.route('/note', methods=['POST'])
+def noteFunctions():
+    ans = request.form['tag']  # determine which submit button was pressed
+    filename = request.form['filename']
+    if ans == "Save":
+        data = request.form['notepad']
+        NoteClass.saveNote(filename, data)
+        return render_template('note.html', text=data, fn=filename)
+    if ans == "Load":
+        data = NoteClass.loadNote(filename)
+        return render_template('note.html', text=data, fn=filename)
+    
+
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
+
