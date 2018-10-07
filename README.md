@@ -1,10 +1,10 @@
-# CSI_SP
-Beginning of the CSI Sophomore project repository. Details to come
-
-Rob: Testing Git Setup
-
-Ben: practice pushing changes
-
-Connor: Testing PyCharm git integration with different branches
-
-This should only go in the "Connor-testBranch" branch
+# SwissArmyAssistant
+<p>Cool ass website with cutting edge technology to help you do things you could already do elsewhere.</p>
+<p>Team members:</p>
+<ul>
+    <li>Connor</li>
+    <li>Rob</li>
+    <li>Sal</li>
+    <li>Dale</li>
+    <li>Ben</li>
+</ul>
