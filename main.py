@@ -1,10 +1,12 @@
-from flask import Flask, render_template, request, abort, send_file
 import os
-
+from flask import Flask, render_template, request
+from CalcClass import CalcClass
+from NoteClass import NoteClass
 
 # Placeholder for the application
 app = Flask(__name__)
 
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # This tells our program the route to our server
 @app.route('/')
@@ -25,24 +27,7 @@ def calcpage():
 @app.route('/calc', methods=['POST'])
 def calc():
     inp = request.form['display']  # pull expression from text field
-
-    try:  # Data validation, will prevent program crash if user enters invalid expression
-        eval(inp)
-    except ZeroDivisionError:  # Ex: 8/0
-        result = 'Error: Divide by Zero'
-        return render_template('calc.html', result=result)
-    except NameError:  # Ex: a+1
-        result = 'Error: Check your syntax'
-        return render_template('calc.html', result=result)
-    except SyntaxError:  # Ex: 3a+1, 3-+
-        result = 'Error: Check your syntax'
-        return render_template('calc.html', result=result)
-
-    result = eval(inp)  # builds string result from the evaluation of user input expression
-
-    if isinstance(result, float):
-        result = round(result, 3)
-
+    result = CalcClass.calculation(inp)
     return render_template('calc.html', result=result)  # sends result to page
 
 
@@ -54,14 +39,45 @@ def my_form_post():
     return render_template('home.html', new_text = new_text)
 
 
+@app.route('/note')
+def notepad():
+    return render_template('note.html', text = "New Note", fn="Enter filename to save or load (refrain from typing .txt)")
 
-# https://stackoverflow.com/questions/23718236/python-flask-browsing-through-directory-with-files
-@app.route("/fileBrowse")
-def dir_listing():
-    # Show directory contents
-    rootDir = "/home/connor/Documents/smproject/SwissArmyAssistant/media/"
-    files = os.listdir(rootDir)
-    return render_template('fileBrowse.html', files=files, path=rootDir)
+
+@app.route('/note', methods=['POST'])
+def noteFunctions():
+    ans = request.form['tag']  # determine which submit button was pressed
+    filename = request.form['filename']
+    if ans == "Save":
+        data = request.form['notepad']
+        NoteClass.saveNote(filename, data)
+        return render_template('note.html', text=data, fn=filename)
+    if ans == "Load":
+        data = NoteClass.loadNote(filename)
+        return render_template('note.html', text=data, fn=filename)
+
+@app.route('/files')
+def index():
+    return  render_template('upload.html')
+
+@app.route('/upload', methods=['POST'])
+def upload():
+    target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
+    print(target)
+
+    if not os.path.isdir(target):
+        os.mkdir(target)
+
+    for file in request.files.getlist("file"):
+        print(file)
+        filename = file.filename
+        destination = "/".join([target, filename])
+        print(destination)
+        file.save(destination)
+
+    return render_template("complete.html")
+
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
+

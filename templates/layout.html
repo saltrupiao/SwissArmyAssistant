@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flask Test with Layout!</title>
+    <title>Swiss Army Assistant</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 </head>
 <body>
-    {% block body %}{% endblock %}
+    <h1 class="head">Swiss Army Assistant</h1>
+    <nav>
+        <a class="fancyButton" href="/">Home</a>
+        <a class="fancyButton" href="/calc">Calculator</a>
+        <a class="fancyButton" href="/note">Notepad</a>
+        <a class="fancyButton" href="/about">About</a>
+        <a class="fancyButton" href="/files">File Upload</a>
+    </nav>
+   {% block content %}{% endblock %}
 </body>
 </html>
