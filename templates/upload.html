@@ -7,10 +7,18 @@
 <body>
 
 <h1>File Uploader</h1>
-<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+<form id="upload-form" action="{{ url_for('file') }}" method="POST" enctype="multipart/form-data">
+    <label>Upload Path</label>
+    <input type="text" value="{{ path }}" name="txtpath">
     <input type="file" name="file" accept="image/*" multiple>
     <input type="submit" value="send">
 </form>
+
+<ul>
+{% for file in files %}
+    <li><a type="submit" href="{{ path }}{{ file }}">{{ file }}</a></li>
+{% endfor %}
+</ul>
 
 </body>
 {% endblock %}

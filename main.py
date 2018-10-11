@@ -2,6 +2,7 @@ import os
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
+from file import dir_listing, setFilePath, upload
 
 # Placeholder for the application
 app = Flask(__name__)
@@ -56,26 +57,36 @@ def noteFunctions():
         data = NoteClass.loadNote(filename)
         return render_template('note.html', text=data, fn=filename)
 
-@app.route('/files')
-def index():
-    return  render_template('upload.html')
 
-@app.route('/upload', methods=['POST'])
-def upload():
-    target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
-    print(target)
+@app.route('/files', methods=['GET', 'POST'])
+def file():
+    path = "/home/connor/Documents/smproject/SwissArmyAssistant/static/media"
+    if request.method == 'POST':
+        path = setFilePath()
+        upload(APP_ROOT)
 
-    if not os.path.isdir(target):
-        os.mkdir(target)
+    files = dir_listing(path)
 
-    for file in request.files.getlist("file"):
-        print(file)
-        filename = file.filename
-        destination = "/".join([target, filename])
-        print(destination)
-        file.save(destination)
+    return  render_template('upload.html', files = files, path = path)
 
-    return render_template("complete.html")
+
+
+# @app.route('/upload', methods=['POST'])
+# def upload():
+#     target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
+#     print(target)
+#
+#     if not os.path.isdir(target):
+#         os.mkdir(target)
+#
+#     for file in request.files.getlist("file"):
+#         print(file)
+#         filename = file.filename
+#         destination = "/".join([target, filename])
+#         print(destination)
+#         file.save(destination)
+
+#    return render_template("complete.html")
 
 
 if __name__ == '__main__':
