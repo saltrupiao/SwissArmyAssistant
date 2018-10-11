@@ -9,18 +9,17 @@
 <h1>File Uploader</h1>
 <form id="upload-form" action="{{ url_for('file') }}" method="POST" enctype="multipart/form-data">
     <label>Upload Path</label>
-    <input type="text" value="{{ path }}" name="txtpath">
+    <select name="folder">
+        <option value="Documents">Documents</option>
+        <option value="Music">Music</option>
+        <option value="Pictures">Pictures</option>
+    </select>
+    <input type="submit" value="View Files" onclick="document.getElementById('hiddenTag').value('List')">
+    <!--<input type="text" value="{{ path }}" name="txtpath">-->
     <input type="file" name="file" accept="image/*" multiple>
     <input type="submit" value="send" onclick="document.getElementById('hiddenTag').value('Upload')">
 </form>
 
-
-
-<form method="post">
-    <input type="submit" value="Pictures" onclick="document.getElementById('hiddenTag').value('Pictures')">
-    <input type="submit" value="Music" onclick="document.getElementById('hiddenTag').value('Music')">
-    <input type="submit" value="Documents" onclick="document.getElementById('hiddenTag').value('Documents')">
-</form>
 
 <ul>
 {% for file in files %}
