@@ -5,7 +5,7 @@ from flask import request
 def setFilePath():
     usrpath = request.form['txtpath']
     if usrpath is None:
-        path = "/home/connor/smproject/SwissArmyAssistant/static/media"
+        path = "/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media"
     else:
        path = usrpath
 
