@@ -42,20 +42,24 @@ def my_form_post():
 
 @app.route('/note')
 def notepad():
-    return render_template('note.html', text = "New Note", fn="Enter filename to save or load (refrain from typing .txt)")
+    return render_template('note.html', text = "New Note", fn="Enter filename for save")
 
 
 @app.route('/note', methods=['POST'])
 def noteFunctions():
     ans = request.form['tag']  # determine which submit button was pressed
-    filename = request.form['filename']
     if ans == "Save":
+        filename = request.form['filename']
         data = request.form['notepad']
         NoteClass.saveNote(filename, data)
         return render_template('note.html', text=data, fn=filename)
     if ans == "Load":
+        filename = request.form['filename']
         data = NoteClass.loadNote(filename)
         return render_template('note.html', text=data, fn=filename)
+    if ans == "reset":
+        return render_template('note.html', text="New Note",
+                               fn="Enter filename for save")
 
 
 @app.route('/files', methods=['GET', 'POST'])
