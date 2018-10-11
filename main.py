@@ -11,10 +11,6 @@ app = Flask(__name__)
 def hello_world():
     return render_template('home.html')
 
-@app.route('/note')
-def note():
-    return render_template('note.html')
-
 
 @app.route('/about')
 def about():
@@ -29,26 +25,7 @@ def calcpage():
 @app.route('/calc', methods=['POST'])
 def calc():
     inp = request.form['display']  # pull expression from text field
-
     result = CalcClass.calculation(inp)
-
-    try:  # Data validation, will prevent program crash if user enters invalid expression
-        eval(inp)
-    except ZeroDivisionError:  # Ex: 8/0
-        result = 'Error: Divide by Zero'
-        return render_template('calc.html', result=result)
-    except NameError:  # Ex: a+1
-        result = 'Error: Check your syntax'
-        return render_template('calc.html', result=result)
-    except SyntaxError:  # Ex: 3a+1, 3-+
-        result = 'Error: Check your syntax'
-        return render_template('calc.html', result=result)
-
-    result = eval(inp)  # builds string result from the evaluation of user input expression
-
-    if isinstance(result, float):
-        result = round(result, 3)
-
     return render_template('calc.html', result=result)  # sends result to page
 
 
@@ -62,21 +39,25 @@ def my_form_post():
 
 @app.route('/note')
 def notepad():
-    return render_template('note.html', text = "New Note", fn="Enter filename to save or load (refrain from typing .txt)")
+    return render_template('note.html', text = "New Note", fn="Enter filename for save")
 
 
 @app.route('/note', methods=['POST'])
 def noteFunctions():
     ans = request.form['tag']  # determine which submit button was pressed
-    filename = request.form['filename']
     if ans == "Save":
+        filename = request.form['filename']
         data = request.form['notepad']
         NoteClass.saveNote(filename, data)
         return render_template('note.html', text=data, fn=filename)
     if ans == "Load":
+        filename = request.form['filename']
         data = NoteClass.loadNote(filename)
         return render_template('note.html', text=data, fn=filename)
-    
+    if ans == "reset":
+        return render_template('note.html', text="New Note",
+                               fn="Enter filename for save")
+
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
