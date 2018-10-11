@@ -162,6 +162,7 @@
 /*Outside of position, all the buttons have the same style*/
 .container>.calcButton
 {
+    transition: ease .3s;
     width: 75px;
     height: 100%;
     font-size: 24px;
