@@ -16,6 +16,7 @@
 
 {% block content%}
 <title>DOM Calculator</title>
+
 <meta charset="utf-8">
 <script src="Assets/Js/calc.js"></script>
 <link rel="stylesheet" href="static/styles/calc.css">
@@ -47,7 +48,7 @@ function getElement(){  //inserts this line, makes the form information look cle
                 <input class="calcButton" value="/" id="slash" type="button" onclick="getElement().value+='/'"/>
                 <input class="calcButton" value="(" id="parentheses" type="button" onclick="getElement().value+='('">
                 <input class="calcButton" value=")" id="parentheses2" type="button" onclick="getElement().value+=')'">
-                <input class="calcButton" value="%" id="percent" type="button" onclick="getElement().value+='//'">
+                <input class="calcButton" value="MOD" id="percent" type="button" onclick="getElement().value+='//'">
                 <input class="calcButton" value="^" id="exponential" type="button" onclick="getElement().value+='**'">
             </form>
         </div>
