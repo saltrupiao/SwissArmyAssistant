@@ -3,11 +3,15 @@ from flask import request
 
 
 def setFilePath():
-    usrpath = request.form['txtpath']
-    if usrpath is None:
-        path = "/home/connor/smproject/SwissArmyAssistant/static/media"
+    folder = request.form['folder']
+    if folder == "Documents":
+        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
+    elif folder == "Pictures":
+        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/pictures'
+    elif folder == "Music":
+        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/music'
     else:
-       path = usrpath
+        path = "Error"
 
     return path
 
