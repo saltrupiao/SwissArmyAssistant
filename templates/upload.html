@@ -11,14 +11,24 @@
     <label>Upload Path</label>
     <input type="text" value="{{ path }}" name="txtpath">
     <input type="file" name="file" accept="image/*" multiple>
-    <input type="submit" value="send">
+    <input type="submit" value="send" onclick="document.getElementById('hiddenTag').value('Upload')">
+</form>
+
+
+
+<form method="post">
+    <input type="submit" value="Pictures" onclick="document.getElementById('hiddenTag').value('Pictures')">
+    <input type="submit" value="Music" onclick="document.getElementById('hiddenTag').value('Music')">
+    <input type="submit" value="Documents" onclick="document.getElementById('hiddenTag').value('Documents')">
 </form>
 
 <ul>
 {% for file in files %}
-    <li><a type="submit" href="{{ path }}{{ file }}">{{ file }}</a></li>
+    <li><a type="button" value="{{ file }}" onclick="document.getElementById('hiddenTag').value('{{ file }}')"></li>
 {% endfor %}
 </ul>
+
+<input type="hidden" id="hiddenTag" name="hiddenTag" value="null">
 
 </body>
 {% endblock %}
