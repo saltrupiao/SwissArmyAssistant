@@ -1,6 +1,9 @@
 body
 {
-    background-color: ghostwhite;
+    /*background-color: ghostwhite;*/
+    background-image: url(/static/SAS_background.png);
+    background-repeat: no-repeat;
+
 }
 
 .head
