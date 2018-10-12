@@ -44,7 +44,7 @@ nav{
 }
 
 .container-audio {
-    width: 100%;
+    width: 97%;
     height: auto;
     padding: 20px;
     border-radius: 5px;
@@ -53,7 +53,7 @@ nav{
     margin: 20px auto;
     overflow: hidden;
     /*animation: pulse2 7s;*/
-    animation: slideIn 2s;
+    animation: pulse2 3s;
 }
 audio {
   width:100%;
