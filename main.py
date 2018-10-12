@@ -59,6 +59,11 @@ def noteFunctions():
                                fn="Enter filename for save")
 
 
+@app.route('/music')
+def music():
+    return render_template('music.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
 
