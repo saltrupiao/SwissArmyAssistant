@@ -1,0 +1,87 @@
+body {
+    animation: pulse 3s;
+    /*text-align:center;*/
+    color:#000;
+}
+h2{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+h1{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+nav{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from{
+        margin-left: 100%;
+        width:300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%
+    }
+}
+@keyframes pulse {
+    0%{
+        background-color: #e81b00;
+    }
+    100%{
+        background-color: ghostwhite;
+    }
+}
+@keyframes pulse2 {
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: #e81b00;
+    }
+}
+
+.container-audio {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e81b00;
+    color: #444;
+    margin: 20px auto;
+    overflow: hidden;
+    /*animation: pulse2 7s;*/
+    animation: slideIn 2s;
+}
+audio {
+  width:100%;
+
+  animation-duration: 2s;
+  animation-name: slideIn;
+}
+.fancyButton
+{
+    transition: ease, .5s;
+    border: none;
+    background-color: dimgrey;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.fancyButton:hover
+{
+    transition: ease, .5s;
+    background-color: #e81b00;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
