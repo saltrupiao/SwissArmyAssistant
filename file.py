@@ -2,27 +2,24 @@ import os
 from flask import request
 
 
-def setFilePath():
-    folder = request.form['folder']
+def setFilePath(folder):
+
     if folder == "Documents":
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents'
     elif folder == "Pictures":
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/pictures'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/pictures'
     elif folder == "Music":
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/music'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/music'
     else:
         path = "Error"
 
     return path
 
 
-def upload(APP_ROOT):
+def upload(path):
     path = setFilePath()
-    target = os.path.join(APP_ROOT, path)
+    target = path
     print(target)
-
-    if not os.path.isdir(target):
-        os.mkdir(target)
 
     for file in request.files.getlist("file"):
         print(file)

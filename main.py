@@ -64,16 +64,14 @@ def noteFunctions():
 
 @app.route('/files', methods=['GET', 'POST'])
 def file():
+    path = None
     if request.method == 'POST':
-        tag = request.form.get('hiddenTag')
-        if tag == "Upload":
-            path = setFilePath()
-            upload(APP_ROOT)
-        elif tag == "List":
-            path = setFilePath()
+        tag = request.form['folder']
+        path = setFilePath(tag)
 
-    if request.method == 'GET':
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
+#    if request.method == 'GET':
+#        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/'
+
 
     dir_listing(path)
     files = dir_listing(path)
