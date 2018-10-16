@@ -1,6 +1,8 @@
+import os
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
+from file import dir_listing, setFilePath, upload
 
 # Placeholder for the application
 app = Flask(__name__)
@@ -58,6 +60,24 @@ def noteFunctions():
         return render_template('note.html', text="New Note",
                                fn="Enter filename for save")
 
+@app.route('/music')
+def music():
+    return render_template('music.html')
+
+@app.route('/files', methods=['GET', 'POST'])
+def file():
+    path = None
+    if request.method == 'POST':
+        tag = request.form['folder']
+        path = setFilePath(tag)
+
+    #    if request.method == 'GET':
+    #        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/'
+
+    dir_listing(path)
+    files = dir_listing(path)
+
+    return  render_template('upload.html', files = files, path = path)
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted

@@ -33,5 +33,3 @@ def dir_listing(path):
     # Show directory contents
     files = os.listdir(path)
     return files
-
-
