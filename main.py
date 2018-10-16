@@ -1,13 +1,10 @@
-import os
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
-from file import dir_listing, setFilePath, upload
 
 # Placeholder for the application
 app = Flask(__name__)
 
-APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # This tells our program the route to our server
 @app.route('/')
@@ -62,44 +59,9 @@ def noteFunctions():
                                fn="Enter filename for save")
 
 
-@app.route('/files', methods=['GET', 'POST'])
-def file():
-    if request.method == 'POST':
-        tag = request.form.get('hiddenTag')
-        if tag == "Upload":
-            path = setFilePath()
-            upload(APP_ROOT)
-        elif tag == "List":
-            path = setFilePath()
-
-    if request.method == 'GET':
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
-
-    dir_listing(path)
-    files = dir_listing(path)
-
-
-    return  render_template('upload.html', files = files, path = path)
-
-
-
-
-# @app.route('/upload', methods=['POST'])
-# def upload():
-#     target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
-#     print(target)
-#
-#     if not os.path.isdir(target):
-#         os.mkdir(target)
-#
-#     for file in request.files.getlist("file"):
-#         print(file)
-#         filename = file.filename
-#         destination = "/".join([target, filename])
-#         print(destination)
-#         file.save(destination)
-
-#    return render_template("complete.html")
+@app.route('/music')
+def music():
+    return render_template('music.html')
 
 
 if __name__ == '__main__':
