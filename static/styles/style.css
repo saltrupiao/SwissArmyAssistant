@@ -1,15 +1,22 @@
 body
 {
     /*background-color: ghostwhite;*/
-    background-image: url(/static/SAS_background.png);
+    background-image: url(/static/8897.jpg);
     background-repeat: no-repeat;
 
 }
 
+
+
+
+.title{
+    font-size: 100px;
+}
 .head
 {
     font-family: sans-serif;
 }
+
 
 
 .fancyButton
@@ -37,4 +44,11 @@ body
 {
     text-align: center;
     font-size: 32px;
+}
+
+
+.btn btn-primary btn-lg{
+    width: 100px !important;
+        height: 100px !important;
+        font-size: 10px;
 }
