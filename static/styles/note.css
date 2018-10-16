@@ -10,6 +10,12 @@ body{
     animation-duration: 2s;
     animation-name: fadeIn;
 }
+
+#notepad
+{
+    background-color: white;
+}
+
 .fancyButton
 {
     transition: ease, .5s;

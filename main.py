@@ -7,6 +7,7 @@ from file import dir_listing, setFilePath, upload
 # Placeholder for the application
 app = Flask(__name__)
 
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # This tells our program the route to our server
 @app.route('/')
@@ -60,24 +61,52 @@ def noteFunctions():
         return render_template('note.html', text="New Note",
                                fn="Enter filename for save")
 
-@app.route('/music')
-def music():
-    return render_template('music.html')
 
+<<<<<<<<< Temporary merge branch 1
 @app.route('/files', methods=['GET', 'POST'])
 def file():
-    path = None
     if request.method == 'POST':
-        tag = request.form['folder']
-        path = setFilePath(tag)
+        tag = request.form.get('hiddenTag')
+        if tag == "Upload":
+            path = setFilePath()
+            upload(APP_ROOT)
+        elif tag == "List":
+            path = setFilePath()
 
-    #    if request.method == 'GET':
-    #        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/'
+    if request.method == 'GET':
+        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
 
     dir_listing(path)
     files = dir_listing(path)
 
+
     return  render_template('upload.html', files = files, path = path)
+
+
+
+
+# @app.route('/upload', methods=['POST'])
+# def upload():
+#     target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
+#     print(target)
+#
+#     if not os.path.isdir(target):
+#         os.mkdir(target)
+#
+#     for file in request.files.getlist("file"):
+#         print(file)
+#         filename = file.filename
+#         destination = "/".join([target, filename])
+#         print(destination)
+#         file.save(destination)
+
+#    return render_template("complete.html")
+=========
+@app.route('/music')
+def music():
+    return render_template('music.html')
+>>>>>>>>> Temporary merge branch 2
+
 
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted

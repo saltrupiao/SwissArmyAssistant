@@ -1,5 +1,6 @@
 import os
 from flask import request
+import log
 
 
 def setFilePath(folder):
@@ -12,6 +13,7 @@ def setFilePath(folder):
         path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/music'
     else:
         path = "Error"
+    log.writeLog("Path set to " + path)
 
     return path
 

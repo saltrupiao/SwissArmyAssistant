@@ -1,7 +1,7 @@
 body
 {
     /*background-color: ghostwhite;*/
-    background-image: url(/static/media/pictures/background.jpg);
+    background-image: url(/static/SAS_background.png);
     background-repeat: no-repeat;
 
 }
@@ -27,7 +27,7 @@ body
 .fancyButton:hover
 {
     transition: ease, .3s;
-    background-color: limegreen;
+    background-color: #e81b00;
     cursor: pointer;
     text-decoration: none;
     color: white;
