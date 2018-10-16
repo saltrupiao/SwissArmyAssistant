@@ -24,6 +24,7 @@ def upload(APP_ROOT):
     print(target)
 
     if not os.path.isdir(target):
+        log.writeLog("Creating new directory " + target)
         os.mkdir(target)
 
     for file in request.files.getlist("file"):

@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
+import log
 
 # Placeholder for the application
 app = Flask(__name__)
@@ -46,15 +47,18 @@ def notepad():
 def noteFunctions():
     ans = request.form['tag']  # determine which submit button was pressed
     if ans == "Save":
+        log.writeLog("Saving file")
         filename = request.form['filename']
         data = request.form['notepad']
         NoteClass.saveNote(filename, data)
         return render_template('note.html', text=data, fn=filename)
     if ans == "Load":
+        log.writeLog("Loading file")
         filename = request.form['filename']
         data = NoteClass.loadNote(filename)
         return render_template('note.html', text=data, fn=filename)
     if ans == "reset":
+        log.writeLog("Resetting page")
         return render_template('note.html', text="New Note",
                                fn="Enter filename for save")
 
