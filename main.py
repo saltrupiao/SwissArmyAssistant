@@ -1,4 +1,4 @@
-import os
+import os, log
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
@@ -7,7 +7,9 @@ from file import dir_listing, setFilePath, upload
 # Placeholder for the application
 app = Flask(__name__)
 
-APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+#APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+APP_ROOT = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media'
+print(APP_ROOT)
 
 # This tells our program the route to our server
 @app.route('/')
@@ -62,21 +64,24 @@ def noteFunctions():
                                fn="Enter filename for save")
 
 
-<<<<<<<<< Temporary merge branch 1
 @app.route('/files', methods=['GET', 'POST'])
 def file():
     if request.method == 'POST':
-        tag = request.form.get('hiddenTag')
-        if tag == "Upload":
-            path = setFilePath()
-            upload(APP_ROOT)
-        elif tag == "List":
-            path = setFilePath()
+        tag = request.form.get('folder')
+        print(tag)
+        newAppRoot = APP_ROOT + '/' + tag
+        print("newAppRoot: " + newAppRoot)
+        if "upload" in request.form:
+            path = setFilePath(tag)
+            upload(newAppRoot)
+        elif "view" in request.form:
+            path = setFilePath(tag)
+
 
     if request.method == 'GET':
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/'
 
-    dir_listing(path)
+    #dir_listing(path)
     files = dir_listing(path)
 
 
@@ -85,11 +90,17 @@ def file():
 
 
 
-# @app.route('/upload', methods=['POST'])
-# def upload():
-#     target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
-#     print(target)
-#
+#@app.route('/upload', methods=['GET', 'POST'])
+#def upload():
+#    target = os.path.join(APP_ROOT, '/Users/saltrupiano/Desktop')
+#    print(target)
+
+#    if request.method == 'POST':
+#        f = request.files[file]
+#        f.save(request.files['file'])
+#        return 'file uploaded successfully'
+# break
+#   -----------------
 #     if not os.path.isdir(target):
 #         os.mkdir(target)
 #
@@ -100,12 +111,10 @@ def file():
 #         print(destination)
 #         file.save(destination)
 
-#    return render_template("complete.html")
-=========
-@app.route('/music')
+
+@app.route('/Music')
 def music():
-    return render_template('music.html')
->>>>>>>>> Temporary merge branch 2
+    return render_template('Music.html')
 
 
 if __name__ == '__main__':

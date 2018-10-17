@@ -1,9 +1,13 @@
 body
 {
     /*background-color: ghostwhite;*/
-    background-image: url(/static/SAS_background.png);
+    background-image: url(/static/media/Pictures/background.jpg);
     background-repeat: no-repeat;
 
+}
+
+.title{
+    font-size: 100px;
 }
 
 .head
@@ -37,4 +41,10 @@ body
 {
     text-align: center;
     font-size: 32px;
+}
+
+.btn btn-primary btn-lg{
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 10px;
 }
