@@ -9,6 +9,7 @@
 body{
     animation-duration: 2s;
     animation-name: fadeIn;
+    width: 100%
 }
 .fancyButton
 {
@@ -25,11 +26,28 @@ body{
 .fancyButton:hover
 {
     transition: ease, .5s;
-    background-color: #e81b00;
+    background-color: dodgerblue;
     cursor: pointer;
     text-decoration: none;
     color: white;
 }
 
 
+
+.nicEdit-main
+{
+    background: ghostwhite;
+    opacity: .85;
+     width: 100%;
+     max-width: 2000px;
+     box-sizing: border-box;
+}
+
+
+#noteForm
+{
+
+    height: auto;
+    width: auto;
+}
 

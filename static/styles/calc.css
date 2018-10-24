@@ -184,7 +184,7 @@
 .container>.calcButton:hover
 {
     transition: ease .5s;
-    background-color: #e81b00;
+    background-color: dodgerblue;
     cursor: pointer;
     box-shadow: 2px 2px 10px #000000;
 }
@@ -215,7 +215,7 @@ body{
 .fancyButton:hover
 {
     transition: ease, .5s;
-    background-color: #e81b00;
+    background-color: dodgerblue;
     cursor: pointer;
     text-decoration: none;
     color: white;
