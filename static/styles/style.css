@@ -4,10 +4,64 @@ body
     background-image: url(/static/8897.jpg);
     background-repeat: no-repeat;
 
+
 }
 
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+
+.homeBtns
+{
+     animation-duration: 2s;
+    animation-name: fadeIn;
+}
+h2{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+h1{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+nav{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from{
+        margin-left: 100%;
+        width:300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%
+    }
+}
+@keyframes pulse {
+    0%{
+        background-color: dodgerblue;
+    }
+    100%{
+        background-color: ghostwhite;
+    }
+}
+@keyframes pulse2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: dodgerblue;
+    }
+}
 
 .title{
     font-size: 100px;
@@ -34,7 +88,7 @@ body
 .fancyButton:hover
 {
     transition: ease, .3s;
-    background-color: limegreen;
+    background-color: dodgerblue;
     cursor: pointer;
     text-decoration: none;
     color: white;

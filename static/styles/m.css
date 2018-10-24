@@ -28,7 +28,7 @@ nav{
 }
 @keyframes pulse {
     0%{
-        background-color: #e81b00;
+        background-color: dodgerblue;
     }
     100%{
         background-color: ghostwhite;
@@ -39,7 +39,7 @@ nav{
         background-color: transparent;
     }
     100%{
-        background-color: #e81b00;
+        background-color: dodgerblue;
     }
 }
 
@@ -48,7 +48,7 @@ nav{
     height: auto;
     padding: 20px;
     border-radius: 5px;
-    background-color: #e81b00;
+    background-color: dodgerblue;
     color: #444;
     margin: 20px auto;
     overflow: hidden;
@@ -76,7 +76,7 @@ audio {
 .fancyButton:hover
 {
     transition: ease, .5s;
-    background-color: #e81b00;
+    background-color: dodgerblue;
     cursor: pointer;
     text-decoration: none;
     color: white;
