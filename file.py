@@ -3,31 +3,29 @@ from flask import request
 import log
 
 
-def setFilePath():
-    folder = request.form['folder']
+def setFilePath(folder):
+
     if folder == "Documents":
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents'
     elif folder == "Pictures":
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/pictures'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Pictures'
     elif folder == "Music":
-        path = '/home/connor/Documents/smproject/SwissArmyAssistant/static/media/music'
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Music'
+    elif folder == "none":
+        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media'
     else:
         path = "Error"
-    log.writeLog("Path set to " + path)
+    #log.writeLog("Path set to " + path)
 
     return path
 
 
-def upload(APP_ROOT):
-    path = setFilePath()
-    target = os.path.join(APP_ROOT, path)
+def upload(path):
+    #path = setFilePath()
+    target = path
     print(target)
 
-    if not os.path.isdir(target):
-        log.writeLog("Creating new directory " + target)
-        os.mkdir(target)
-
-    for file in request.files.getlist("file"):
+    for file in request.files.getlist("files"):
         print(file)
         filename = file.filename
         destination = "/".join([target, filename])
@@ -39,5 +37,3 @@ def dir_listing(path):
     # Show directory contents
     files = os.listdir(path)
     return files
-
-

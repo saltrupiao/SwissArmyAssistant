@@ -17,7 +17,7 @@ class NoteClass(object):
             data = "file not found!"
             return data
 
-        f = open(file, "r", newline='')
+        f = open(file,"r", newline='')
         data = "null"
 
         if f.mode == 'r':
