@@ -112,9 +112,9 @@ def file():
 #         file.save(destination)
 
 
-@app.route('/Music')
+@app.route('/music')
 def music():
-    return render_template('Music.html')
+    return render_template('music.html')
 
 
 if __name__ == '__main__':
