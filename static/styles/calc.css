@@ -180,14 +180,7 @@
     border-radius: 10px;
     font-size: 24px;
 }
-/*Finally, the hover effects for the buttons (drop shadows)*/
-.container>.calcButton:hover
-{
-    transition: ease .5s;
-    background-color: dodgerblue;
-    cursor: pointer;
-    box-shadow: 2px 2px 10px #000000;
-}
+
 @keyframes fadeIn {
     from{
         opacity: 0;

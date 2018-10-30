@@ -46,22 +46,6 @@ nav{
         width:100%
     }
 }
-@keyframes pulse {
-    0%{
-        background-color: dodgerblue;
-    }
-    100%{
-        background-color: ghostwhite;
-    }
-}
-@keyframes pulse2 {
-    0% {
-        background-color: transparent;
-    }
-    100% {
-        background-color: dodgerblue;
-    }
-}
 
 .title{
     font-size: 100px;
@@ -77,9 +61,7 @@ nav{
 {
     transition: ease, .3s;
     border: none;
-    background-color: dimgrey;
     font-family: sans-serif;
-    color: white;
     padding: 10px;
     text-decoration: none;
 
@@ -88,10 +70,8 @@ nav{
 .fancyButton:hover
 {
     transition: ease, .3s;
-    background-color: dodgerblue;
     cursor: pointer;
     text-decoration: none;
-    color: white;
 }
 
 .jumbotron
