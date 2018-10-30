@@ -1,35 +1,37 @@
 import os
 from flask import request
-import log
+from log import writeLog
 
 
 def setFilePath(folder):
-
-    if folder == "Documents":
-        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents'
-    elif folder == "Pictures":
-        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Pictures'
-    elif folder == "Music":
-        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Music'
-    elif folder == "none":
-        path = '/Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media'
-    else:
-        path = "Error"
-    #log.writeLog("Path set to " + path)
+    # Get the root of this python file
+    root = os.path.dirname(os.path.abspath(__file__))
+    writeLog("Root: " + root)
+    if folder is None:
+        # If the user just loaded the page there won't be a directory, so documents is default
+        folder = "Documents"
+    writeLog("Directory: " + folder)
+    # Add the /static/media path to the full path
+    path = root + '/static/media/' + folder
+    writeLog("Path: " + path)
 
     return path
 
 
-def upload(path):
-    #path = setFilePath()
-    target = path
-    print(target)
+def upload(tag):
+    path = setFilePath(tag)
+    writeLog("Upload path " + path)
+    print(path)
 
     for file in request.files.getlist("files"):
+        writeLog("Uploading file")
         print(file)
+        writeLog("File: " + str(file))
         filename = file.filename
-        destination = "/".join([target, filename])
+        destination = "/".join([path, filename])
+        writeLog("Destination: " + destination)
         print(destination)
+        writeLog("Destination: " + destination)
         file.save(destination)
 
 

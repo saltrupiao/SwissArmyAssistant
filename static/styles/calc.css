@@ -200,23 +200,3 @@ body{
     animation-duration: 2s;
     animation-name: fadeIn;
 }
-.fancyButton
-{
-    transition: ease, .5s;
-    border: none;
-    background-color: dimgrey;
-    font-family: sans-serif;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-
-}
-
-.fancyButton:hover
-{
-    transition: ease, .5s;
-    background-color: dodgerblue;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-}
