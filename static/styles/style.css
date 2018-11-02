@@ -20,7 +20,7 @@ body
 
 .homeBtns
 {
-     animation-duration: 2s;
+    animation-duration: 2s;
     animation-name: fadeIn;
 }
 h2{
@@ -80,7 +80,7 @@ nav{
     background-color: dimgrey;
     font-family: sans-serif;
     color: white;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
 
 }
@@ -103,6 +103,6 @@ nav{
 
 .btn btn-primary btn-lg{
     width: 100px !important;
-        height: 100px !important;
-        font-size: 10px;
+    height: 100px !important;
+    font-size: 10px;
 }

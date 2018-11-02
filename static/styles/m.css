@@ -15,6 +15,10 @@ nav{
     animation-duration: 2s;
     animation-name: slideIn;
 }
+nav2{
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
 
 @keyframes slideIn {
     from{
@@ -81,7 +85,6 @@ audio {
     text-decoration: none;
     color: white;
 }
-
-
-
-
+label{
+    color: black;
+}

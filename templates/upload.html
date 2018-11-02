@@ -5,31 +5,31 @@
 
 
 <body>
-
 <h1>File Uploader</h1>
 <form id="upload-form" action="{{ url_for('file') }}" method="POST" enctype="multipart/form-data">
     <label>Upload Path</label>
     <select name="folder" id="subdir">
-        <option value="none">----</option>
         <option value="Documents">Documents</option>
         <option value="Music">Music</option>
         <option value="Pictures">Pictures</option>
     </select>
 
-    <input type="file" name="files" accept="image/*" multiple>
+    <input type="file" name="files">
     <input type="submit" name="upload" value="Upload">
     <input type="submit" name="view" value="View">
 
 </form>
 
-
+<h3>Current Folder: {{ path }}</h3>
 <ul>
     {% for file in files %}
     <li><p>{{ file }}</p></li>
     {% endfor %}
 </ul>
 
+
 <!--input type="hidden" id="hiddenTag" name="hiddenTag" value="null"-->
+
 
 </body>
 {% endblock %}

@@ -23,5 +23,3 @@ class NoteClass(object):
         if f.mode == 'r':
             data = f.read()
         return data
-
-
