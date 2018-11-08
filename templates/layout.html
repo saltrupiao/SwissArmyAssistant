@@ -18,7 +18,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/blue.css') }}">
+    {% if theme == 'blue' %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/blue.css') }}">
+    {% elif theme == 'red' %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/red.css') }}">
+    {% endif %}
 
 </head>
 <body>

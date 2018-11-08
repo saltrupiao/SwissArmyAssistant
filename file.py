@@ -19,6 +19,7 @@ def setFilePath(folder):
 
 
 def upload(tag):
+    writeLog("Upload - setting upload path")
     path = setFilePath(tag)
     writeLog("Upload path " + path)
     print(path)

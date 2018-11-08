@@ -10,4 +10,16 @@
     <li>Dale</li>
     <li>Ben</li>
 </ul>
+
+<h2>{{ friendlyTheme }}</h2>
+
+<form action="/settheme" method="POST">
+    <label>Change Theme</label>
+    <select name="theme">
+        <option value="blue">Blue (Default)</option>
+        <option value="dark">Dark Mode</option>
+        <option value="red">Red</option>
+    </select>
+    <input type="submit" value="Change Theme">
+</form>
 {% endblock %}
