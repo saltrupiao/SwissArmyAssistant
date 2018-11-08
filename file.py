@@ -42,6 +42,18 @@ def upload(tag):
 #        file.save('/where/to/save', file.filename)
 
 
+def setShortFilePath(folder):
+    if folder is None:
+        # If the user just loaded the page there won't be a directory, so documents is default
+        folder = "Documents"
+        writeLog("Directory: " + folder)
+
+    # Add the /static/media path to the full path
+    shortPath = '/static/media/' + folder + '/'
+    writeLog("Path: " + shortPath)
+
+    return shortPath
+
 
 def dir_listing(path):
     # Show directory contents

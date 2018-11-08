@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 from CalcClass import CalcClass
 from NoteClass import NoteClass
-from file import dir_listing, setFilePath, upload
+from file import dir_listing, setFilePath, upload, setShortFilePath
 from log import writeLog
 
 # Placeholder for the application
@@ -70,6 +70,10 @@ def file():
     writeLog("Getting path")
     writeLog("Path: " + path)
 
+    shortPath = setShortFilePath(tag)
+    writeLog("Getting Short Path")
+    writeLog("Short Path: " + shortPath)
+
     if request.method == 'POST':
         writeLog("Method is POST")
         if "upload" in request.form:
@@ -84,7 +88,7 @@ def file():
     if tag == None:
         tag = "Documents"
 
-    return render_template('upload.html', files = files, path = tag)
+    return render_template('upload.html', files = files, path = tag, shortPath = shortPath)
 
 
 @app.route('/music')
