@@ -1,0 +1,43 @@
+@keyframes pulse {
+    0% {
+        background-color: dodgerblue;
+    }
+    100% {
+        background-color: ghostwhite;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: dodgerblue;
+    }
+}
+
+.fancyButton
+{
+    background-color: dimgrey;
+    color: white;
+}
+
+.fancyButton:hover
+{
+    background-color: dodgerblue;
+    color: white;
+}
+
+/*Finally, the hover effects for the buttons (drop shadows)*/
+.container>.calcButton:hover
+{
+    background-color: dodgerblue;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.container-audio
+{
+    background-color: dodgerblue;
+}

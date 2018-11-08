@@ -30,29 +30,12 @@ nav2{
         width:100%
     }
 }
-@keyframes pulse {
-    0%{
-        background-color: dodgerblue;
-    }
-    100%{
-        background-color: ghostwhite;
-    }
-}
-@keyframes pulse2 {
-    0%{
-        background-color: transparent;
-    }
-    100%{
-        background-color: dodgerblue;
-    }
-}
 
 .container-audio {
     width: 97%;
     height: auto;
     padding: 20px;
     border-radius: 5px;
-    background-color: dodgerblue;
     color: #444;
     margin: 20px auto;
     overflow: hidden;
@@ -65,26 +48,7 @@ audio {
     animation-duration: 2s;
     animation-name: slideIn;
 }
-.fancyButton
-{
-    transition: ease, .5s;
-    border: none;
-    background-color: dimgrey;
-    font-family: sans-serif;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
 
-}
-
-.fancyButton:hover
-{
-    transition: ease, .5s;
-    background-color: dodgerblue;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-}
 label{
     color: black;
 }
