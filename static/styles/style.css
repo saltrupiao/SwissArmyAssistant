@@ -3,6 +3,8 @@ body
     /*background-color: ghostwhite;*/
     background-image: url(/static/8897.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
 
 
 }
@@ -16,7 +18,6 @@ body
         opacity: 1;
     }
 }
-
 
 .homeBtns
 {
@@ -80,7 +81,7 @@ nav{
     background-color: dimgrey;
     font-family: sans-serif;
     color: white;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
 
 }

@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from CalcClass import CalcClass
 from NoteClass import NoteClass
 from file import dir_listing, setFilePath, upload, setShortFilePath
+from music import dir_listing_music, setFilePathMusic
 from log import writeLog
 
 # Placeholder for the application
@@ -93,7 +94,26 @@ def file():
 
 @app.route('/music')
 def music():
-    return render_template('music.html')
+    # These functions are a straight ripped from file.py and modified for music player functionality
+    # Connor / Sal will know how these work in more detail
+    mtag = request.form.get('folder')
+    path = setFilePathMusic(mtag)
+    if request.method == 'POST':
+        if "upload" in request.form:
+            upload(mtag)
+        elif "view" in request.form:
+            path = setFilePathMusic(mtag)
+
+    files = dir_listing_music(path)
+
+    if mtag == None:
+        tag = "Music"
+
+    return  render_template('music.html', files = files, path = tag)
+
+@app.route('/news')
+def news():
+    return render_template('news.html')
 
 
 if __name__ == '__main__':
