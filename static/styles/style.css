@@ -32,10 +32,10 @@ h1{
     animation-duration: 2s;
     animation-name: fadeIn;
 }
-nav{
-    animation-duration: 2s;
-    animation-name: fadeIn;
-}
+/*.nav{*/
+    /*animation-duration: 2s;*/
+    /*animation-name: fadeIn;*/
+/*}*/
 
 @keyframes slideIn {
     from{
@@ -137,4 +137,12 @@ audio {
      box-sizing: border-box;
 }
 
+
+
+
+
+#nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
 
