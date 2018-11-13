@@ -43,15 +43,12 @@ nav2{
     animation: pulse2 3s;
 }
 audio {
-  width:100%;
+    width:100%;
 
-  animation-duration: 2s;
-  animation-name: slideIn;
+    animation-duration: 2s;
+    animation-name: slideIn;
 }
 
 label{
     color: black;
 }
-
-
-

@@ -5,7 +5,6 @@
 
 
 <body>
-
 <h1>File Uploader</h1>
 <form id="upload-form" action="{{ url_for('file') }}" method="POST" enctype="multipart/form-data">
     <label>Upload Path</label>
@@ -15,20 +14,34 @@
         <option value="Pictures">Pictures</option>
     </select>
 
-    <input type="file" name="files" accept="image/*" multiple>
+    <input type="file" name="files">
     <input type="submit" name="upload" value="Upload">
     <input type="submit" name="view" value="View">
 
 </form>
 
+
 <h3>Current Folder: {{ path }}</h3>
-<ul>
-    {% for file in files %}
-    <li><p>{{ file }}</p></li>
-    {% endfor %}
-</ul>
+
+<table>
+    <thead>
+        <td>File Name</td>
+        <td>Last Modified</td>
+    </thead>
+    <tbody>
+        {% for file in files %}
+        <tr>
+            <td><a href="{{ shortPath }}{{ file }}">{{ file }}</a></td>
+            <td><p>{{ lastMod }}</p></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<!--<li><p>{{ file }}</p></li>-->
 
 <!--input type="hidden" id="hiddenTag" name="hiddenTag" value="null"-->
+
 
 </body>
 {% endblock %}

@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
-from file import dir_listing, setFilePath, upload
+from file import dir_listing, setFilePath, upload, setShortFilePath, getLastModified
+from music import dir_listing_music, setFilePathMusic
 from theme import getTheme, setTheme
 from log import writeLog
 
@@ -78,25 +79,56 @@ def noteFunctions():
 def file():
     theme = getTheme()
     tag = request.form.get('folder')
+
     path = setFilePath(tag)
+    writeLog("Getting path")
+    writeLog("Path: " + path)
+
+    shortPath = setShortFilePath(tag)
+    writeLog("Getting Short Path")
+    writeLog("Short Path: " + shortPath)
+
     if request.method == 'POST':
+        writeLog("Method is POST")
         if "upload" in request.form:
+            writeLog("Calling Upload Function")
             upload(tag)
         elif "view" in request.form:
+            writeLog("Calling View Function")
             path = setFilePath(tag)
 
     files = dir_listing(path)
 
+    lastMod = getLastModified(tag)
+
     if tag == None:
         tag = "Documents"
 
-    return  render_template('upload.html', files = files, path = tag, theme = theme)
-
+    return render_template('upload.html', files = files, path = tag, shortPath = shortPath, theme = theme, lastMod = lastMod)
 
 @app.route('/music')
 def music():
+    # These functions are a straight ripped from file.py and modified for music player functionality
+    # Connor / Sal will know how these work in more detail
+    mtag = request.form.get('folder')
+    path = setFilePathMusic(mtag)
+    if request.method == 'POST':
+        if "upload" in request.form:
+            upload(mtag)
+        elif "view" in request.form:
+            path = setFilePathMusic(mtag)
+
+    files = dir_listing_music(path)
+
+    if mtag == None:
+        tag = "Music"
+
     theme = getTheme()
-    return render_template('music.html', theme = theme)
+    return  render_template('music.html', files = files, path = tag)
+
+@app.route('/news')
+def news():
+    return render_template('news.html')
 
 
 if __name__ == '__main__':
