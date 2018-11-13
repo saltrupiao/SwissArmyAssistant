@@ -26,15 +26,15 @@ body
 }
 h2{
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
 }
 h1{
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
 }
 nav{
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
 }
 
 @keyframes slideIn {
@@ -120,5 +120,21 @@ audio {
     width:100%;
 
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
 }
+
+#notepad
+{
+    background-color: white;
+}
+
+.nicEdit-main
+{
+    background: ghostwhite;
+    opacity: .85;
+     width: 100%;
+     max-width: 2000px;
+     box-sizing: border-box;
+}
+
+
