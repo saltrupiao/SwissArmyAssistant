@@ -1,7 +1,8 @@
 import os
 from flask import request
 from log import writeLog
-
+#https://docs.python.org/3/library/datetime.html
+from datetime import datetime
 
 def setFilePath(folder):
     #Get the root of this python file
@@ -54,8 +55,20 @@ def setShortFilePath(folder):
 
     return shortPath
 
+def getLastModified(tag):
+    path = setFilePath(tag)
+
+    #https://stackoverflow.com/questions/38943625/how-to-use-getmtime-for-multiple-files
+    for filename in os.listdir(path):
+        fileToIndex = os.path.join(path, str(filename))
+        mTime = os.path.getmtime(fileToIndex)
+        lastMod = datetime.fromtimestamp(mTime).replace(microsecond=0)
+        #https://stackoverflow.com/questions/31487732/simple-way-to-drop-milliseconds-from-python-datetime-datetime-object
+
+    return lastMod
 
 def dir_listing(path):
     # Show directory contents
     files = os.listdir(path)
+
     return files

@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
-from file import dir_listing, setFilePath, upload, setShortFilePath
+from file import dir_listing, setFilePath, upload, setShortFilePath, getLastModified
 from music import dir_listing_music, setFilePathMusic
 from theme import getTheme, setTheme
 from log import writeLog
@@ -99,11 +99,12 @@ def file():
 
     files = dir_listing(path)
 
+    lastMod = getLastModified(tag)
+
     if tag == None:
         tag = "Documents"
 
-    return render_template('upload.html', files = files, path = tag, shortPath = shortPath, theme = theme)
-
+    return render_template('upload.html', files = files, path = tag, shortPath = shortPath, theme = theme, lastMod = lastMod)
 
 @app.route('/music')
 def music():

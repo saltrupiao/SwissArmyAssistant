@@ -20,14 +20,25 @@
 
 </form>
 
-<h3>Current Folder: {{ path }}</h3>
-<ul>
-    {% for file in files %}
-    <!--<li><p>{{ file }}</p></li>-->
-    <li><a href="{{ shortPath }}{{ file }}">{{ file }}</a></li>
-    {% endfor %}
-</ul>
 
+<h3>Current Folder: {{ path }}</h3>
+
+<table>
+    <thead>
+        <td>File Name</td>
+        <td>Last Modified</td>
+    </thead>
+    <tbody>
+        {% for file in files %}
+        <tr>
+            <td><a href="{{ shortPath }}{{ file }}">{{ file }}</a></td>
+            <td><p>{{ lastMod }}</p></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<!--<li><p>{{ file }}</p></li>-->
 
 <!--input type="hidden" id="hiddenTag" name="hiddenTag" value="null"-->
 
