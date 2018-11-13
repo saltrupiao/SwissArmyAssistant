@@ -6,42 +6,50 @@
 
 <body>
 <h1>File Uploader</h1>
-<form id="upload-form" action="{{ url_for('file') }}" method="POST" enctype="multipart/form-data">
-    <label>Upload Path</label>
-    <select name="folder" id="subdir">
-        <option value="Documents">Documents</option>
-        <option value="Music">Music</option>
-        <option value="Pictures">Pictures</option>
-    </select>
-
-    <input type="file" name="files">
-    <input type="submit" name="upload" value="Upload">
-    <input type="submit" name="view" value="View">
-
-</form>
 
 
 <h3>Current Folder: {{ path }}</h3>
 
-<table>
-    <thead>
-        <td>File Name</td>
-        <td>Last Modified</td>
-    </thead>
-    <tbody>
-        {% for file in files %}
-        <tr>
-            <td><a href="{{ shortPath }}{{ file }}">{{ file }}</a></td>
-            <td><p>{{ lastMod }}</p></td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <form id="upload-form" action="{{ url_for('file') }}" method="POST" enctype="multipart/form-data">
+                <label>Upload Path</label>
+                <select name="folder" id="subdir">
+                    <option value="Documents">Documents</option>
+                    <option value="Music">Music</option>
+                    <option value="Pictures">Pictures</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="view" value="View">
+                <input type="file" name="files">
+                <input type="submit" name="upload" value="Upload">
+            </form>
+        </div>
+        <div class="col-sm-8">
+            <table>
+                <thead>
+                    <td>File Name</td>
+                    <td>Last Modified</td>
+                </thead>
+                <tbody>
+                    {% for file in files %}
+                    <tr>
+                        <td><a class="filesList" href="{{ shortPath }}{{ file }}">{{ file }}</a></td>
+                        <td>{{ lastMod }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 
 <!--<li><p>{{ file }}</p></li>-->
 
 <!--input type="hidden" id="hiddenTag" name="hiddenTag" value="null"-->
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 {% endblock %}

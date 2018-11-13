@@ -35,6 +35,7 @@ h1{
 nav{
     animation-duration: 2s;
     animation-name: slideIn;
+    text-align:center;
 }
 
 @keyframes slideIn {
@@ -66,10 +67,14 @@ nav{
 
 .title{
     font-size: 100px;
+    text-align:center;
+    align-content: center;
 }
+
 .head
 {
     font-family: sans-serif;
+    text-align:center;
 }
 
 
@@ -121,4 +126,19 @@ audio {
 
     animation-duration: 2s;
     animation-name: slideIn;
+}
+
+/*Formatting for File Manager*/
+table, td, thead{
+    table-layout:auto;
+    border: 3px solid black;
+    width:100%;
+}
+thead, td{
+    padding:15px;
+    text-align:center;
+    width:auto;
+}
+.filesList{
+    color:darkblue;
 }

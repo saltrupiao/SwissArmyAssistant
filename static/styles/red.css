@@ -28,6 +28,10 @@
     color: white;
 }
 
+#pageHeaderSAS{
+    color:red;
+}
+
 /*Finally, the hover effects for the buttons (drop shadows)*/
 .container>.calcButton:hover
 {
@@ -40,4 +44,25 @@
 .container-audio
 {
     background-color: red;
+}
+
+.title{
+    text-align:center;
+    align-content: center;
+}
+
+/*Formatting for File Manager*/
+table, td, thead{
+    border:3px solid red;
+}
+thead{
+    font-weight:bold;
+    background-color:red;
+    color:white;
+    text-align:center;
+}
+
+.filesList:hover{
+    color:red;
+    font-weight:bold;
 }
