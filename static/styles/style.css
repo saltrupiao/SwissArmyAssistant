@@ -82,6 +82,7 @@ h1{
     padding: 10px;
     text-decoration: none;
 
+
 }
 
 .fancyButton:hover
@@ -138,11 +139,24 @@ audio {
 }
 
 
-
-
-
-#nav ul{
-    display: inline-block;
-    list-style-type: none;
+#nav {
+    /*width:auto;*/
+    margin:0 auto;
+    list-style:none;
 }
+
+#nav li {
+    float:left;
+}
+
+#nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none;
+}
+
+
+
+
 

@@ -48,8 +48,9 @@ body{
 }
 
 .nicEdit-main {
-    background: black;
+    background: dimgray;
     color: ghostwhite;
+    opacity: .85;
 }
 
 .weatherwidget-io{

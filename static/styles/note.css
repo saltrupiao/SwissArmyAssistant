@@ -1,6 +1,6 @@
 body{
-    animation-duration: 2s;
-    animation-name: fadeIn;
+    /*animation-duration: 2s;*/
+    /*animation-name: fadeIn;*/
     width: 100%
 }
 
@@ -10,5 +10,19 @@ body{
 
     height: auto;
     width: auto;
+
+    /*position: absolute;*/
+
+  /*z-index: 15;*/
+  /*top: 15%;*/
+  /*left: 15%;*/
+  margin: 0 0 0 35px;
+
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none;
+
 }
+
 
