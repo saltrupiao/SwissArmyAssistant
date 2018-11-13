@@ -110,6 +110,7 @@ def file():
 def music():
     # These functions are a straight ripped from file.py and modified for music player functionality
     # Connor / Sal will know how these work in more detail
+    theme = getTheme()
     mtag = request.form.get('folder')
     path = setFilePathMusic(mtag)
     if request.method == 'POST':
@@ -124,11 +125,12 @@ def music():
         tag = "Music"
 
     theme = getTheme()
-    return  render_template('music.html', files = files, path = tag)
+    return  render_template('music.html', files = files, path = tag, theme = theme)
 
 @app.route('/news')
 def news():
-    return render_template('news.html')
+    theme = getTheme()
+    return render_template('news.html', theme = theme)
 
 
 if __name__ == '__main__':
