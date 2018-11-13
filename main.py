@@ -124,11 +124,12 @@ def music():
         tag = "Music"
 
     theme = getTheme()
-    return  render_template('music.html', files = files, path = tag)
+    return  render_template('music.html', theme = theme, files = files, path = tag)
 
 @app.route('/news')
 def news():
-    return render_template('news.html')
+    theme = getTheme()
+    return render_template('news.html', theme = theme)
 
 
 if __name__ == '__main__':
