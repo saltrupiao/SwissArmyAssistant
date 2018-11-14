@@ -1,18 +1,48 @@
 {% extends 'layout.html' %}
 {% block navbar %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <br>
 <body>
-    <ul id ="nav">
-        <li><a class="fancyButton" href="/">Home</a></li>
-        <li><a class="fancyButton" href="/calc">Calculator</a></li>
-        <li><a class="fancyButton" href="/note">Notepad</a></li>
-        <li><a class="fancyButton" href="/music">Music Player</a></li>
-        <li><a class="fancyButton" href="/files">File Manager</a></li>
-        <li><a class="fancyButton" href="/news">News</a></li>
-        <li><a class="fancyButton" href="/about">About</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="/" class="btn">Home</a>
+        <a href="/calc" class="btn">Calculator</a>
+        <a href="/note" class="btn">Notepad</a>
+        <a href="/music" class="btn">Music Player</a>
+        <a href="/files" class="btn">File Manager</a>
+        <a href="/news" class="btn">News</a>
+        <a href="/about" class="btn">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
     <br>
-    <br>
+
+    <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+
+    // Get the container element
+    var btnContainer = document.getElementById("myTopnav");
+
+    // Get all buttons with class="btn" inside the container
+    var btns = btnContainer.getElementsByClassName("btn");
+
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
+
+}</script>
+
 {% endblock %}
 
 {% block content %}
