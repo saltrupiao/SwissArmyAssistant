@@ -61,3 +61,33 @@ body{
 #display{
     background-color: gray;
 }
+
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: gray;
+    color: white;
+}
+
+.active a:hover
+{
+    background-color: dimgrey;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover
+{
+    background-color: gray;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
+}

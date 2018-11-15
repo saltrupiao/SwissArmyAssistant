@@ -11,8 +11,12 @@ app = Flask(__name__)
 
 #APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-# This tells our program the route to our server
 @app.route('/')
+def firstLoad():
+    return hello_world()
+
+# This tells our program the route to our server
+@app.route('/home')
 def hello_world():
     theme = getTheme()
     return render_template('home.html', theme = theme)
@@ -44,7 +48,7 @@ def calc():
 
 
 # https://stackoverflow.com/questions/12277933/send-data-from-a-textbox-into-flask
-@app.route('/', methods=['POST'])
+@app.route('/home', methods=['POST'])
 def my_form_post():
     theme = getTheme()
     text = request.form['txt']

@@ -1,4 +1,6 @@
-body{
+body
+{
+    backgroud-color: red;
     background-image: url(/static/backgroundRed-60.jpg);
 }
 
@@ -33,10 +35,6 @@ body{
     color: white;
 }
 
-#pageHeaderSAS{
-    color:red;
-}
-
 /*Finally, the hover effects for the buttons (drop shadows)*/
 .container>.calcButton:hover
 {
@@ -51,23 +49,32 @@ body{
     background-color: red;
 }
 
-.title{
-    text-align:center;
-    align-content: center;
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: red;
+    color: white;
 }
 
-/*Formatting for File Manager*/
-table, td, thead{
-    border:3px solid red;
-}
-thead{
-    font-weight:bold;
-    background-color:red;
-    color:white;
-    text-align:center;
+.active a:hover
+{
+    background-color: crimson;
+    color: white;
 }
 
-.filesList:hover{
-    color:red;
-    font-weight:bold;
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+    background-color: red;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
 }
