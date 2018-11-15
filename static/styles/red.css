@@ -1,4 +1,6 @@
-body{
+body
+{
+    backgroud-color: red;
     background-image: url(/static/backgroundRed-60.jpg);
 }
 
@@ -45,4 +47,34 @@ body{
 .container-audio
 {
     background-color: red;
+}
+
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: red;
+    color: white;
+}
+
+.active a:hover
+{
+    background-color: crimson;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+    background-color: red;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
 }

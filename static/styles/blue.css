@@ -1,5 +1,7 @@
-body{
+body
+{
     background-image: url(/static/background-60.jpg);
+    background-color: dodgerblue;
 }
 
 @keyframes pulse {
@@ -44,4 +46,34 @@ body{
 .container-audio
 {
     background-color: dodgerblue;
+}
+
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.active a:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover
+{
+    background-color: dodgerblue;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
 }
