@@ -63,10 +63,13 @@ h1{
 
 .title{
     font-size: 100px;
+    text-align:center;
 }
+
 .head
 {
     font-family: sans-serif;
+    text-align:center;
 }
 
 
@@ -126,6 +129,20 @@ audio {
     background-color: white;
 }
 
+/*Formatting for File Manager*/
+table, td, thead{
+    table-layout:auto;
+    border: 3px solid black;
+    width:100%;
+}
+thead, td{
+    padding:15px;
+    text-align:center;
+    width:auto;
+}
+.filesList{
+    color:darkblue;
+}
 .nicEdit-main
 {
     background: ghostwhite;

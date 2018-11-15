@@ -45,3 +45,25 @@ body{
 {
     background-color: dodgerblue;
 }
+
+.title{
+    text-align:center;
+    align-content: center;
+}
+
+/*Formatting for File Manager*/
+table, td, thead{
+    table-layout:auto;
+    border:3px solid dodgerblue;
+}
+thead{
+    font-weight:bold;
+    background-color:dodgerblue;
+    color:white;
+    text-align:center;
+}
+
+.filesList:hover{
+    font-weight:bold;
+    color:dodgerblue;
+}
