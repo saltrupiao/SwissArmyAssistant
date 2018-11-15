@@ -63,7 +63,7 @@ body
 }
 
 /* Change the color of links on hover */
-.topnav a:hover 
+.topnav a:hover
 {
     background-color: red;
     color: black;
