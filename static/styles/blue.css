@@ -1,3 +1,7 @@
+body{
+    background-image: url(/static/background-60.jpg);
+}
+
 @keyframes pulse {
     0% {
         background-color: dodgerblue;

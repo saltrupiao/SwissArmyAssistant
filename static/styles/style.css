@@ -26,17 +26,16 @@ body
 }
 h2{
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
 }
 h1{
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
 }
-nav{
-    animation-duration: 2s;
-    animation-name: slideIn;
-    text-align:center;
-}
+/*.nav{*/
+    /*animation-duration: 2s;*/
+    /*animation-name: fadeIn;*/
+/*}*/
 
 @keyframes slideIn {
     from{
@@ -68,7 +67,6 @@ nav{
 .title{
     font-size: 100px;
     text-align:center;
-    align-content: center;
 }
 
 .head
@@ -86,6 +84,7 @@ nav{
     font-family: sans-serif;
     padding: 10px;
     text-decoration: none;
+
 
 }
 
@@ -125,7 +124,12 @@ audio {
     width:100%;
 
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: fadeIn;
+}
+
+#notepad
+{
+    background-color: white;
 }
 
 /*Formatting for File Manager*/
@@ -142,3 +146,34 @@ thead, td{
 .filesList{
     color:darkblue;
 }
+.nicEdit-main
+{
+    background: ghostwhite;
+    opacity: .85;
+     width: 100%;
+     max-width: 2000px;
+     box-sizing: border-box;
+}
+
+
+#nav {
+    /*width:auto;*/
+    margin:0 auto;
+    list-style:none;
+}
+
+#nav li {
+    float:left;
+}
+
+#nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none;
+}
+
+
+
+
+

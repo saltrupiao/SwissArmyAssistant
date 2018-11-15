@@ -1,3 +1,8 @@
+body{
+    background-image: url(/static/backgroundRed-60.jpg);
+}
+
+
 @keyframes pulse {
     0% {
         background-color: red;

@@ -1,0 +1,64 @@
+body{
+    background: ghostwhite;
+    color: black;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: gray;
+    }
+    100% {
+        background-color: ghostwhite;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: gray;
+    }
+}
+
+.fancyButton
+{
+    background-color: black
+;
+    color: white;
+}
+
+.fancyButton:hover
+{
+    background-color: limegreen;
+    color: white;
+}
+
+/*Finally, the hover effects for the buttons (drop shadows)*/
+.container>.calcButton:hover
+{
+    background-color: limegreen;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.container-audio
+{
+    background-color: limegreen;
+}
+
+.nicEdit-main {
+    background: ghostwhite;
+    color: black;
+
+}
+
+.weatherwidget-io{
+    background-color: ghostwhite;
+    border-radius: 10px
+}
+
+#display{
+    background-color: ghostwhite;
+}
