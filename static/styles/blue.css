@@ -52,10 +52,10 @@ body
 .active
 {
     background-color: dodgerblue;
-    color: white;
+    color: orange;
 }
 
-.active a:hover
+.active:hover
 {
     background-color: darkblue;
     color: white;
