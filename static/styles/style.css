@@ -6,6 +6,12 @@ body
     background-attachment: fixed;
 }
 
+h2
+{
+    text-align: center;
+    font-size: 60px;
+}
+
 
 @keyframes fadeIn {
     from {

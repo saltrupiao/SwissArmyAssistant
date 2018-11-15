@@ -1,6 +1,7 @@
 {% extends 'navbar.html' %}
 
 {% block content%}
+<h2>About</h2>
 <p>Cool website with cutting edge technology to help you do things you could already do elsewhere.</p>
 <p>Team members:</p>
 <ul>
@@ -11,7 +12,7 @@
     <li>Ben</li>
 </ul>
 
-<h2>{{ friendlyTheme }}</h2>
+<h3>{{ friendlyTheme }}</h3>
 
 <form action="/settheme" method="POST">
     <label>Change Theme</label>
