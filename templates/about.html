@@ -1,39 +1,53 @@
-{% extends 'layout.html' %}
+{% extends 'navbar.html' %}
 
 {% block content%}
-    <style>
+       <style>
 img {
     border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 th {
     text-align: center;
 }
     </style>
-<p>The Swiss Army Assistant website has cutting edge technology to help you do things you could already do elsewhere.</p>
-<p>Team Members:</p>
-
-    <table style="width: 50%">
+<h2>About</h2>
+<p>Cool website with cutting edge technology to help you do things you could already do elsewhere.</p>
+<p>Team members:</p>
+<table style="width: 50%">
         <tr>
             <th>
-            <img src="static/connorBusiness1.jpg" style="width:100px">
+            <img src="static/connorBusiness1.jpg">
             <figcaption>Connor</figcaption> </th>
             <th>
-                <img src="static/daleBusiness1.jpg" style="width: 100px">
+                <img src="static/daleBusiness1.jpg">
                 <figcaption>Dale</figcaption>
             </th>
             <th>
-             <img src="static/benBusiness1.jpg" style="width: 100px">
+             <img src="static/benBusiness1.jpg">
                 <figcaption>Ben</figcaption>
             </th>
             <th>
-                <img src="static/robBusiness1.jpg" style="width: 100px">
+                <img src="static/robBusiness1.jpg">
                 <figcaption>Rob</figcaption>
             </th>
             <th>
-                <img src="static/salBusiness 1.jpg" style="width: 100px">
+                <img src="static/salBusiness 1.jpg">
                 <figcaption>Sal</figcaption>
             </th>
         </tr>
     </table>
 
+<h3>{{ friendlyTheme }}</h3>
+
+<form action="/settheme" method="POST">
+    <label>Change Theme</label>
+    <select name="theme">
+        <option value="blue">Blue (Default)</option>
+        <option value="dark">Dark Mode</option>
+        <option value="red">Red</option>
+        <option value="highC">High Contrast</option>
+    </select>
+    <input type="submit" value="Change Theme">
+</form>
 {% endblock %}

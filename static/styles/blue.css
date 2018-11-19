@@ -1,0 +1,79 @@
+body
+{
+    background-image: url(/static/background-60.jpg);
+    background-color: dodgerblue;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: dodgerblue;
+    }
+    100% {
+        background-color: ghostwhite;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: dodgerblue;
+    }
+}
+
+.fancyButton
+{
+    background-color: dimgrey;
+    color: white;
+}
+
+.fancyButton:hover
+{
+    background-color: dodgerblue;
+    color: white;
+}
+
+/*Finally, the hover effects for the buttons (drop shadows)*/
+.container>.calcButton:hover
+{
+    background-color: dodgerblue;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.container-audio
+{
+    background-color: dodgerblue;
+}
+
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: dodgerblue;
+    color: orange;
+}
+
+.active:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover
+{
+    background-color: dodgerblue;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
+}

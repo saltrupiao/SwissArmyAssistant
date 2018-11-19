@@ -1,5 +1,3 @@
-
-
 class CalcClass(object):
     @staticmethod
     def calculation(inp):

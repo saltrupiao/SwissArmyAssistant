@@ -1,0 +1,93 @@
+body{
+    background-image: url(/static/backgroundDarkGreyBright-80.jpg);
+    color: ghostwhite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: gray;
+    }
+    100% {
+        background-color: ghostwhite;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: gray;
+    }
+}
+
+.fancyButton
+{
+    background-color: dimgrey;
+    color: white;
+}
+
+.fancyButton:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+/*Finally, the hover effects for the buttons (drop shadows)*/
+.container>.calcButton:hover
+{
+    background-color: gray;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.container-audio
+{
+    background-color: gray;
+}
+
+.nicEdit-main {
+    background: dimgray;
+    color: ghostwhite;
+    opacity: .85;
+}
+
+.weatherwidget-io{
+    background-color: dimgray;
+    border-radius: 10px
+}
+
+#display{
+    background-color: gray;
+}
+
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: gray;
+    color: white;
+}
+
+.active a:hover
+{
+    background-color: dimgrey;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover
+{
+    background-color: gray;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
+}

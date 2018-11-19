@@ -1,0 +1,80 @@
+body
+{
+    backgroud-color: red;
+    background-image: url(/static/backgroundRed-60.jpg);
+}
+
+
+@keyframes pulse {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: ghostwhite;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.fancyButton
+{
+    background-color: dimgrey;
+    color: white;
+}
+
+.fancyButton:hover
+{
+    background-color: red;
+    color: white;
+}
+
+/*Finally, the hover effects for the buttons (drop shadows)*/
+.container>.calcButton:hover
+{
+    background-color: red;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.container-audio
+{
+    background-color: red;
+}
+
+/* Add an active class to highlight the current page */
+.active
+{
+    background-color: red;
+    color: white;
+}
+
+.active a:hover
+{
+    background-color: crimson;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+    background-color: red;
+    color: black;
+}
+
+.topnav
+{
+    background-color: #333;
+}
+
+.topnav a
+{
+    color: #f2f2f2;
+}
