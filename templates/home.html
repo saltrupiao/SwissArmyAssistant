@@ -7,11 +7,27 @@
 <head>
     <meta charset="UTF-8">
     <title class="title">Swiss Army Assistant</title>
+    <script src="../static/js/dropdown.js"></script>
 </head>
 
 <body>
+    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+    <div id="themeDropdown" class="themeDropdown">
+        <a id="themeButton" onclick="showThemeSelect()" class="fancyButton themeButton">Change Theme</a>
+        <div id="themeDropdown-Content" class="themeDropdown-Content">
+            <form action="/settheme" method="POST">
+                <label>Change Theme</label>
+                <select name="theme">
+                    <option value="blue">Blue (Default)</option>
+                    <option value="dark">Dark Mode</option>
+                    <option value="red">Red</option>
+                    <option value="highC">High Contrast</option>
+                </select>
+                <input type="submit" value="Change Theme">
+            </form>
+        </div>
+    </div>
     <h2 class="head">Swiss Army Assistant</h2>
-
     <br>
     <br>
     <div class="container homeBtns">
