@@ -156,7 +156,11 @@ audio {
 
 #themeButton
 {
-    margin-left: 5px;
+
+    margin-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .themeDropdown-Content
@@ -165,8 +169,12 @@ audio {
     display: none;
     margin-left: 5px;
     margin-top: 5px;
-    background-color: white;
     padding: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    transition: ease 3s;
 }
 
 .show

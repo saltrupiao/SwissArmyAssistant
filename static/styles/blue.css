@@ -78,4 +78,13 @@ body
     color: #f2f2f2;
 }
 
+.themeDropdown-Content
+{
+    background-color: dimgray;
+    color: white;
+}
 
+#themeButton
+{
+    color: white;
+}

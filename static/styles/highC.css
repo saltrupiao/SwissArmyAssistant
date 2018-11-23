@@ -93,3 +93,14 @@ body{
 {
     color: #f2f2f2;
 }
+
+.themeDropdown-Content
+{
+    background-color: white;
+    color: black;
+}
+
+#themeButton
+{
+    color: black;
+}
