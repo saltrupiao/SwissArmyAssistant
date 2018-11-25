@@ -67,3 +67,8 @@ thead{
     font-weight:bold;
     color:dodgerblue;
 }
+
+.active{
+    background-color: dodgerblue;
+    color: white;
+}

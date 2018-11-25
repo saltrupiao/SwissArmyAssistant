@@ -61,3 +61,8 @@ body{
 #display{
     background-color: gray;
 }
+
+.active{
+    background-color: gray;
+    color: white;
+}

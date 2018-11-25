@@ -62,3 +62,8 @@ body{
 #display{
     background-color: ghostwhite;
 }
+
+.active{
+    background-color: limegreen;
+    color: white;
+}

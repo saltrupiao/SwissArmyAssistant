@@ -71,3 +71,8 @@ thead{
     color:red;
     font-weight:bold;
 }
+
+.active{
+    background-color: red;
+    color: white;
+}
