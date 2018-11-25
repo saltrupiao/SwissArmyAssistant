@@ -4,7 +4,7 @@ from log import writeLog
 def setTheme():
     theme = request.form['theme']
     writeLog('Theme requested is ' + str(theme))
-    response = make_response(render_template('about.html', friendlyTheme = "Theme set to " + theme, theme = theme))
+    response = make_response(render_template('home.html', theme = theme))
     writeLog('Response created')
     response.set_cookie('theme', theme)
     writeLog('Cookie set to ' + str(theme))
