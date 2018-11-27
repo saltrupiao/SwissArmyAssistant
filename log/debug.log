@@ -2545,3 +2545,13 @@
 2018-11-20 10:27:40.130267 - theme cookie is blue
 2018-11-20 11:10:20.431942 - Getting theme
 2018-11-20 11:10:20.439446 - theme cookie is blue
+2018-11-27 09:27:13.030529 - Getting theme
+2018-11-27 09:27:13.031902 - theme cookie is blue
+2018-11-27 09:27:19.279393 - Setting theme
+2018-11-27 09:27:19.279982 - Theme requested is dark
+2018-11-27 09:27:19.285801 - Response created
+2018-11-27 09:27:19.286263 - Cookie set to dark
+2018-11-27 09:27:22.544412 - Setting theme
+2018-11-27 09:27:22.544964 - Theme requested is blue
+2018-11-27 09:27:22.550698 - Response created
+2018-11-27 09:27:22.551090 - Cookie set to blue
