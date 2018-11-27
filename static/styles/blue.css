@@ -72,3 +72,25 @@ thead{
     background-color: dodgerblue;
     color: white;
 }
+
+#themeButton
+{
+    color: white;
+}
+
+#themeDropdown-Content
+{
+    background-color: dimgray;
+    color: white;
+}
+
+.pics
+{
+    border: none;
+    color: white;
+}
+
+.team
+{
+    color: white;
+}

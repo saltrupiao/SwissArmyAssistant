@@ -212,6 +212,11 @@ thead, td{
   }
 }
 
+h1
+{
+    text-align: center;
+}
+
 .themeDropdown
 {
     position: relative;
@@ -249,8 +254,22 @@ thead, td{
 .themeDropdown-Content label, select
 {
     display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
+.flavor
+{
+    text-align: center;
+    transition: ease .3s;
+    line-height: 50px;
+}
+
+.features
+{
+    font-size: 18px;
+}
 
 
 

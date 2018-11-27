@@ -23,8 +23,7 @@ body{
 
 .fancyButton
 {
-    background-color: black
-;
+    background-color: black;
     color: white;
 }
 
@@ -65,5 +64,10 @@ body{
 
 .active{
     background-color: limegreen;
+    color: white;
+}
+
+#themeButton
+{
     color: white;
 }

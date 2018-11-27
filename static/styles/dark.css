@@ -66,3 +66,13 @@ body{
     background-color: gray;
     color: white;
 }
+
+.filesList
+{
+    color: lightgrey;
+}
+
+.pics
+{
+    border: none;
+}
