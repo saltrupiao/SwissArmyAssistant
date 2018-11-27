@@ -1,6 +1,16 @@
 {% extends 'navbar.html' %}
 
 {% block content%}
+       <style>
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+th {
+    text-align: center;
+}
+    </style>
 <h2>About</h2>
 <h3>The Swiss Army Assistant: Mankind's Next Step</h3>
 <p>Fire, the steam engine, the personal computer, the internet, the smart phone. Now it's time for mankind to take its next step</p>
@@ -17,13 +27,40 @@
 </ul>
 <p>*Unlimited cloud storage must not exceed 4Gb</p>
 <p>Team members:</p>
-<ul>
-    <li>Connor</li>
-    <li>Rob</li>
-    <li>Sal</li>
-    <li>Dale</li>
-    <li>Ben</li>
-</ul>
+<table style="width: 50%">
+        <tr>
+            <th>
+            <img src="static/connorBusiness1.jpg">
+            <figcaption>Connor</figcaption> </th>
+            <th>
+                <img src="static/daleBusiness1.jpg">
+                <figcaption>Dale</figcaption>
+            </th>
+            <th>
+             <img src="static/benBusiness1.jpg">
+                <figcaption>Ben</figcaption>
+            </th>
+            <th>
+                <img src="static/robBusiness1.jpg">
+                <figcaption>Rob</figcaption>
+            </th>
+            <th>
+                <img src="static/salBusiness 1.jpg">
+                <figcaption>Sal</figcaption>
+            </th>
+        </tr>
+    </table>
 
 <h3>{{ friendlyTheme }}</h3>
+
+<form action="/settheme" method="POST">
+    <label>Change Theme</label>
+    <select name="theme">
+        <option value="blue">Blue (Default)</option>
+        <option value="dark">Dark Mode</option>
+        <option value="red">Red</option>
+        <option value="highC">High Contrast</option>
+    </select>
+    <input type="submit" value="Change Theme">
+</form>
 {% endblock %}
