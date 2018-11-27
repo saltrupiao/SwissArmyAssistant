@@ -1,0 +1,13 @@
+{% extends 'navbar.html' %}
+
+{% block body%}
+<h1>Files</h1>
+<form method="post">
+<ul>
+    {% for file in files %}
+    <li><a type="submit" href="{{ path }}{{ file }}">{{ file }}</a></li>
+    {% endfor %}
+</ul>
+
+</form>
+{% endblock %}
