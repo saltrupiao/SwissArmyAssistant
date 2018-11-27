@@ -5,7 +5,7 @@ body{
 
 @keyframes pulse {
     0% {
-        background-color: red;
+        background-color: darkred;
     }
     100% {
         background-color: ghostwhite;
@@ -17,7 +17,7 @@ body{
         background-color: transparent;
     }
     100% {
-        background-color: red;
+        background-color: darkred;
     }
 }
 
@@ -29,12 +29,12 @@ body{
 
 .fancyButton:hover
 {
-    background-color: red;
+    background-color: darkred;
     color: white;
 }
 
 #pageHeaderSAS{
-    color:red;
+    color: darkred;
 }
 
 /*Finally, the hover effects for the buttons (drop shadows)*/
@@ -48,7 +48,7 @@ body{
 
 .container-audio
 {
-    background-color: red;
+    background-color: darkred;
 }
 
 .title{
@@ -58,21 +58,21 @@ body{
 
 /*Formatting for File Manager*/
 table, td, thead{
-    border:3px solid red;
+    border:3px solid darkred;
 }
 thead{
     font-weight:bold;
-    background-color:red;
+    background-color: darkred;
     color:white;
     text-align:center;
 }
 
 .filesList:hover{
-    color:red;
+    color: darkred;
     font-weight:bold;
 }
 
 .active{
-    background-color: red;
+    background-color: darkred;
     color: white;
 }
