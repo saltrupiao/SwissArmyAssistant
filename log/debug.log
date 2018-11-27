@@ -1,46 +1,104 @@
-2018-11-27 09:33:18.473446 - Getting theme
-2018-11-27 09:33:18.473703 - theme cookie is blue
-2018-11-27 09:33:58.556150 - Getting theme
-2018-11-27 09:33:58.556540 - theme cookie is blue
-2018-11-27 09:34:15.099975 - Getting theme
-2018-11-27 09:34:15.100207 - theme cookie is blue
-2018-11-27 09:35:52.109678 - Getting theme
-2018-11-27 09:35:52.109898 - theme cookie is blue
-2018-11-27 09:35:55.645673 - Getting theme
-2018-11-27 09:35:55.645892 - theme cookie is blue
-2018-11-27 09:36:21.598135 - Setting theme
-2018-11-27 09:36:21.598772 - Theme requested is red
-2018-11-27 09:36:21.602184 - Response created
-2018-11-27 09:36:21.602487 - Cookie set to red
-2018-11-27 09:36:30.683627 - Setting theme
-2018-11-27 09:36:30.684065 - Theme requested is dark
-2018-11-27 09:36:30.684851 - Response created
-2018-11-27 09:36:30.685248 - Cookie set to dark
-2018-11-27 09:36:53.331515 - Setting theme
-2018-11-27 09:36:53.331866 - Theme requested is blue
-2018-11-27 09:36:53.332748 - Response created
-2018-11-27 09:36:53.333094 - Cookie set to blue
-2018-11-27 09:37:07.885497 - Getting theme
-2018-11-27 09:37:07.885692 - theme cookie is blue
-2018-11-27 09:37:07.885844 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
-2018-11-27 09:37:07.885902 - Directory: Documents
-2018-11-27 09:37:07.885946 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
-2018-11-27 09:37:07.885988 - Getting path
-2018-11-27 09:37:07.886038 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
-2018-11-27 09:37:07.886078 - Directory: Documents
-2018-11-27 09:37:07.886119 - Path: /static/media/Documents/
-2018-11-27 09:37:07.886198 - Getting Short Path
-2018-11-27 09:37:07.886242 - Short Path: /static/media/Documents/
-2018-11-27 09:37:07.886340 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
-2018-11-27 09:37:07.886429 - Directory: Documents
-2018-11-27 09:37:07.886497 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
-2018-11-27 09:37:10.505002 - Getting theme
-2018-11-27 09:37:10.505230 - theme cookie is blue
-2018-11-27 09:37:14.780759 - Getting theme
-2018-11-27 09:37:14.780931 - theme cookie is blue
-2018-11-27 09:37:35.645917 - Getting theme
-2018-11-27 09:37:35.646629 - theme cookie is blue
-2018-11-27 09:39:22.797293 - Getting theme
-2018-11-27 09:39:22.797496 - theme cookie is blue
-2018-11-27 09:42:03.900553 - Getting theme
-2018-11-27 09:42:03.900814 - theme cookie is blue
+2018-11-27 09:49:51.750064 - Getting theme
+2018-11-27 09:49:51.750359 - theme cookie is blue
+2018-11-27 09:50:00.409361 - Getting theme
+2018-11-27 09:50:00.409592 - theme cookie is blue
+2018-11-27 09:50:07.420358 - Getting theme
+2018-11-27 09:50:07.420587 - theme cookie is blue
+2018-11-27 09:50:07.420842 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
+2018-11-27 09:50:07.420937 - Directory: Documents
+2018-11-27 09:50:07.421051 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:50:07.421140 - Getting path
+2018-11-27 09:50:07.421223 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:50:07.421307 - Directory: Documents
+2018-11-27 09:50:07.421391 - Path: /static/media/Documents/
+2018-11-27 09:50:07.421473 - Getting Short Path
+2018-11-27 09:50:07.421561 - Short Path: /static/media/Documents/
+2018-11-27 09:50:07.421724 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
+2018-11-27 09:50:07.421798 - Directory: Documents
+2018-11-27 09:50:07.421876 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:50:10.254846 - Getting theme
+2018-11-27 09:50:10.255027 - theme cookie is blue
+2018-11-27 09:50:12.392189 - Getting theme
+2018-11-27 09:50:12.392410 - theme cookie is blue
+2018-11-27 09:50:19.391437 - Getting theme
+2018-11-27 09:50:19.391623 - theme cookie is blue
+2018-11-27 09:50:22.110213 - Setting theme
+2018-11-27 09:50:22.110731 - Theme requested is highC
+2018-11-27 09:50:22.111285 - Response created
+2018-11-27 09:50:22.111576 - Cookie set to highC
+2018-11-27 09:50:23.515081 - Getting theme
+2018-11-27 09:50:23.515324 - theme cookie is highC
+2018-11-27 09:50:26.304705 - Getting theme
+2018-11-27 09:50:26.304887 - theme cookie is highC
+2018-11-27 09:50:26.305111 - Getting theme
+2018-11-27 09:50:26.305190 - theme cookie is highC
+2018-11-27 09:50:31.617358 - Getting theme
+2018-11-27 09:50:31.617547 - theme cookie is highC
+2018-11-27 09:50:33.121019 - Setting theme
+2018-11-27 09:50:33.121392 - Theme requested is blue
+2018-11-27 09:50:33.122030 - Response created
+2018-11-27 09:50:33.122279 - Cookie set to blue
+2018-11-27 09:51:45.007308 - Setting theme
+2018-11-27 09:51:45.007843 - Theme requested is blue
+2018-11-27 09:51:45.021578 - Response created
+2018-11-27 09:51:45.021993 - Cookie set to blue
+2018-11-27 09:52:05.165017 - Setting theme
+2018-11-27 09:52:05.165462 - Theme requested is red
+2018-11-27 09:52:05.166213 - Response created
+2018-11-27 09:52:05.166537 - Cookie set to red
+2018-11-27 09:52:11.890583 - Getting theme
+2018-11-27 09:52:11.890818 - theme cookie is red
+2018-11-27 09:52:40.837947 - Getting theme
+2018-11-27 09:52:40.838155 - theme cookie is red
+2018-11-27 09:54:04.197397 - Getting theme
+2018-11-27 09:54:04.197602 - theme cookie is red
+2018-11-27 09:54:15.930667 - Setting theme
+2018-11-27 09:54:15.931050 - Theme requested is blue
+2018-11-27 09:54:15.931606 - Response created
+2018-11-27 09:54:15.931858 - Cookie set to blue
+2018-11-27 09:54:24.452416 - Getting theme
+2018-11-27 09:54:24.452598 - theme cookie is blue
+2018-11-27 09:54:24.452856 - Getting theme
+2018-11-27 09:54:24.452964 - theme cookie is blue
+2018-11-27 09:54:27.154804 - Getting theme
+2018-11-27 09:54:27.155025 - theme cookie is blue
+2018-11-27 09:54:27.155274 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
+2018-11-27 09:54:27.155383 - Directory: Documents
+2018-11-27 09:54:27.155478 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:54:27.155567 - Getting path
+2018-11-27 09:54:27.155655 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:54:27.155739 - Directory: Documents
+2018-11-27 09:54:27.155822 - Path: /static/media/Documents/
+2018-11-27 09:54:27.155896 - Getting Short Path
+2018-11-27 09:54:27.155946 - Short Path: /static/media/Documents/
+2018-11-27 09:54:27.156057 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
+2018-11-27 09:54:27.156108 - Directory: Documents
+2018-11-27 09:54:27.156151 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:54:33.193755 - Setting theme
+2018-11-27 09:54:33.194340 - Theme requested is dark
+2018-11-27 09:54:33.194898 - Response created
+2018-11-27 09:54:33.195304 - Cookie set to dark
+2018-11-27 09:54:37.589937 - Getting theme
+2018-11-27 09:54:37.590142 - theme cookie is dark
+2018-11-27 09:54:37.590366 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
+2018-11-27 09:54:37.590467 - Directory: Documents
+2018-11-27 09:54:37.590555 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:54:37.590639 - Getting path
+2018-11-27 09:54:37.590723 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:54:37.590805 - Directory: Documents
+2018-11-27 09:54:37.590885 - Path: /static/media/Documents/
+2018-11-27 09:54:37.590965 - Getting Short Path
+2018-11-27 09:54:37.591044 - Short Path: /static/media/Documents/
+2018-11-27 09:54:37.591205 - Root: /home/connor/Documents/smproject/SwissArmyAssistant
+2018-11-27 09:54:37.591292 - Directory: Documents
+2018-11-27 09:54:37.591373 - Path: /home/connor/Documents/smproject/SwissArmyAssistant/static/media/Documents
+2018-11-27 09:54:46.513176 - Getting theme
+2018-11-27 09:54:46.513381 - theme cookie is dark
+2018-11-27 09:54:51.815082 - Setting theme
+2018-11-27 09:54:51.815503 - Theme requested is blue
+2018-11-27 09:54:51.816175 - Response created
+2018-11-27 09:54:51.816413 - Cookie set to blue
+2018-11-27 09:55:09.070864 - Getting theme
+2018-11-27 09:55:09.071092 - theme cookie is blue
+2018-11-27 09:56:09.651821 - Getting theme
+2018-11-27 09:56:09.652033 - theme cookie is blue

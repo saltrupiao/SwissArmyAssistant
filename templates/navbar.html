@@ -11,19 +11,24 @@
         <a href="/files" class="btn">File Manager</a>
         <a href="/news" class="btn">News</a>
         <a href="/about" class="btn">About</a>
-        <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
     </div>
     <br>
 
+
+
     <script>
+
+
+
+
+
     // Get the container element
     var btnContainer = document.getElementById("myTopnav");
-
     // Get all buttons with class="btn" inside the container
     var btns = btnContainer.getElementsByClassName("btn");
-
     // Loop through the buttons and add the active class to the current/clicked button
     for (var i = 0; i < btns.length; i++)
     {
@@ -35,7 +40,7 @@
         });
     }
 
-     function setActive()
+function setActive()
      {
        aObj = document.getElementById('myTopnav').getElementsByTagName('a');
         for(i=0;i<aObj.length;i++)
@@ -46,9 +51,23 @@
             }
         }
      }
-
      window.onload = setActive();
-</script>
+
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    }
+    else {
+        x.className = "topnav";
+    }
+}
+
+
+
+
+    </script>
 
 {% endblock %}
 

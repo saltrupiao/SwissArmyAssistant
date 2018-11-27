@@ -1,13 +1,11 @@
-body
-{
-    backgroud-color: red;
+body{
     background-image: url(/static/backgroundRed-60.jpg);
 }
 
 
 @keyframes pulse {
     0% {
-        background-color: red;
+        background-color: darkred;
     }
     100% {
         background-color: ghostwhite;
@@ -19,7 +17,7 @@ body
         background-color: transparent;
     }
     100% {
-        background-color: red;
+        background-color: darkred;
     }
 }
 
@@ -31,8 +29,12 @@ body
 
 .fancyButton:hover
 {
-    background-color: red;
+    background-color: darkred;
     color: white;
+}
+
+#pageHeaderSAS{
+    color: darkred;
 }
 
 /*Finally, the hover effects for the buttons (drop shadows)*/
@@ -46,46 +48,31 @@ body
 
 .container-audio
 {
-    background-color: red;
+    background-color: darkred;
 }
 
-/* Add an active class to highlight the current page */
-.active
-{
-    background-color: red;
-    color: white;
+.title{
+    text-align:center;
+    align-content: center;
 }
 
-.active a:hover
-{
-    background-color: crimson;
-    color: white;
+/*Formatting for File Manager*/
+table, td, thead{
+    border:3px solid darkred;
+}
+thead{
+    font-weight:bold;
+    background-color: darkred;
+    color:white;
+    text-align:center;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover 
-{
-    background-color: red;
-    color: black;
+.filesList:hover{
+    color: darkred;
+    font-weight:bold;
 }
 
-.topnav
-{
-    background-color: #333;
-}
-
-.topnav a
-{
-    color: #f2f2f2;
-}
-
-.themeDropdown-Content
-{
-    background-color: dimgray;
-    color: white;
-}
-
-#themeButton
-{
+.active{
+    background-color: darkred;
     color: white;
 }

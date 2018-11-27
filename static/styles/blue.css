@@ -1,7 +1,5 @@
-body
-{
+body{
     background-image: url(/static/background-60.jpg);
-    background-color: dodgerblue;
 }
 
 @keyframes pulse {
@@ -48,43 +46,29 @@ body
     background-color: dodgerblue;
 }
 
-/* Add an active class to highlight the current page */
-.active
-{
+.title{
+    text-align:center;
+    align-content: center;
+}
+
+/*Formatting for File Manager*/
+table, td, thead{
+    table-layout:auto;
+    border:3px solid dodgerblue;
+}
+thead{
+    font-weight:bold;
+    background-color:dodgerblue;
+    color:white;
+    text-align:center;
+}
+
+.filesList:hover{
+    font-weight:bold;
+    color:dodgerblue;
+}
+
+.active{
     background-color: dodgerblue;
-    color: orange;
-}
-
-.active:hover
-{
-    background-color: darkblue;
-    color: white;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover
-{
-    background-color: dodgerblue;
-    color: black;
-}
-
-.topnav
-{
-    background-color: #333;
-}
-
-.topnav a
-{
-    color: #f2f2f2;
-}
-
-.themeDropdown-Content
-{
-    background-color: dimgray;
-    color: white;
-}
-
-#themeButton
-{
     color: white;
 }
