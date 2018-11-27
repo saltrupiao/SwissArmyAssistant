@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -91,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="345">
+              <caret line="23" column="198" selection-start-line="23" selection-start-column="198" selection-end-line="23" selection-end-column="198" />
             </state>
           </provider>
         </entry>
@@ -185,13 +185,13 @@
         <option value="$PROJECT_DIR$/static/js/dropdown.js" />
         <option value="$PROJECT_DIR$/theme.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/static/styles/dark.css" />
         <option value="$PROJECT_DIR$/static/styles/red.css" />
         <option value="$PROJECT_DIR$/static/styles/highC.css" />
         <option value="$PROJECT_DIR$/static/styles/blue.css" />
         <option value="$PROJECT_DIR$/static/styles/style.css" />
         <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
       </list>
     </option>
   </component>
@@ -206,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,7 +260,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,6 +382,7 @@
       <updated>1538068787227</updated>
       <workItem from="1542996541456" duration="2273000" />
       <workItem from="1543328534718" duration="309000" />
+      <workItem from="1543329107174" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="File system beginnings">
       <created>1538494118465</created>
@@ -558,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542998583353</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="New about page">
+      <created>1543329676883</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1543329676883</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2582000" />
+    <option name="totallyTimeSpent" value="3277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,7 +584,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16436082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16602103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -691,7 +699,8 @@
     <MESSAGE value="Added titles" />
     <MESSAGE value="Added Dropdown menu theme changer (style WIP)" />
     <MESSAGE value="Refined dropdown, added About page descriptor text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined dropdown, added About page descriptor text" />
+    <MESSAGE value="New about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="New about page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calc.py" />
@@ -814,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -828,7 +837,7 @@
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -867,17 +876,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/dropdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="198" selection-start-line="23" selection-start-column="198" selection-end-line="23" selection-end-column="198" />
         </state>
       </provider>
     </entry>
