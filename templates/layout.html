@@ -16,6 +16,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Icon library for gear button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- dropdown JS -->
+    <script src="../static/js/dropdown.js"></script>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     {% if theme == 'blue' %}
@@ -32,6 +36,22 @@
 
 </head>
 <body>
+    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+    <div id="themeDropdown" class="themeDropdown">
+        <a id="themeButton" onclick="showThemeSelect()" class="fancyButton themeButton"><i class="fa fa-cog"></i></a>
+        <div id="themeDropdown-Content" class="themeDropdown-Content">
+            <form action="/settheme" method="POST">
+                <label>Change Theme</label>
+                <select name="theme">
+                    <option value="blue">Blue (Default)</option>
+                    <option value="dark">Dark Mode</option>
+                    <option value="red">Red</option>
+                    <option value="highC">High Contrast</option>
+                </select>
+                <input type="submit" value="Change Theme">
+            </form>
+        </div>
+    </div>
     {% block navbar %}{% endblock %}
     {% block content %}{% endblock %}
 </body>

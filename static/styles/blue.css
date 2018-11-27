@@ -52,10 +52,10 @@ body
 .active
 {
     background-color: dodgerblue;
-    color: white;
+    color: orange;
 }
 
-.active a:hover
+.active:hover
 {
     background-color: darkblue;
     color: white;
@@ -76,4 +76,15 @@ body
 .topnav a
 {
     color: #f2f2f2;
+}
+
+.themeDropdown-Content
+{
+    background-color: dimgray;
+    color: white;
+}
+
+#themeButton
+{
+    color: white;
 }

@@ -6,6 +6,12 @@ body
     background-attachment: fixed;
 }
 
+h2
+{
+    text-align: center;
+    font-size: 60px;
+}
+
 
 @keyframes fadeIn {
     from {
@@ -42,22 +48,6 @@ h1{
     to{
         margin-left: 0%;
         width:100%
-    }
-}
-@keyframes pulse {
-    0%{
-        background-color: dodgerblue;
-    }
-    100%{
-        background-color: ghostwhite;
-    }
-}
-@keyframes pulse2 {
-    0% {
-        background-color: transparent;
-    }
-    100% {
-        background-color: dodgerblue;
     }
 }
 
@@ -156,6 +146,45 @@ audio {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
+}
+
+.themeDropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+#themeButton
+{
+
+    margin-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.themeDropdown-Content
+{
+    /*Hidden by default*/
+    display: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    transition: ease 3s;
+}
+
+.show
+{
+    display: block;
+}
+
+.themeDropdown-Content label, select
+{
+    display: block;
 }
 
 

@@ -63,7 +63,7 @@ body
 }
 
 /* Change the color of links on hover */
-.topnav a:hover
+.topnav a:hover 
 {
     background-color: red;
     color: black;
@@ -77,4 +77,15 @@ body
 .topnav a
 {
     color: #f2f2f2;
+}
+
+.themeDropdown-Content
+{
+    background-color: dimgray;
+    color: white;
+}
+
+#themeButton
+{
+    color: white;
 }
