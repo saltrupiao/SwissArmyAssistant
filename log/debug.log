@@ -2432,3 +2432,116 @@
 2018-11-15 12:13:30.739088 - Cookie set to blue
 2018-11-15 12:13:39.910130 - Getting theme
 2018-11-15 12:13:39.910509 - theme cookie is blue
+2018-11-15 12:24:43.695882 - Getting theme
+2018-11-15 12:24:43.697124 - theme cookie is blue
+2018-11-15 12:24:47.492080 - Getting theme
+2018-11-15 12:24:47.492489 - theme cookie is blue
+2018-11-15 12:24:50.876409 - Setting theme
+2018-11-15 12:24:50.877077 - Theme requested is dark
+2018-11-15 12:24:50.882896 - Response created
+2018-11-15 12:24:50.883251 - Cookie set to dark
+2018-11-15 12:24:51.980924 - Getting theme
+2018-11-15 12:24:51.981297 - theme cookie is dark
+2018-11-15 12:24:52.740702 - Getting theme
+2018-11-15 12:24:52.741153 - theme cookie is dark
+2018-11-15 12:24:53.637837 - Getting theme
+2018-11-15 12:24:53.638180 - theme cookie is dark
+2018-11-15 12:24:53.644050 - Getting theme
+2018-11-15 12:24:53.644493 - theme cookie is dark
+2018-11-15 12:24:54.624458 - Getting theme
+2018-11-15 12:24:54.624853 - theme cookie is dark
+2018-11-15 12:24:54.630475 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-15 12:24:54.630738 - Directory: Documents
+2018-11-15 12:24:54.630958 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-15 12:24:54.631192 - Getting path
+2018-11-15 12:24:54.631404 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-15 12:24:54.631605 - Directory: Documents
+2018-11-15 12:24:54.631880 - Path: /static/media/Documents/
+2018-11-15 12:24:54.632064 - Getting Short Path
+2018-11-15 12:24:54.632265 - Short Path: /static/media/Documents/
+2018-11-15 12:24:54.632565 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-15 12:24:54.632878 - Directory: Documents
+2018-11-15 12:24:54.633048 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-15 12:24:56.191359 - Getting theme
+2018-11-15 12:24:56.191899 - theme cookie is dark
+2018-11-15 12:24:58.258610 - Getting theme
+2018-11-15 12:24:58.259085 - theme cookie is dark
+2018-11-15 12:25:09.310313 - Getting theme
+2018-11-15 12:25:09.310664 - theme cookie is dark
+2018-11-15 12:25:09.316333 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-15 12:25:09.316628 - Directory: Documents
+2018-11-15 12:25:09.316818 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-15 12:25:09.317011 - Getting path
+2018-11-15 12:25:09.317220 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-15 12:25:09.317403 - Directory: Documents
+2018-11-15 12:25:09.317550 - Path: /static/media/Documents/
+2018-11-15 12:25:09.317736 - Getting Short Path
+2018-11-15 12:25:09.317981 - Short Path: /static/media/Documents/
+2018-11-15 12:25:09.318238 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-15 12:25:09.318377 - Directory: Documents
+2018-11-15 12:25:09.318569 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-15 12:25:13.646970 - Getting theme
+2018-11-15 12:25:13.647404 - theme cookie is dark
+2018-11-15 12:25:20.056615 - Getting theme
+2018-11-15 12:25:20.056990 - theme cookie is dark
+2018-11-15 12:25:21.536792 - Setting theme
+2018-11-15 12:25:21.537298 - Theme requested is blue
+2018-11-15 12:25:21.537802 - Response created
+2018-11-15 12:25:21.538037 - Cookie set to blue
+2018-11-15 12:26:30.172718 - Getting theme
+2018-11-15 12:26:30.173200 - theme cookie is blue
+2018-11-15 12:26:30.453220 - Getting theme
+2018-11-15 12:26:30.453572 - theme cookie is blue
+2018-11-15 12:26:30.699946 - Getting theme
+2018-11-15 12:26:30.700456 - theme cookie is blue
+2018-11-15 12:26:34.139952 - Getting theme
+2018-11-15 12:26:34.140379 - theme cookie is blue
+2018-11-15 12:26:35.349433 - Getting theme
+2018-11-15 12:26:35.349801 - theme cookie is blue
+2018-11-15 12:26:38.380197 - Getting theme
+2018-11-15 12:26:38.380769 - theme cookie is blue
+2018-11-15 12:26:39.837251 - Getting theme
+2018-11-15 12:26:39.837631 - theme cookie is blue
+2018-11-19 18:11:20.563128 - Getting theme
+2018-11-19 18:11:20.564265 - theme cookie is blue
+2018-11-19 20:58:39.012689 - Getting theme
+2018-11-19 20:58:39.014860 - theme cookie is blue
+2018-11-20 08:19:15.680040 - Getting theme
+2018-11-20 08:19:15.680590 - theme cookie is blue
+2018-11-20 08:19:20.197938 - Getting theme
+2018-11-20 08:19:20.198241 - theme cookie is blue
+2018-11-20 08:19:20.198449 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-20 08:19:20.198603 - Directory: Documents
+2018-11-20 08:19:20.198800 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-20 08:19:20.198947 - Getting path
+2018-11-20 08:19:20.199140 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-20 08:19:20.199310 - Directory: Documents
+2018-11-20 08:19:20.199508 - Path: /static/media/Documents/
+2018-11-20 08:19:20.199741 - Getting Short Path
+2018-11-20 08:19:20.199875 - Short Path: /static/media/Documents/
+2018-11-20 08:19:20.200078 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-20 08:19:20.200210 - Directory: Documents
+2018-11-20 08:19:20.200381 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Documents
+2018-11-20 08:19:24.628336 - Getting theme
+2018-11-20 08:19:24.628737 - theme cookie is blue
+2018-11-20 08:19:24.634680 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-20 08:19:24.635014 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Pictures
+2018-11-20 08:19:24.635224 - Getting path
+2018-11-20 08:19:24.635441 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Pictures
+2018-11-20 08:19:24.635611 - Path: /static/media/Pictures/
+2018-11-20 08:19:24.635831 - Getting Short Path
+2018-11-20 08:19:24.636000 - Short Path: /static/media/Pictures/
+2018-11-20 08:19:24.636244 - Method is POST
+2018-11-20 08:19:24.636532 - Calling View Function
+2018-11-20 08:19:24.636698 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-20 08:19:24.636858 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Pictures
+2018-11-20 08:19:24.637071 - Root: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant
+2018-11-20 08:19:24.637209 - Path: /Users/saltrupiano/PycharmProjects/SwissArmyAssistant/static/media/Pictures
+2018-11-20 10:27:33.952746 - Getting theme
+2018-11-20 10:27:33.953456 - theme cookie is blue
+2018-11-20 10:27:38.598010 - Getting theme
+2018-11-20 10:27:38.598451 - theme cookie is blue
+2018-11-20 10:27:40.129919 - Getting theme
+2018-11-20 10:27:40.130267 - theme cookie is blue
+2018-11-20 11:10:20.431942 - Getting theme
+2018-11-20 11:10:20.439446 - theme cookie is blue
