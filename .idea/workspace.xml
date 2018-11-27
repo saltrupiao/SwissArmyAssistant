@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0910eb-7da2-499d-a53c-26f2037667bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/debug.log" afterDir="false" />
-    </list>
+    <list default="true" id="ef0910eb-7da2-499d-a53c-26f2037667bc" name="Default Changelist" comment="" />
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -382,7 +379,7 @@
       <updated>1538068787227</updated>
       <workItem from="1542996541456" duration="2273000" />
       <workItem from="1543328534718" duration="309000" />
-      <workItem from="1543329107174" duration="695000" />
+      <workItem from="1543329107174" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="File system beginnings">
       <created>1538494118465</created>
@@ -566,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543329676883</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="New about page">
+      <created>1543329854499</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1543329854499</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3277000" />
+    <option name="totallyTimeSpent" value="3539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
