@@ -89,7 +89,7 @@ function loader() {
       function (_,p) { return p + 1;}).startsWith(0);
 
   // Display caughtUpB.
-  insertDomB(DIV(H1('you hit me ',
+  insertDomB(DIV(H1('...you hit me ',
     SPAN({style: {/*color: 'white', backgroundColor: 'black'*/ }},
           caughtUpB.liftB(function (n) { return n.toString(); })),
           ' times.'),
@@ -102,12 +102,12 @@ function loader() {
 </head>
 
 <body onload="loader();" id="body" style="text-align: center; margin: 0px; overflow: hidden;">
-<h1>Waste Time</h1>
+<h1>Waste Time...</h1>
 <br><br>
 <div class="block">
 <div>
-update every <input type="text" id="frameRate" value="10" size="5"/> ms
-with a delay of <input type="text" id="delayRate" value="800" size="5"/> ms
+<!--update every <input type="text" id="frameRate" value="10" size="5"/> ms-->
+<!--with a delay of <input type="text" id="delayRate" value="800" size="5"/> ms-->
 </div>
 <span id="count"></span>
 </div>
