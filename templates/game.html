@@ -97,6 +97,13 @@ function loader() {
     'count');
 
 }
+// https://stackoverflow.com/questions/5517597/plain-count-up-timer-in-javascript
+    var sec = 0;
+    function pad ( val ) { return val > 9 ? val : "0" + val; }
+    setInterval( function(){
+        document.getElementById("seconds").innerHTML=pad(++sec%60);
+        document.getElementById("minutes").innerHTML=pad(parseInt(sec/60,10));
+    }, 1000);
 
 </script>
 </head>
@@ -110,6 +117,10 @@ function loader() {
 <!--with a delay of <input type="text" id="delayRate" value="800" size="5"/> ms-->
 </div>
 <span id="count"></span>
+<br>
+<span id="minutes"></span>:<span id="seconds"></span>
+<br>
+<label>&nbsptotal time wasted.</label>  
 </div>
 
 </body>
