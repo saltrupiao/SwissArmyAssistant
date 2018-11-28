@@ -213,6 +213,64 @@ thead, td{
   }
 }
 
+h1
+{
+    text-align: center;
+}
+
+.themeDropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+#themeButton
+{
+
+    margin-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.themeDropdown-Content
+{
+    /*Hidden by default*/
+    display: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    transition: ease 3s;
+}
+
+.show
+{
+    display: block;
+}
+
+.themeDropdown-Content label, select
+{
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.flavor
+{
+    text-align: center;
+    transition: ease .3s;
+    line-height: 50px;
+}
+
+.features
+{
+    font-size: 18px;
+}
 
 
 

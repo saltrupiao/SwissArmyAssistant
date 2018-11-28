@@ -1,0 +1,118 @@
+<!--{% extends 'navbar.html' %}-->
+<!--https://www.flapjax-lang.org/demos/index.html#catchup-->
+
+{% block content%}
+<html>
+<head>
+<title>Swiss Army Assistant Presents: Hit Me</title>
+
+<script type="text/javascript" src="https://www.flapjax-lang.org/fx/flapjax.js"></script>
+
+<script type="text/javascript">
+
+function loader() {
+  var DIAM1 = 100;
+  var DIAM2 = 220;
+  var OFFSET2 = 23;
+  var SPEED = 1000; //slows when higher - irrespective of framerate
+
+  var toInt = function (v, def) { try { return parseInt(v); } catch (_) { return def; } };
+
+  var timeB = timerB(extractValueB('frameRate').liftB(toInt, 50));
+
+  var delayTimeB = extractValueB('delayRate').liftB(toInt, 500);
+
+  //CATCH box
+  insertDomB(
+    DIV(
+      {id: 'catch',
+       style: {backgroundColor: '#444',
+           color: '#FFFFFF',
+           fontSize: '3em',
+           position: 'absolute',
+           padding: '5px',
+           left:
+            liftB(
+              function (t, x) {
+                return x + Math.round(DIAM1 * Math.cos(t / SPEED));
+              },
+              timeB,
+              mouseLeftB( document)),
+            top:
+            liftB(
+              function (t, y) {
+                return y + Math.round(DIAM1 * Math.sin(t / SPEED));
+              },
+              timeB,
+              mouseTopB( document))}},
+       'hit'),
+    'body', 'beginning');
+
+    //UP box, changes color on mouseover
+    var upB =
+      tagRec(
+        ['mouseover', 'mouseout'],
+        function (mouseOverE, mouseOutE) {
+          return DIV(
+          {id: 'up',
+           style: {
+            padding: '5px',
+            backgroundColor:
+              mergeE(
+                mouseOverE.constantE('#FF0000'),
+                mouseOutE.constantE('#444')).startsWith('#444'),
+             color: '#FFFFFF',
+             fontSize: '3em',
+             position: 'absolute',
+             left:
+              liftB(
+                function (t, x) {
+                  return OFFSET2 + x + Math.round(DIAM2 * Math.cos(t / SPEED));
+                },
+                timeB,
+                mouseLeftB(document).delayB(delayTimeB)),
+            top:
+              liftB(
+                function (t, y) {
+                  return y + Math.round(DIAM2 * Math.sin(t / SPEED));
+                },
+                timeB,
+                mouseTopB(document).delayB(delayTimeB))}},
+           'me');
+      });
+
+    insertDomB( upB, 'catch', 'before');
+
+  // Count the number of times we catch up.
+  var caughtUpB =
+    extractEventE(upB, 'mouseover').collectE(0,
+      function (_,p) { return p + 1;}).startsWith(0);
+
+  // Display caughtUpB.
+  insertDomB(DIV(H1('...you hit me ',
+    SPAN({style: {/*color: 'white', backgroundColor: 'black'*/ }},
+          caughtUpB.liftB(function (n) { return n.toString(); })),
+          ' times.'),
+             'hit "me" with your mouse'),
+    'count');
+
+}
+
+</script>
+</head>
+
+<body onload="loader();" id="body" style="text-align: center; margin: 0px; overflow: hidden;">
+<h1>Waste Time...</h1>
+<br><br>
+<div class="block">
+<div>
+<!--update every <input type="text" id="frameRate" value="10" size="5"/> ms-->
+<!--with a delay of <input type="text" id="delayRate" value="800" size="5"/> ms-->
+</div>
+<span id="count"></span>
+</div>
+
+</body>
+</html>
+
+{% endblock %}

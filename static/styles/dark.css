@@ -67,7 +67,13 @@ body{
     color: white;
 }
 
-/*a:visited {*/
-    /*color: gray;*/
-/*}*/
+.filesList
+{
+    color: lightgrey;
+}
+
+.pics
+{
+    border: none;
+}
 

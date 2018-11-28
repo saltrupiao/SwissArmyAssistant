@@ -48,7 +48,7 @@ def calc():
 
 
 # https://stackoverflow.com/questions/12277933/send-data-from-a-textbox-into-flask
-@app.route('/', methods=['POST'])
+@app.route('/home', methods=['POST'])
 def my_form_post():
     theme = getTheme()
     text = request.form['txt']
@@ -135,6 +135,12 @@ def music():
 def news():
     theme = getTheme()
     return render_template('news.html', theme = theme)
+
+
+@app.route('/game')
+def game():
+    theme = getTheme()
+    return render_template('game.html', theme = theme)
 
 
 if __name__ == '__main__':
