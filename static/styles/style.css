@@ -127,6 +127,7 @@ audio {
 #notepad
 {
     background-color: white;
+    repeat(auto-fit, 100px);
 }
 
 /*Formatting for File Manager*/
@@ -231,4 +232,5 @@ thead, td{
     /*width:150px; !* fixed width *!*/
     /*text-decoration:none;*/
 /*}*/
+
 
