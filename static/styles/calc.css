@@ -227,9 +227,18 @@
         height: 30%;
     }
 
+    .container>#display {
+        height: 100%;
+        width: 220px;
+        border-radius: 10px;
+        font-size: 24px;
+        transition: ease .3s;
+
+    }
+
     .container>.calcButton {
         transition: ease .3s;
-        width: 45px;
+        width: 75px;
         height: 100%;
         font-size: 24px;
         color: white;
