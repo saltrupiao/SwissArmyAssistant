@@ -8,6 +8,7 @@
 /*The actual calculator, which contains another grid*/
 .container
 {
+    transition: ease .3s;
     /*Center the calculator*/
     grid-column-start: 1;
     grid-column-end: 5;
@@ -178,18 +179,18 @@
     width: 340px;
     border-radius: 10px;
     font-size: 24px;
+    transition: ease .3s;
+
 }
 
-/*@keyframes fadeIn {*/
-    /*from{*/
-        /*opacity: 0;*/
-    /*}*/
-    /*to{*/
-        /*opacity: 1;*/
-    /*}*/
-/*}*/
 
-/*body{*/
-    /*animation-duration: 2s;*/
-    /*animation-name: fadeIn;*/
-/*}*/
+
+@media screen and (max-width: 740px) {
+
+    .container
+    {
+        transition: ease .3s;
+        width: 90%;
+        height: 30%;
+    }
+}

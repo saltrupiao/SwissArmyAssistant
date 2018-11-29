@@ -27,6 +27,12 @@ body{
     color: white;
 }
 
+.btn:hover
+{
+    background-color: gray;
+    color: white;
+}
+
 .fancyButton:hover
 {
     background-color: gray;

@@ -1,9 +1,8 @@
-import WebKit
+
 
 body{
-    /*animation-duration: 2s;*/
-    /*animation-name: fadeIn;*/
-    width: 100%
+
+    /*width: 100%*/
 }
 
 
@@ -13,11 +12,11 @@ body{
     height: auto;
     width: auto;
 
-    /*position: absolute;*/
+    position: absolute;
 
-  /*z-index: 15;*/
-  /*top: 15%;*/
-  /*left: 15%;*/
+  z-index: 15;
+  top: 15%;
+  left: 15%;
   margin: 0 0 0 35px;
     max-width: 820px;
     margin: 0px auto;
@@ -47,49 +46,38 @@ margin-top: 50px;
 
 }
 
-@media screen and (max-width: 500px) /* Mobile */ {
-  .noteBody{
-      -webkit-column-width: 300px; /* Chrome, Safari, Opera */
-    -moz-column-width: 300px; /* Firefox */
-    column-width: 300px;
-  }
+@media (max-width: 740px) {
+    textarea {
+        width: 350px;
+        height: 350px;
+    }
 
-      #noteForm{
-          -webkit-column-width: 300px; /* Chrome, Safari, Opera */
-          moz-column-width: 300px; /* Firefox */
-    column-width: 300px;
-      }
-  }
-
-
-@media screen and (max-width: 699px) /* Desktop */ {
-  .noteBody{
-      -webkit-column-width: 500px; /* Chrome, Safari, Opera */
-    -moz-column-width: 500px; /* Firefox */
-    column-width: 500px;
-  }
-
-    #noteForm{
-        -webkit-column-width: 500px; /* Chrome, Safari, Opera */
-          moz-column-width: 500px; /* Firefox */
-    column-width: 500px;
-      }
-}
-
-@media screen  and (min-width: 700px) /* Tablet */ {
-  .noteBody{
-      h-webkit-column-width: 700px; /* Chrome, Safari, Opera */
-    -moz-column-width: 700px; /* Firefox */
-    column-width: 700px;
-  }
-
-    #noteForm{
-        -webkit-column-width: 700px; /* Chrome, Safari, Opera */
-          moz-column-width: 700px; /* Firefox */
-    column-width: 700px;
-      }
+    .nicEdit-panelContain {
+        width: 100px;
+    }
 }
 
 
+
+
+/*@media screen and (min-width: 490px) and (max-width: 740px) {*/
+    /*textarea{*/
+        /*width: 500px;*/
+        /*height: 500px;*/
+    /*}*/
+    /*.nicEdit-panelContain{*/
+        /*width: 500px;*/
+    /*}*/
+/*}*/
+
+@media (min-width: 741px) {
+    textarea {
+        width: 800px;
+        height: 800px;
+    }
+    .nicEdit-panelContain{
+        width: 800px;
+    }
+}
 
 

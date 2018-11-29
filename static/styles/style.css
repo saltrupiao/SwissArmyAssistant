@@ -46,7 +46,7 @@ h1{
 }
 @keyframes pulse {
     0%{
-        background-color: dodgerblue;
+        background-color: #527EAC;
     }
     100%{
         background-color: ghostwhite;
@@ -57,7 +57,7 @@ h1{
         background-color: transparent;
     }
     100% {
-        background-color: dodgerblue;
+        background-color: #527EAC;
     }
 }
 
