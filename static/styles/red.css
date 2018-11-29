@@ -1,13 +1,11 @@
-body
-{
-    backgroud-color: red;
+body{
     background-image: url(/static/backgroundRed-60.jpg);
 }
 
 
 @keyframes pulse {
     0% {
-        background-color: red;
+        background-color: #612D31;
     }
     100% {
         background-color: ghostwhite;
@@ -19,7 +17,7 @@ body
         background-color: transparent;
     }
     100% {
-        background-color: red;
+        background-color: #612D31;
     }
 }
 
@@ -31,14 +29,18 @@ body
 
 .fancyButton:hover
 {
-    background-color: red;
+    background-color: #612D31;
     color: white;
+}
+
+#pageHeaderSAS{
+    color: #612D31;
 }
 
 /*Finally, the hover effects for the buttons (drop shadows)*/
 .container>.calcButton:hover
 {
-    background-color: red;
+    background-color: #612D31;
     transition: ease .5s;
     cursor: pointer;
     box-shadow: 2px 2px 10px #000000;
@@ -46,46 +48,42 @@ body
 
 .container-audio
 {
-    background-color: red;
+    background-color: #612D31;
 }
 
-/* Add an active class to highlight the current page */
-.active
-{
-    background-color: red;
+.title{
+    text-align:center;
+    align-content: center;
+}
+
+/*Formatting for File Manager*/
+table, td, thead{
+    border:3px solid #612D31;
+}
+thead{
+    font-weight:bold;
+    background-color: #612D31;
+    color:white;
+    text-align:center;
+}
+
+.filesList:hover{
+    color: #612D31;
+    font-weight:bold;
+}
+
+.active{
+    background-color: #612D31;
     color: white;
 }
 
-.active a:hover
+.pics
 {
-    background-color: crimson;
+    border: none;
     color: white;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover 
-{
-    background-color: red;
-    color: black;
-}
-
-.topnav
-{
-    background-color: #333;
-}
-
-.topnav a
-{
-    color: #f2f2f2;
-}
-
-.themeDropdown-Content
-{
-    background-color: dimgray;
-    color: white;
-}
-
-#themeButton
+.team
 {
     color: white;
 }

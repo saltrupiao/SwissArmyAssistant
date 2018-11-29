@@ -27,6 +27,12 @@ body{
     color: white;
 }
 
+.btn:hover
+{
+    background-color: gray;
+    color: white;
+}
+
 .fancyButton:hover
 {
     background-color: gray;
@@ -62,43 +68,18 @@ body{
     background-color: gray;
 }
 
-/* Add an active class to highlight the current page */
-.active
-{
+.active{
     background-color: gray;
     color: white;
 }
 
-.active a:hover
+.filesList
 {
-    background-color: dimgrey;
-    color: white;
+    color: lightgrey;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover
+.pics
 {
-    background-color: gray;
-    color: black;
+    border: none;
 }
 
-.topnav
-{
-    background-color: #333;
-}
-
-.topnav a
-{
-    color: #f2f2f2;
-}
-
-.themeDropdown-Content
-{
-    background-color: dimgray;
-    color: white;
-}
-
-#themeButton
-{
-    color: white;
-}

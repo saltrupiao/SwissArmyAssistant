@@ -139,6 +139,12 @@ def news():
     return render_template('news.html', theme = theme)
 
 
+@app.route('/game')
+def game():
+    theme = getTheme()
+    return render_template('game.html', theme = theme)
+
+
 if __name__ == '__main__':
     app.run(debug=True) # so the page refreshes live and doesn't need to be restarted
 

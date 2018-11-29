@@ -20,12 +20,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- dropdown JS -->
     <script src="../static/js/dropdown.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+
     <!--Bootstrap for icon buttons, hopefully it works -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap for newspaper icon button -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
 
     {% if theme == 'blue' %}
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/blue.css') }}">
@@ -41,22 +44,8 @@
 
 </head>
 <body>
-    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-    <div id="themeDropdown" class="themeDropdown">
-        <a id="themeButton" onclick="showThemeSelect()" class="fancyButton themeButton"><i class="fa fa-cog"></i></a>
-        <div id="themeDropdown-Content" class="themeDropdown-Content">
-            <form action="/settheme" method="POST">
-                <label>Change Theme</label>
-                <select name="theme">
-                    <option value="blue">Blue (Default)</option>
-                    <option value="dark">Dark Mode</option>
-                    <option value="red">Red</option>
-                    <option value="highC">High Contrast</option>
-                </select>
-                <input type="submit" value="Change Theme">
-            </form>
-        </div>
-    </div>
+
+
     {% block navbar %}{% endblock %}
     {% block content %}{% endblock %}
 </body>

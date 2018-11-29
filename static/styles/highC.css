@@ -23,22 +23,20 @@ body{
 
 .fancyButton
 {
-    background-color: black
-;
+    background-color: black;
     color: white;
 }
 
 .fancyButton:hover
 {
-    background-color: #f2f2f2;
-    color: black;
+    background-color: limegreen;
+    color: white;
 }
 
 /*Finally, the hover effects for the buttons (drop shadows)*/
 .container>.calcButton:hover
 {
-    background-color: white;
-    color: black;
+    background-color: limegreen;
     transition: ease .5s;
     cursor: pointer;
     box-shadow: 2px 2px 10px #000000;
@@ -46,6 +44,10 @@ body{
 
 .container-audio
 {
+    background-color: limegreen;
+}
+
+#audio_core{
     background-color: black;
 }
 
@@ -64,43 +66,17 @@ body{
     background-color: ghostwhite;
 }
 
-/* Add an active class to highlight the current page */
-.active
-{
-    background-color: white;
-    color: black;
-}
-
-.active a:hover
-{
-    background-color: #0f0f0f;
+.active{
+    background-color: limegreen;
     color: white;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover
-{
-    background-color: white;
-    color: black;
-}
-
-.topnav
-{
-    background-color: #333;
-}
-
-.topnav a
-{
-    color: #f2f2f2;
-}
-
-.themeDropdown-Content
-{
-    background-color: white;
-    color: black;
 }
 
 #themeButton
 {
-    color: black;
+    color: white;
+}
+
+.container>#display {
+    border-width: 5px;
+    border-color: black;
 }
