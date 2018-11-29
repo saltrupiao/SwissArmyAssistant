@@ -8373,3 +8373,885 @@
 2018-11-28 19:10:00.788050 - theme cookie is highC
 2018-11-28 19:10:05.858588 - Getting theme
 2018-11-28 19:10:05.858921 - theme cookie is highC
+2018-11-28 19:22:42.852922 - Getting theme
+2018-11-28 19:22:42.853753 - theme cookie is highC
+2018-11-28 19:22:50.359419 - Setting theme
+2018-11-28 19:22:50.360177 - Theme requested is blue
+2018-11-28 19:22:50.361096 - Response created
+2018-11-28 19:22:50.361601 - Cookie set to blue
+2018-11-28 19:22:52.996501 - Getting theme
+2018-11-28 19:22:52.996832 - theme cookie is blue
+2018-11-28 19:22:55.351446 - Getting theme
+2018-11-28 19:22:55.351949 - theme cookie is blue
+2018-11-28 19:22:55.353407 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-28 19:22:55.353603 - Directory: Documents
+2018-11-28 19:22:55.353808 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-28 19:22:55.354178 - Getting path
+2018-11-28 19:22:55.354381 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-28 19:22:55.354551 - Directory: Documents
+2018-11-28 19:22:55.354753 - Path: /static/media/Documents/
+2018-11-28 19:22:55.354992 - Getting Short Path
+2018-11-28 19:22:55.355337 - Short Path: /static/media/Documents/
+2018-11-28 19:22:55.355701 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-28 19:22:55.356014 - Directory: Documents
+2018-11-28 19:22:55.356221 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-28 19:22:56.943906 - Getting theme
+2018-11-28 19:22:56.944308 - theme cookie is blue
+2018-11-28 19:22:58.309437 - Getting theme
+2018-11-28 19:22:58.310055 - theme cookie is blue
+2018-11-28 19:23:00.295373 - Getting theme
+2018-11-28 19:23:00.295741 - theme cookie is blue
+2018-11-28 19:23:01.517737 - Getting theme
+2018-11-28 19:23:01.518475 - theme cookie is blue
+2018-11-28 22:07:22.326479 - Getting theme
+2018-11-28 22:07:22.329010 - theme cookie is blue
+2018-11-28 22:08:37.908384 - Setting theme
+2018-11-28 22:08:37.909496 - Theme requested is red
+2018-11-28 22:08:37.911104 - Response created
+2018-11-28 22:08:37.912279 - Cookie set to red
+2018-11-28 22:08:42.798207 - Getting theme
+2018-11-28 22:08:42.798636 - theme cookie is red
+2018-11-28 22:08:56.084392 - Getting theme
+2018-11-28 22:08:56.084824 - theme cookie is red
+2018-11-28 22:08:56.085279 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-28 22:08:56.085548 - Directory: Documents
+2018-11-28 22:08:56.085842 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-28 22:08:56.086032 - Getting path
+2018-11-28 22:08:56.086202 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-28 22:08:56.086465 - Directory: Documents
+2018-11-28 22:08:56.086672 - Path: /static/media/Documents/
+2018-11-28 22:08:56.086846 - Getting Short Path
+2018-11-28 22:08:56.087039 - Short Path: /static/media/Documents/
+2018-11-28 22:08:56.087330 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-28 22:08:56.087588 - Directory: Documents
+2018-11-28 22:08:56.087740 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-28 22:08:58.546198 - Getting theme
+2018-11-28 22:08:58.546588 - theme cookie is red
+2018-11-28 22:09:02.275026 - Getting theme
+2018-11-28 22:09:02.275572 - theme cookie is red
+2018-11-29 09:49:44.669494 - Getting theme
+2018-11-29 09:49:44.670570 - theme cookie is red
+2018-11-29 09:49:50.824205 - Getting theme
+2018-11-29 09:49:50.824551 - theme cookie is red
+2018-11-29 09:49:50.824770 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:49:50.825013 - Directory: Documents
+2018-11-29 09:49:50.825138 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:49:50.825369 - Getting path
+2018-11-29 09:49:50.825515 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:49:50.825646 - Directory: Documents
+2018-11-29 09:49:50.825769 - Path: /static/media/Documents/
+2018-11-29 09:49:50.825888 - Getting Short Path
+2018-11-29 09:49:50.826006 - Short Path: /static/media/Documents/
+2018-11-29 09:49:50.827090 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:49:50.827387 - Directory: Documents
+2018-11-29 09:49:50.827702 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:49:56.667007 - Getting theme
+2018-11-29 09:49:56.667407 - theme cookie is red
+2018-11-29 09:49:58.928570 - Setting theme
+2018-11-29 09:49:58.929230 - Theme requested is blue
+2018-11-29 09:49:58.929836 - Response created
+2018-11-29 09:49:58.930160 - Cookie set to blue
+2018-11-29 09:50:01.571238 - Getting theme
+2018-11-29 09:50:01.571609 - theme cookie is blue
+2018-11-29 09:50:01.571879 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:50:01.572070 - Directory: Documents
+2018-11-29 09:50:01.572454 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:50:01.572623 - Getting path
+2018-11-29 09:50:01.572808 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:50:01.572947 - Directory: Documents
+2018-11-29 09:50:01.573218 - Path: /static/media/Documents/
+2018-11-29 09:50:01.573409 - Getting Short Path
+2018-11-29 09:50:01.573569 - Short Path: /static/media/Documents/
+2018-11-29 09:50:01.574066 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:50:01.574228 - Directory: Documents
+2018-11-29 09:50:01.574530 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:50:47.487980 - Getting theme
+2018-11-29 09:50:47.488839 - theme cookie is blue
+2018-11-29 09:50:50.090932 - Getting theme
+2018-11-29 09:50:50.091415 - theme cookie is blue
+2018-11-29 09:51:32.844652 - Getting theme
+2018-11-29 09:51:32.845121 - theme cookie is blue
+2018-11-29 09:51:34.959771 - Getting theme
+2018-11-29 09:51:34.960595 - theme cookie is blue
+2018-11-29 09:51:34.961016 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:51:34.961368 - Directory: Documents
+2018-11-29 09:51:34.961590 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:51:34.961797 - Getting path
+2018-11-29 09:51:34.961990 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:51:34.962778 - Directory: Documents
+2018-11-29 09:51:34.963044 - Path: /static/media/Documents/
+2018-11-29 09:51:34.963268 - Getting Short Path
+2018-11-29 09:51:34.963513 - Short Path: /static/media/Documents/
+2018-11-29 09:51:34.963842 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:51:34.964038 - Directory: Documents
+2018-11-29 09:51:34.964580 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:51:36.775988 - Getting theme
+2018-11-29 09:51:36.776489 - theme cookie is blue
+2018-11-29 09:51:36.783140 - Getting theme
+2018-11-29 09:51:36.783447 - theme cookie is blue
+2018-11-29 09:51:39.715422 - Getting theme
+2018-11-29 09:51:39.715818 - theme cookie is blue
+2018-11-29 09:51:45.333803 - Getting theme
+2018-11-29 09:51:45.334254 - theme cookie is blue
+2018-11-29 09:51:49.349763 - Getting theme
+2018-11-29 09:51:49.350189 - theme cookie is blue
+2018-11-29 09:52:03.768514 - Getting theme
+2018-11-29 09:52:03.768956 - theme cookie is blue
+2018-11-29 09:52:17.595161 - Getting theme
+2018-11-29 09:52:17.595657 - theme cookie is blue
+2018-11-29 09:52:17.595910 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:52:17.596068 - Directory: Documents
+2018-11-29 09:52:17.596332 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:17.596529 - Getting path
+2018-11-29 09:52:17.596681 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:17.596969 - Directory: Documents
+2018-11-29 09:52:17.597166 - Path: /static/media/Documents/
+2018-11-29 09:52:17.597318 - Getting Short Path
+2018-11-29 09:52:17.597636 - Short Path: /static/media/Documents/
+2018-11-29 09:52:17.597915 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:52:17.598069 - Directory: Documents
+2018-11-29 09:52:17.598354 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:23.041967 - Getting theme
+2018-11-29 09:52:23.042345 - theme cookie is blue
+2018-11-29 09:52:27.557961 - Setting theme
+2018-11-29 09:52:27.558521 - Theme requested is dark
+2018-11-29 09:52:27.559148 - Response created
+2018-11-29 09:52:27.559467 - Cookie set to dark
+2018-11-29 09:52:29.670071 - Getting theme
+2018-11-29 09:52:29.670539 - theme cookie is dark
+2018-11-29 09:52:29.670814 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:52:29.670966 - Directory: Documents
+2018-11-29 09:52:29.671128 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:29.671263 - Getting path
+2018-11-29 09:52:29.671412 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:29.671658 - Directory: Documents
+2018-11-29 09:52:29.671841 - Path: /static/media/Documents/
+2018-11-29 09:52:29.672009 - Getting Short Path
+2018-11-29 09:52:29.672169 - Short Path: /static/media/Documents/
+2018-11-29 09:52:29.672398 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:52:29.672547 - Directory: Documents
+2018-11-29 09:52:29.672682 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:38.088388 - Getting theme
+2018-11-29 09:52:38.088896 - theme cookie is dark
+2018-11-29 09:52:42.198124 - Setting theme
+2018-11-29 09:52:42.198829 - Theme requested is red
+2018-11-29 09:52:42.199464 - Response created
+2018-11-29 09:52:42.199800 - Cookie set to red
+2018-11-29 09:52:45.017580 - Getting theme
+2018-11-29 09:52:45.017961 - theme cookie is red
+2018-11-29 09:52:45.018224 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:52:45.018388 - Directory: Documents
+2018-11-29 09:52:45.018534 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:45.018863 - Getting path
+2018-11-29 09:52:45.019148 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:45.019299 - Directory: Documents
+2018-11-29 09:52:45.019582 - Path: /static/media/Documents/
+2018-11-29 09:52:45.019787 - Getting Short Path
+2018-11-29 09:52:45.019940 - Short Path: /static/media/Documents/
+2018-11-29 09:52:45.020327 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:52:45.020499 - Directory: Documents
+2018-11-29 09:52:45.020721 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:52:50.472843 - Getting theme
+2018-11-29 09:52:50.473230 - theme cookie is red
+2018-11-29 09:52:52.314990 - Getting theme
+2018-11-29 09:52:52.315536 - theme cookie is red
+2018-11-29 09:52:54.208133 - Getting theme
+2018-11-29 09:52:54.208529 - theme cookie is red
+2018-11-29 09:52:59.293588 - Getting theme
+2018-11-29 09:52:59.293955 - theme cookie is red
+2018-11-29 09:53:00.203140 - Getting theme
+2018-11-29 09:53:00.203548 - theme cookie is red
+2018-11-29 09:53:00.205769 - Getting theme
+2018-11-29 09:53:00.206172 - theme cookie is red
+2018-11-29 09:53:01.871332 - Getting theme
+2018-11-29 09:53:01.872153 - theme cookie is red
+2018-11-29 09:53:01.872631 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:53:01.872922 - Directory: Documents
+2018-11-29 09:53:01.873225 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:53:01.873533 - Getting path
+2018-11-29 09:53:01.873910 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:53:01.874166 - Directory: Documents
+2018-11-29 09:53:01.874416 - Path: /static/media/Documents/
+2018-11-29 09:53:01.874805 - Getting Short Path
+2018-11-29 09:53:01.875261 - Short Path: /static/media/Documents/
+2018-11-29 09:53:01.876029 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:53:01.876388 - Directory: Documents
+2018-11-29 09:53:01.876720 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:53:02.934353 - Getting theme
+2018-11-29 09:53:02.934919 - theme cookie is red
+2018-11-29 09:53:06.943419 - Setting theme
+2018-11-29 09:53:06.944046 - Theme requested is dark
+2018-11-29 09:53:06.946110 - Response created
+2018-11-29 09:53:06.946623 - Cookie set to dark
+2018-11-29 09:54:20.457196 - Getting theme
+2018-11-29 09:54:20.458361 - theme cookie is dark
+2018-11-29 09:54:20.458635 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:54:20.458794 - Directory: Documents
+2018-11-29 09:54:20.459007 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:54:20.459149 - Getting path
+2018-11-29 09:54:20.459431 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:54:20.459687 - Directory: Documents
+2018-11-29 09:54:20.459898 - Path: /static/media/Documents/
+2018-11-29 09:54:20.460048 - Getting Short Path
+2018-11-29 09:54:20.460334 - Short Path: /static/media/Documents/
+2018-11-29 09:54:20.461873 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:54:20.462094 - Directory: Documents
+2018-11-29 09:54:20.462300 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:59:24.353169 - Getting theme
+2018-11-29 09:59:24.358918 - theme cookie is dark
+2018-11-29 09:59:26.820670 - Setting theme
+2018-11-29 09:59:26.822191 - Theme requested is blue
+2018-11-29 09:59:26.823074 - Response created
+2018-11-29 09:59:26.823743 - Cookie set to blue
+2018-11-29 09:59:29.813933 - Getting theme
+2018-11-29 09:59:29.814232 - theme cookie is blue
+2018-11-29 09:59:29.814796 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:59:29.814993 - Directory: Documents
+2018-11-29 09:59:29.815147 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:59:29.815296 - Getting path
+2018-11-29 09:59:29.815466 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:59:29.815717 - Directory: Documents
+2018-11-29 09:59:29.815888 - Path: /static/media/Documents/
+2018-11-29 09:59:29.816020 - Getting Short Path
+2018-11-29 09:59:29.816204 - Short Path: /static/media/Documents/
+2018-11-29 09:59:29.817227 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 09:59:29.817374 - Directory: Documents
+2018-11-29 09:59:29.817544 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 09:59:53.750698 - Getting theme
+2018-11-29 09:59:53.751690 - theme cookie is blue
+2018-11-29 09:59:58.657278 - Setting theme
+2018-11-29 09:59:58.657900 - Theme requested is dark
+2018-11-29 09:59:58.658513 - Response created
+2018-11-29 09:59:58.658827 - Cookie set to dark
+2018-11-29 10:00:00.279195 - Getting theme
+2018-11-29 10:00:00.279567 - theme cookie is dark
+2018-11-29 10:00:00.279826 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:00:00.279981 - Directory: Documents
+2018-11-29 10:00:00.280127 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:00:00.280498 - Getting path
+2018-11-29 10:00:00.280676 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:00:00.280944 - Directory: Documents
+2018-11-29 10:00:00.281207 - Path: /static/media/Documents/
+2018-11-29 10:00:00.281410 - Getting Short Path
+2018-11-29 10:00:00.281573 - Short Path: /static/media/Documents/
+2018-11-29 10:00:00.282007 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:00:00.282346 - Directory: Documents
+2018-11-29 10:00:00.282508 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:00:08.629567 - Getting theme
+2018-11-29 10:00:08.629966 - theme cookie is dark
+2018-11-29 10:00:08.630317 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:00:08.630628 - Directory: Documents
+2018-11-29 10:00:08.630812 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:00:08.630995 - Getting path
+2018-11-29 10:00:08.631181 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:00:08.631362 - Directory: Documents
+2018-11-29 10:00:08.631531 - Path: /static/media/Documents/
+2018-11-29 10:00:08.631746 - Getting Short Path
+2018-11-29 10:00:08.632121 - Short Path: /static/media/Documents/
+2018-11-29 10:00:08.632526 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:00:08.632742 - Directory: Documents
+2018-11-29 10:00:08.632929 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:02:02.880206 - Getting theme
+2018-11-29 10:02:02.880612 - theme cookie is dark
+2018-11-29 10:02:02.881032 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:02:02.881222 - Directory: Documents
+2018-11-29 10:02:02.881404 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:02:02.881613 - Getting path
+2018-11-29 10:02:02.881798 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:02:02.881927 - Directory: Documents
+2018-11-29 10:02:02.882125 - Path: /static/media/Documents/
+2018-11-29 10:02:02.882396 - Getting Short Path
+2018-11-29 10:02:02.882522 - Short Path: /static/media/Documents/
+2018-11-29 10:02:02.882921 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:02:02.883061 - Directory: Documents
+2018-11-29 10:02:02.883335 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:02:29.216586 - Getting theme
+2018-11-29 10:02:29.216989 - theme cookie is dark
+2018-11-29 10:02:32.781122 - Setting theme
+2018-11-29 10:02:32.781693 - Theme requested is blue
+2018-11-29 10:02:32.783781 - Response created
+2018-11-29 10:02:32.784254 - Cookie set to blue
+2018-11-29 10:02:49.977790 - Setting theme
+2018-11-29 10:02:49.979490 - Theme requested is blue
+2018-11-29 10:02:49.980341 - Response created
+2018-11-29 10:02:49.980713 - Cookie set to blue
+2018-11-29 10:03:17.288463 - Getting theme
+2018-11-29 10:03:17.288860 - theme cookie is blue
+2018-11-29 10:04:56.830763 - Getting theme
+2018-11-29 10:04:56.831729 - theme cookie is blue
+2018-11-29 10:07:22.454791 - Getting theme
+2018-11-29 10:07:22.455594 - theme cookie is blue
+2018-11-29 10:07:30.557164 - Getting theme
+2018-11-29 10:07:30.557844 - theme cookie is blue
+2018-11-29 10:07:38.244191 - Getting theme
+2018-11-29 10:07:38.244566 - theme cookie is blue
+2018-11-29 10:08:12.660469 - Getting theme
+2018-11-29 10:08:12.660947 - theme cookie is blue
+2018-11-29 10:08:16.455684 - Getting theme
+2018-11-29 10:08:16.456093 - theme cookie is blue
+2018-11-29 10:10:59.541888 - Getting theme
+2018-11-29 10:10:59.542620 - theme cookie is blue
+2018-11-29 10:11:02.758268 - Getting theme
+2018-11-29 10:11:02.758664 - theme cookie is blue
+2018-11-29 10:11:06.735325 - Getting theme
+2018-11-29 10:11:06.735751 - theme cookie is blue
+2018-11-29 10:11:22.085322 - Getting theme
+2018-11-29 10:11:22.085827 - theme cookie is blue
+2018-11-29 10:11:45.065298 - Getting theme
+2018-11-29 10:11:45.066959 - theme cookie is blue
+2018-11-29 10:11:54.561982 - Getting theme
+2018-11-29 10:11:54.562406 - theme cookie is blue
+2018-11-29 10:12:27.060437 - Getting theme
+2018-11-29 10:12:27.061318 - theme cookie is blue
+2018-11-29 10:12:32.662371 - Getting theme
+2018-11-29 10:12:32.662709 - theme cookie is blue
+2018-11-29 10:14:37.060695 - Getting theme
+2018-11-29 10:14:37.061832 - theme cookie is blue
+2018-11-29 10:15:35.742474 - Getting theme
+2018-11-29 10:15:35.743759 - theme cookie is blue
+2018-11-29 10:15:40.187412 - Getting theme
+2018-11-29 10:15:40.189006 - theme cookie is blue
+2018-11-29 10:17:18.300220 - Getting theme
+2018-11-29 10:17:18.301095 - theme cookie is blue
+2018-11-29 10:17:34.673974 - Getting theme
+2018-11-29 10:17:34.675007 - theme cookie is blue
+2018-11-29 10:19:33.655414 - Getting theme
+2018-11-29 10:19:33.656337 - theme cookie is blue
+2018-11-29 10:19:51.053008 - Getting theme
+2018-11-29 10:19:51.053581 - theme cookie is blue
+2018-11-29 10:20:16.994986 - Getting theme
+2018-11-29 10:20:16.995478 - theme cookie is blue
+2018-11-29 10:20:28.040936 - Getting theme
+2018-11-29 10:20:28.041496 - theme cookie is blue
+2018-11-29 10:21:20.803157 - Getting theme
+2018-11-29 10:21:20.803670 - theme cookie is blue
+2018-11-29 10:21:27.864004 - Getting theme
+2018-11-29 10:21:27.864649 - theme cookie is blue
+2018-11-29 10:21:30.434069 - Getting theme
+2018-11-29 10:21:30.435505 - theme cookie is blue
+2018-11-29 10:22:20.585440 - Getting theme
+2018-11-29 10:22:20.586277 - theme cookie is blue
+2018-11-29 10:22:27.802512 - Getting theme
+2018-11-29 10:22:27.802941 - theme cookie is blue
+2018-11-29 10:22:30.260367 - Getting theme
+2018-11-29 10:22:30.260797 - theme cookie is blue
+2018-11-29 10:23:17.978386 - Getting theme
+2018-11-29 10:23:17.978989 - theme cookie is blue
+2018-11-29 10:23:40.398441 - Getting theme
+2018-11-29 10:23:40.398824 - theme cookie is blue
+2018-11-29 10:23:52.715204 - Getting theme
+2018-11-29 10:23:52.715711 - theme cookie is blue
+2018-11-29 10:23:54.603039 - Getting theme
+2018-11-29 10:23:54.603351 - theme cookie is blue
+2018-11-29 10:25:22.298501 - Getting theme
+2018-11-29 10:25:22.299245 - theme cookie is blue
+2018-11-29 10:25:33.229415 - Getting theme
+2018-11-29 10:25:33.230884 - theme cookie is blue
+2018-11-29 10:26:52.131769 - Getting theme
+2018-11-29 10:26:52.132630 - theme cookie is blue
+2018-11-29 10:26:57.038002 - Getting theme
+2018-11-29 10:26:57.038489 - theme cookie is blue
+2018-11-29 10:26:59.335978 - Getting theme
+2018-11-29 10:26:59.336322 - theme cookie is blue
+2018-11-29 10:28:09.414941 - Getting theme
+2018-11-29 10:28:09.415528 - theme cookie is blue
+2018-11-29 10:30:23.367207 - Getting theme
+2018-11-29 10:30:23.367886 - theme cookie is blue
+2018-11-29 10:31:09.826183 - Getting theme
+2018-11-29 10:31:09.827342 - theme cookie is blue
+2018-11-29 10:31:20.784867 - Getting theme
+2018-11-29 10:31:20.787477 - theme cookie is blue
+2018-11-29 10:31:41.006343 - Getting theme
+2018-11-29 10:31:41.006724 - theme cookie is blue
+2018-11-29 10:31:41.009609 - Getting theme
+2018-11-29 10:31:41.010004 - theme cookie is blue
+2018-11-29 10:31:44.807139 - Getting theme
+2018-11-29 10:31:44.808716 - theme cookie is blue
+2018-11-29 10:31:44.809121 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:31:44.809317 - Directory: Documents
+2018-11-29 10:31:44.809519 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:31:44.809775 - Getting path
+2018-11-29 10:31:44.810098 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:31:44.810345 - Directory: Documents
+2018-11-29 10:31:44.810701 - Path: /static/media/Documents/
+2018-11-29 10:31:44.810880 - Getting Short Path
+2018-11-29 10:31:44.811055 - Short Path: /static/media/Documents/
+2018-11-29 10:31:44.811917 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:31:44.812129 - Directory: Documents
+2018-11-29 10:31:44.812389 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:32:17.709439 - Getting theme
+2018-11-29 10:32:17.709738 - theme cookie is blue
+2018-11-29 10:32:23.816527 - Setting theme
+2018-11-29 10:32:23.817403 - Theme requested is dark
+2018-11-29 10:32:23.818116 - Response created
+2018-11-29 10:32:23.818757 - Cookie set to dark
+2018-11-29 10:32:28.627554 - Getting theme
+2018-11-29 10:32:28.628961 - theme cookie is dark
+2018-11-29 10:32:28.629364 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:32:28.629511 - Directory: Documents
+2018-11-29 10:32:28.629773 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:32:28.629935 - Getting path
+2018-11-29 10:32:28.630062 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:32:28.630182 - Directory: Documents
+2018-11-29 10:32:28.630299 - Path: /static/media/Documents/
+2018-11-29 10:32:28.630413 - Getting Short Path
+2018-11-29 10:32:28.630526 - Short Path: /static/media/Documents/
+2018-11-29 10:32:28.630718 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:32:28.630832 - Directory: Documents
+2018-11-29 10:32:28.631140 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:33:55.827952 - Getting theme
+2018-11-29 10:33:55.828575 - theme cookie is dark
+2018-11-29 10:33:55.828934 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:33:55.829126 - Directory: Documents
+2018-11-29 10:33:55.829382 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:33:55.829636 - Getting path
+2018-11-29 10:33:55.829849 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:33:55.830035 - Directory: Documents
+2018-11-29 10:33:55.830207 - Path: /static/media/Documents/
+2018-11-29 10:33:55.830409 - Getting Short Path
+2018-11-29 10:33:55.830554 - Short Path: /static/media/Documents/
+2018-11-29 10:33:55.830885 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:33:55.831041 - Directory: Documents
+2018-11-29 10:33:55.831199 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:06.458433 - Getting theme
+2018-11-29 10:34:06.461060 - theme cookie is dark
+2018-11-29 10:34:06.461696 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:34:06.462074 - Directory: Documents
+2018-11-29 10:34:06.462295 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:06.462513 - Getting path
+2018-11-29 10:34:06.462761 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:06.462994 - Directory: Documents
+2018-11-29 10:34:06.463179 - Path: /static/media/Documents/
+2018-11-29 10:34:06.463601 - Getting Short Path
+2018-11-29 10:34:06.463849 - Short Path: /static/media/Documents/
+2018-11-29 10:34:06.464273 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:34:06.464478 - Directory: Documents
+2018-11-29 10:34:06.464671 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:10.921554 - Getting theme
+2018-11-29 10:34:10.922037 - theme cookie is dark
+2018-11-29 10:34:18.554158 - Setting theme
+2018-11-29 10:34:18.554888 - Theme requested is red
+2018-11-29 10:34:18.555551 - Response created
+2018-11-29 10:34:18.555876 - Cookie set to red
+2018-11-29 10:34:21.694540 - Getting theme
+2018-11-29 10:34:21.694931 - theme cookie is red
+2018-11-29 10:34:21.695214 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:34:21.695364 - Directory: Documents
+2018-11-29 10:34:21.695503 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:21.695648 - Getting path
+2018-11-29 10:34:21.695776 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:21.695904 - Directory: Documents
+2018-11-29 10:34:21.696032 - Path: /static/media/Documents/
+2018-11-29 10:34:21.696158 - Getting Short Path
+2018-11-29 10:34:21.696293 - Short Path: /static/media/Documents/
+2018-11-29 10:34:21.696617 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:34:21.696790 - Directory: Documents
+2018-11-29 10:34:21.696936 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:26.402508 - Getting theme
+2018-11-29 10:34:26.402917 - theme cookie is red
+2018-11-29 10:34:35.279962 - Setting theme
+2018-11-29 10:34:35.280498 - Theme requested is highC
+2018-11-29 10:34:35.282576 - Response created
+2018-11-29 10:34:35.283230 - Cookie set to highC
+2018-11-29 10:34:39.343335 - Getting theme
+2018-11-29 10:34:39.344006 - theme cookie is highC
+2018-11-29 10:34:39.345598 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:34:39.346094 - Directory: Documents
+2018-11-29 10:34:39.346382 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:39.346578 - Getting path
+2018-11-29 10:34:39.346725 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:34:39.347022 - Directory: Documents
+2018-11-29 10:34:39.347221 - Path: /static/media/Documents/
+2018-11-29 10:34:39.347374 - Getting Short Path
+2018-11-29 10:34:39.347827 - Short Path: /static/media/Documents/
+2018-11-29 10:34:39.348165 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:34:39.348373 - Directory: Documents
+2018-11-29 10:34:39.348600 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:35:02.929595 - Getting theme
+2018-11-29 10:35:02.930310 - theme cookie is highC
+2018-11-29 10:35:02.931108 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:35:02.931848 - Directory: Documents
+2018-11-29 10:35:02.932575 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:35:02.933136 - Getting path
+2018-11-29 10:35:02.933549 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:35:02.933797 - Directory: Documents
+2018-11-29 10:35:02.934197 - Path: /static/media/Documents/
+2018-11-29 10:35:02.934409 - Getting Short Path
+2018-11-29 10:35:02.935164 - Short Path: /static/media/Documents/
+2018-11-29 10:35:02.935643 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:35:02.935885 - Directory: Documents
+2018-11-29 10:35:02.936188 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:35:07.800759 - Getting theme
+2018-11-29 10:35:07.801320 - theme cookie is highC
+2018-11-29 10:35:34.046980 - Getting theme
+2018-11-29 10:35:34.047554 - theme cookie is highC
+2018-11-29 10:35:46.532059 - Setting theme
+2018-11-29 10:35:46.532600 - Theme requested is blue
+2018-11-29 10:35:46.534547 - Response created
+2018-11-29 10:35:46.535028 - Cookie set to blue
+2018-11-29 10:35:50.150835 - Getting theme
+2018-11-29 10:35:50.151449 - theme cookie is blue
+2018-11-29 10:36:02.618000 - Getting theme
+2018-11-29 10:36:02.618670 - theme cookie is blue
+2018-11-29 10:36:08.013429 - Getting theme
+2018-11-29 10:36:08.013769 - theme cookie is blue
+2018-11-29 10:36:19.930199 - Getting theme
+2018-11-29 10:36:19.930604 - theme cookie is blue
+2018-11-29 10:36:19.932241 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:36:19.932650 - Directory: Documents
+2018-11-29 10:36:19.932877 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:36:19.933159 - Getting path
+2018-11-29 10:36:19.933339 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:36:19.933702 - Directory: Documents
+2018-11-29 10:36:19.934004 - Path: /static/media/Documents/
+2018-11-29 10:36:19.934183 - Getting Short Path
+2018-11-29 10:36:19.934349 - Short Path: /static/media/Documents/
+2018-11-29 10:36:19.935578 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:36:19.935778 - Directory: Documents
+2018-11-29 10:36:19.935966 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:37:33.910210 - Getting theme
+2018-11-29 10:37:33.911275 - theme cookie is blue
+2018-11-29 10:37:46.920649 - Getting theme
+2018-11-29 10:37:46.921334 - theme cookie is blue
+2018-11-29 10:37:53.748319 - Setting theme
+2018-11-29 10:37:53.750205 - Theme requested is dark
+2018-11-29 10:37:53.750826 - Response created
+2018-11-29 10:37:53.751241 - Cookie set to dark
+2018-11-29 10:37:57.690738 - Setting theme
+2018-11-29 10:37:57.691225 - Theme requested is red
+2018-11-29 10:37:57.693292 - Response created
+2018-11-29 10:37:57.693733 - Cookie set to red
+2018-11-29 10:38:28.237403 - Setting theme
+2018-11-29 10:38:28.238072 - Theme requested is red
+2018-11-29 10:38:28.238861 - Response created
+2018-11-29 10:38:28.240171 - Cookie set to red
+2018-11-29 10:38:37.798059 - Setting theme
+2018-11-29 10:38:37.798629 - Theme requested is highC
+2018-11-29 10:38:37.799341 - Response created
+2018-11-29 10:38:37.799690 - Cookie set to highC
+2018-11-29 10:38:54.267919 - Setting theme
+2018-11-29 10:38:54.270057 - Theme requested is highC
+2018-11-29 10:38:54.271776 - Response created
+2018-11-29 10:38:54.272586 - Cookie set to highC
+2018-11-29 10:38:59.410217 - Getting theme
+2018-11-29 10:38:59.414011 - theme cookie is highC
+2018-11-29 10:39:05.080739 - Getting theme
+2018-11-29 10:39:05.081079 - theme cookie is highC
+2018-11-29 10:39:05.083235 - Getting theme
+2018-11-29 10:39:05.083552 - theme cookie is highC
+2018-11-29 10:39:10.700901 - Getting theme
+2018-11-29 10:39:10.701241 - theme cookie is highC
+2018-11-29 10:39:10.702915 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:39:10.703310 - Directory: Documents
+2018-11-29 10:39:10.703704 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:39:10.703926 - Getting path
+2018-11-29 10:39:10.704213 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:39:10.704446 - Directory: Documents
+2018-11-29 10:39:10.704639 - Path: /static/media/Documents/
+2018-11-29 10:39:10.704849 - Getting Short Path
+2018-11-29 10:39:10.705025 - Short Path: /static/media/Documents/
+2018-11-29 10:39:10.706422 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:39:10.706816 - Directory: Documents
+2018-11-29 10:39:10.707283 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:39:14.607840 - Getting theme
+2018-11-29 10:39:14.608252 - theme cookie is highC
+2018-11-29 10:40:12.694105 - Getting theme
+2018-11-29 10:40:12.695018 - theme cookie is highC
+2018-11-29 10:40:16.826564 - Getting theme
+2018-11-29 10:40:16.827167 - theme cookie is highC
+2018-11-29 10:45:33.183358 - Getting theme
+2018-11-29 10:45:33.184464 - theme cookie is highC
+2018-11-29 10:45:35.397254 - Getting theme
+2018-11-29 10:45:35.397734 - theme cookie is highC
+2018-11-29 10:45:40.536908 - Setting theme
+2018-11-29 10:45:40.537778 - Theme requested is classic
+2018-11-29 10:45:40.539290 - Response created
+2018-11-29 10:45:40.539860 - Cookie set to classic
+2018-11-29 10:46:15.941637 - Getting theme
+2018-11-29 10:46:15.947752 - theme cookie is classic
+2018-11-29 10:46:17.559298 - Getting theme
+2018-11-29 10:46:17.559755 - theme cookie is classic
+2018-11-29 10:46:17.560348 - Getting theme
+2018-11-29 10:46:17.560526 - theme cookie is classic
+2018-11-29 10:46:21.404873 - Getting theme
+2018-11-29 10:46:21.405321 - theme cookie is classic
+2018-11-29 10:46:21.406993 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:46:21.407241 - Directory: Documents
+2018-11-29 10:46:21.407450 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:46:21.407609 - Getting path
+2018-11-29 10:46:21.407798 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:46:21.407960 - Directory: Documents
+2018-11-29 10:46:21.408189 - Path: /static/media/Documents/
+2018-11-29 10:46:21.408364 - Getting Short Path
+2018-11-29 10:46:21.408536 - Short Path: /static/media/Documents/
+2018-11-29 10:46:21.409000 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:46:21.409303 - Directory: Documents
+2018-11-29 10:46:21.409464 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:00.353198 - Getting theme
+2018-11-29 10:48:00.353990 - theme cookie is classic
+2018-11-29 10:48:00.354328 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:48:00.354531 - Directory: Documents
+2018-11-29 10:48:00.354804 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:00.355155 - Getting path
+2018-11-29 10:48:00.355460 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:00.355701 - Directory: Documents
+2018-11-29 10:48:00.356026 - Path: /static/media/Documents/
+2018-11-29 10:48:00.356269 - Getting Short Path
+2018-11-29 10:48:00.356472 - Short Path: /static/media/Documents/
+2018-11-29 10:48:00.357317 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:48:00.357540 - Directory: Documents
+2018-11-29 10:48:00.357730 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:13.337001 - Getting theme
+2018-11-29 10:48:13.337392 - theme cookie is classic
+2018-11-29 10:48:13.337656 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:48:13.337818 - Directory: Documents
+2018-11-29 10:48:13.338031 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:13.338349 - Getting path
+2018-11-29 10:48:13.338536 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:13.338725 - Directory: Documents
+2018-11-29 10:48:13.338898 - Path: /static/media/Documents/
+2018-11-29 10:48:13.339097 - Getting Short Path
+2018-11-29 10:48:13.339277 - Short Path: /static/media/Documents/
+2018-11-29 10:48:13.339569 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:48:13.339825 - Directory: Documents
+2018-11-29 10:48:13.339967 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:48:15.570530 - Getting theme
+2018-11-29 10:48:15.571060 - theme cookie is classic
+2018-11-29 10:48:15.572597 - Getting theme
+2018-11-29 10:48:15.572772 - theme cookie is classic
+2018-11-29 10:48:17.528811 - Getting theme
+2018-11-29 10:48:17.529575 - theme cookie is classic
+2018-11-29 10:48:19.004412 - Getting theme
+2018-11-29 10:48:19.004788 - theme cookie is classic
+2018-11-29 10:48:20.783303 - Getting theme
+2018-11-29 10:48:20.783684 - theme cookie is classic
+2018-11-29 10:49:13.526166 - Getting theme
+2018-11-29 10:49:13.526544 - theme cookie is classic
+2018-11-29 10:49:14.761537 - Getting theme
+2018-11-29 10:49:14.761943 - theme cookie is classic
+2018-11-29 10:49:14.763728 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:49:14.763992 - Directory: Documents
+2018-11-29 10:49:14.764237 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:49:14.764455 - Getting path
+2018-11-29 10:49:14.764647 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:49:14.764781 - Directory: Documents
+2018-11-29 10:49:14.765052 - Path: /static/media/Documents/
+2018-11-29 10:49:14.765243 - Getting Short Path
+2018-11-29 10:49:14.765389 - Short Path: /static/media/Documents/
+2018-11-29 10:49:14.765710 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:49:14.765893 - Directory: Documents
+2018-11-29 10:49:14.766110 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:49:15.504832 - Getting theme
+2018-11-29 10:49:15.505616 - theme cookie is classic
+2018-11-29 10:49:41.766258 - Getting theme
+2018-11-29 10:49:41.766617 - theme cookie is classic
+2018-11-29 10:49:43.266612 - Getting theme
+2018-11-29 10:49:43.267252 - theme cookie is classic
+2018-11-29 10:49:50.551404 - Getting theme
+2018-11-29 10:49:50.551791 - theme cookie is classic
+2018-11-29 10:49:50.552642 - Getting theme
+2018-11-29 10:49:50.552976 - theme cookie is classic
+2018-11-29 10:49:54.786417 - Getting theme
+2018-11-29 10:49:54.786866 - theme cookie is classic
+2018-11-29 10:49:54.787110 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:49:54.787273 - Directory: Documents
+2018-11-29 10:49:54.787546 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:49:54.787793 - Getting path
+2018-11-29 10:49:54.787940 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:49:54.788232 - Directory: Documents
+2018-11-29 10:49:54.788585 - Path: /static/media/Documents/
+2018-11-29 10:49:54.788739 - Getting Short Path
+2018-11-29 10:49:54.789030 - Short Path: /static/media/Documents/
+2018-11-29 10:49:54.789337 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 10:49:54.789486 - Directory: Documents
+2018-11-29 10:49:54.789766 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 10:49:55.803353 - Getting theme
+2018-11-29 10:49:55.803768 - theme cookie is classic
+2018-11-29 10:49:59.923087 - Getting theme
+2018-11-29 10:49:59.923784 - theme cookie is classic
+2018-11-29 10:56:51.026775 - Getting theme
+2018-11-29 10:56:51.027872 - theme cookie is classic
+2018-11-29 10:56:52.313393 - Getting theme
+2018-11-29 10:56:52.313752 - theme cookie is classic
+2018-11-29 10:57:23.653119 - Getting theme
+2018-11-29 10:57:23.654869 - theme cookie is classic
+2018-11-29 10:57:53.173462 - Getting theme
+2018-11-29 10:57:53.173985 - theme cookie is classic
+2018-11-29 10:58:02.177977 - Getting theme
+2018-11-29 10:58:02.178589 - theme cookie is classic
+2018-11-29 10:58:15.948358 - Getting theme
+2018-11-29 10:58:15.948707 - theme cookie is classic
+2018-11-29 11:00:04.348372 - Getting theme
+2018-11-29 11:00:04.349142 - theme cookie is classic
+2018-11-29 11:00:35.930258 - Getting theme
+2018-11-29 11:00:35.930619 - theme cookie is classic
+2018-11-29 11:00:35.932293 - Getting theme
+2018-11-29 11:00:35.932514 - theme cookie is classic
+2018-11-29 11:00:39.426272 - Getting theme
+2018-11-29 11:00:39.426659 - theme cookie is classic
+2018-11-29 11:00:40.685998 - Getting theme
+2018-11-29 11:00:40.686577 - theme cookie is classic
+2018-11-29 11:00:40.688198 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:00:40.688510 - Directory: Documents
+2018-11-29 11:00:40.688834 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:00:40.689064 - Getting path
+2018-11-29 11:00:40.689215 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:00:40.689644 - Directory: Documents
+2018-11-29 11:00:40.689831 - Path: /static/media/Documents/
+2018-11-29 11:00:40.690075 - Getting Short Path
+2018-11-29 11:00:40.690258 - Short Path: /static/media/Documents/
+2018-11-29 11:00:40.701355 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:00:40.701669 - Directory: Documents
+2018-11-29 11:00:40.701900 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:00:41.862769 - Getting theme
+2018-11-29 11:00:41.863185 - theme cookie is classic
+2018-11-29 11:00:43.774867 - Getting theme
+2018-11-29 11:00:43.775200 - theme cookie is classic
+2018-11-29 11:02:08.936617 - Getting theme
+2018-11-29 11:02:08.937408 - theme cookie is classic
+2018-11-29 11:02:08.937865 - Getting theme
+2018-11-29 11:02:08.938072 - theme cookie is classic
+2018-11-29 11:02:09.815127 - Getting theme
+2018-11-29 11:02:09.815625 - theme cookie is classic
+2018-11-29 11:02:16.567833 - Getting theme
+2018-11-29 11:02:16.568188 - theme cookie is classic
+2018-11-29 11:02:16.568441 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:02:16.568594 - Directory: Documents
+2018-11-29 11:02:16.568733 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:16.568974 - Getting path
+2018-11-29 11:02:16.569102 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:16.569401 - Directory: Documents
+2018-11-29 11:02:16.569590 - Path: /static/media/Documents/
+2018-11-29 11:02:16.569736 - Getting Short Path
+2018-11-29 11:02:16.570012 - Short Path: /static/media/Documents/
+2018-11-29 11:02:16.570292 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:02:16.570574 - Directory: Documents
+2018-11-29 11:02:16.570720 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:18.714378 - Getting theme
+2018-11-29 11:02:18.714812 - theme cookie is classic
+2018-11-29 11:02:23.545778 - Setting theme
+2018-11-29 11:02:23.547865 - Theme requested is dark
+2018-11-29 11:02:23.548744 - Response created
+2018-11-29 11:02:23.549206 - Cookie set to dark
+2018-11-29 11:02:25.846724 - Getting theme
+2018-11-29 11:02:25.847153 - theme cookie is dark
+2018-11-29 11:02:25.848906 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:02:25.849174 - Directory: Documents
+2018-11-29 11:02:25.849417 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:25.849637 - Getting path
+2018-11-29 11:02:25.849869 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:25.850045 - Directory: Documents
+2018-11-29 11:02:25.850316 - Path: /static/media/Documents/
+2018-11-29 11:02:25.850532 - Getting Short Path
+2018-11-29 11:02:25.850705 - Short Path: /static/media/Documents/
+2018-11-29 11:02:25.851220 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:02:25.851387 - Directory: Documents
+2018-11-29 11:02:25.851602 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:44.101072 - Getting theme
+2018-11-29 11:02:44.101451 - theme cookie is dark
+2018-11-29 11:02:46.586923 - Setting theme
+2018-11-29 11:02:46.587465 - Theme requested is blue
+2018-11-29 11:02:46.589554 - Response created
+2018-11-29 11:02:46.590134 - Cookie set to blue
+2018-11-29 11:02:49.300311 - Getting theme
+2018-11-29 11:02:49.300777 - theme cookie is blue
+2018-11-29 11:02:49.302506 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:02:49.302873 - Directory: Documents
+2018-11-29 11:02:49.303113 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:49.303370 - Getting path
+2018-11-29 11:02:49.303676 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:49.303898 - Directory: Documents
+2018-11-29 11:02:49.304052 - Path: /static/media/Documents/
+2018-11-29 11:02:49.304456 - Getting Short Path
+2018-11-29 11:02:49.304631 - Short Path: /static/media/Documents/
+2018-11-29 11:02:49.305087 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:02:49.305375 - Directory: Documents
+2018-11-29 11:02:49.305610 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:02:53.385955 - Getting theme
+2018-11-29 11:02:53.386362 - theme cookie is blue
+2018-11-29 11:02:58.249402 - Setting theme
+2018-11-29 11:02:58.249951 - Theme requested is highC
+2018-11-29 11:02:58.252057 - Response created
+2018-11-29 11:02:58.252591 - Cookie set to highC
+2018-11-29 11:03:00.731222 - Getting theme
+2018-11-29 11:03:00.731873 - theme cookie is highC
+2018-11-29 11:03:00.732241 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:03:00.732438 - Directory: Documents
+2018-11-29 11:03:00.732944 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:03:00.733215 - Getting path
+2018-11-29 11:03:00.733652 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:03:00.733899 - Directory: Documents
+2018-11-29 11:03:00.734118 - Path: /static/media/Documents/
+2018-11-29 11:03:00.734316 - Getting Short Path
+2018-11-29 11:03:00.734544 - Short Path: /static/media/Documents/
+2018-11-29 11:03:00.734978 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:03:00.735174 - Directory: Documents
+2018-11-29 11:03:00.735402 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:03:05.440691 - Getting theme
+2018-11-29 11:03:05.441072 - theme cookie is highC
+2018-11-29 11:03:12.030889 - Getting theme
+2018-11-29 11:03:12.031375 - theme cookie is highC
+2018-11-29 11:05:36.444490 - Getting theme
+2018-11-29 11:05:36.444988 - theme cookie is highC
+2018-11-29 11:06:42.338490 - Getting theme
+2018-11-29 11:06:42.339249 - theme cookie is highC
+2018-11-29 11:07:21.319504 - Getting theme
+2018-11-29 11:07:21.319904 - theme cookie is highC
+2018-11-29 11:08:16.434160 - Getting theme
+2018-11-29 11:08:16.434541 - theme cookie is highC
+2018-11-29 11:08:22.406223 - Getting theme
+2018-11-29 11:08:22.406617 - theme cookie is highC
+2018-11-29 11:08:23.689051 - Getting theme
+2018-11-29 11:08:23.689436 - theme cookie is highC
+2018-11-29 11:08:23.689776 - Getting theme
+2018-11-29 11:08:23.689957 - theme cookie is highC
+2018-11-29 11:08:24.906387 - Getting theme
+2018-11-29 11:08:24.906727 - theme cookie is highC
+2018-11-29 11:08:24.908207 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:08:24.908436 - Directory: Documents
+2018-11-29 11:08:24.908838 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:08:24.909360 - Getting path
+2018-11-29 11:08:24.909786 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:08:24.910287 - Directory: Documents
+2018-11-29 11:08:24.910677 - Path: /static/media/Documents/
+2018-11-29 11:08:24.910944 - Getting Short Path
+2018-11-29 11:08:24.911158 - Short Path: /static/media/Documents/
+2018-11-29 11:08:24.912251 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-11-29 11:08:24.912410 - Directory: Documents
+2018-11-29 11:08:24.912601 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-11-29 11:08:25.842588 - Getting theme
+2018-11-29 11:08:25.843020 - theme cookie is highC
+2018-11-29 11:08:27.068516 - Getting theme
+2018-11-29 11:08:27.069075 - theme cookie is highC
+2018-11-29 11:08:33.155206 - Getting theme
+2018-11-29 11:08:33.155789 - theme cookie is highC
+2018-11-29 11:09:13.024403 - Getting theme
+2018-11-29 11:09:13.024806 - theme cookie is highC
+2018-11-29 11:11:12.276626 - Getting theme
+2018-11-29 11:11:12.278828 - theme cookie is highC
+2018-11-29 11:11:19.819996 - Getting theme
+2018-11-29 11:11:19.820472 - theme cookie is highC
+2018-11-29 11:12:05.890836 - Getting theme
+2018-11-29 11:12:05.892383 - theme cookie is highC
+2018-11-29 11:12:11.836185 - Getting theme
+2018-11-29 11:12:11.836597 - theme cookie is highC
+2018-11-29 11:12:20.263107 - Getting theme
+2018-11-29 11:12:20.263503 - theme cookie is highC
+2018-11-29 11:15:13.804096 - Getting theme
+2018-11-29 11:15:13.804573 - theme cookie is highC
+2018-11-29 11:15:49.035049 - Getting theme
+2018-11-29 11:15:49.035429 - theme cookie is highC
+2018-11-29 11:18:55.641207 - Getting theme
+2018-11-29 11:18:55.642257 - theme cookie is highC
+2018-11-29 11:18:55.642638 - Getting theme
+2018-11-29 11:18:55.642798 - theme cookie is highC
+2018-11-29 11:18:57.544938 - Getting theme
+2018-11-29 11:18:57.545560 - theme cookie is highC
+2018-11-29 11:19:36.810651 - Getting theme
+2018-11-29 11:19:36.811133 - theme cookie is highC
+2018-11-29 11:19:38.903471 - Getting theme
+2018-11-29 11:19:38.904057 - theme cookie is highC
+2018-11-29 11:19:38.904623 - Getting theme
+2018-11-29 11:19:38.905049 - theme cookie is highC
+2018-11-29 11:19:39.694543 - Getting theme
+2018-11-29 11:19:39.694949 - theme cookie is highC
