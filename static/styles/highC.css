@@ -80,3 +80,21 @@ body{
     border-width: 5px;
     border-color: black;
 }
+
+/*Formatting for File Manager*/
+table, td, thead{
+    table-layout:auto;
+    border:3px solid limegreen;
+}
+thead{
+    font-weight:bold;
+    background-color: limegreen;
+    color:white;
+    text-align:center;
+}
+
+#themeDropdown-Content
+{
+    background-color: black;
+    color: white;
+}
