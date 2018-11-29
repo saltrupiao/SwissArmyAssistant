@@ -92,6 +92,8 @@ def file():
     writeLog("Getting Short Path")
     writeLog("Short Path: " + shortPath)
 
+    lastMod = getLastModified(tag)
+
     if request.method == 'POST':
         writeLog("Method is POST")
         if "upload" in request.form:
@@ -103,7 +105,7 @@ def file():
 
     files = dir_listing(path)
 
-    lastMod = getLastModified(tag)
+
 
     if tag == None:
         tag = "Documents"

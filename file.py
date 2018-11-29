@@ -1,6 +1,8 @@
-import os
+import os, sys, time
 from flask import request
 from log import writeLog
+
+
 #https://docs.python.org/3/library/datetime.html
 from datetime import datetime
 
@@ -57,15 +59,64 @@ def setShortFilePath(folder):
 
 def getLastModified(tag):
     path = setFilePath(tag)
+    print("File Path: " + path)
 
     #https://stackoverflow.com/questions/38943625/how-to-use-getmtime-for-multiple-files
-    for filename in os.listdir(path):
-        fileToIndex = os.path.join(path, str(filename))
-        mTime = os.path.getmtime(fileToIndex)
-        lastMod = datetime.fromtimestamp(mTime).replace(microsecond=0)
+    # for file in os.listdir(path):
+    #     fileToIndex = os.path.join(path, str(file))
+    #     mTime = os.path.getmtime(fileToIndex)
+    #     lastMod = datetime.fromtimestamp(mTime).replace(microsecond=0)
         #https://stackoverflow.com/questions/31487732/simple-way-to-drop-milliseconds-from-python-datetime-datetime-object
 
-    return lastMod
+    #return lastMod
+
+    # for file in dir_listing(path):
+    #     fileToIndex = os.path.join(path, str(file))
+    #     mTime = os.stat(fileToIndex).st_mtime
+    #     lastMod = datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')
+
+    # lastMod = ""
+    # fileandMod = ""
+    # for file in os.listdir(path):
+    #     fileToIndex = os.path.join(path, str(file))
+    #     print(fileToIndex)
+    #     mTime = os.path.getmtime(fileToIndex)
+    #     print("mTime: " + str(mTime))
+    #     curLastMod = datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')
+    #     curFile = str(file)
+    #     fileandMod = curFile + ',' + curLastMod
+    #
+    #     lastMod += fileandMod + ','
+    #     print(lastMod)
+
+
+
+
+
+    file_list = []
+
+    for file in os.listdir(path):
+        fileToIndex = os.path.join(path, str(file))
+        mTime = os.path.getmtime(fileToIndex)
+        mTimeFmt = datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')
+        curFile = str(file)
+
+        file_list.append(curFile)
+        file_list.append(mTimeFmt)
+
+
+
+    # file_list = []
+    #
+    # for i in directoryList:
+    #     a = os.path.join(path, i)
+    #     mTime = os.path.getmtime(a)
+    #     file_list.append([datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')])
+    #
+    # return file_list
+
+    return file_list
+
 
 def dir_listing(path):
     # Show directory contents

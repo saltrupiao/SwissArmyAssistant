@@ -14,24 +14,32 @@
 <br><br>
 <h2>Music</h2>
 <label id="title"></label>
-<div class="container-audio">
-    <audio controls id="audio_core" preload="auto" src="">
-        Your browser does not support the audio tag
-    </audio>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h3 style="display: inline">Your {{ path }}</h3>
+            <select id = "songpicker" name="folder" style="display:inline">
+                <option selected="" disabled>Select a song</option>
+                <!--When a song is selected, the code in load.js will handle the song loading-->
+                {% for file in files %}
+                    <option>
+                        {{ file }}
+                    </option>
+                {% endfor %}
+            </select>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+            <div class="container-audio">
+                <audio controls id="audio_core" preload="auto" src="">
+                    Your browser does not support the audio tag
+                </audio>
+            </div>
+            <br>
+    </div>
 </div>
-<br>
-<h3>Your {{ path }}</h3>
-<ul>
-    <select id = "songpicker" name="folder">
-        <option selected="" disabled>Select a song</option>
-        <!--When a song is selected, the code in load.js will handle the song loading-->
-        {% for file in files %}
-        <option>
-            {{ file }}
-        </option>
-        {% endfor %}
-    </select>
-</ul>
+
 </body>
 </html>
 
