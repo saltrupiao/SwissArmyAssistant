@@ -47,6 +47,10 @@ body{
     background-color: limegreen;
 }
 
+#audio_core{
+    background-color: black;
+}
+
 .nicEdit-main {
     background: ghostwhite;
     color: black;
@@ -70,4 +74,9 @@ body{
 #themeButton
 {
     color: white;
+}
+
+.container>#display {
+    border-width: 5px;
+    border-color: black;
 }
