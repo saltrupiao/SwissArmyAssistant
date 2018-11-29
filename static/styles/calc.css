@@ -184,13 +184,58 @@
 }
 
 
+@media screen and (max-width: 500px) {
 
-@media screen and (max-width: 740px) {
+    .container
+    {
+        transition: ease .3s;
+        width: 150%;
+        height: 100%;
+        grid-template-columns: 60px 60px 60px 60px;
+
+
+    }
+
+    .container>.calcButton {
+        transition: ease .3s;
+        width: 45px;
+        height: 100%;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        padding: 0px;
+        border-radius: 10px;
+        transition: ease .5s;
+    }
+
+    .container>#display {
+        height: 100%;
+        width: 220px;
+        border-radius: 10px;
+        font-size: 24px;
+        transition: ease .3s;
+
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 740px) {
 
     .container
     {
         transition: ease .3s;
         width: 90%;
         height: 30%;
+    }
+
+    .container>.calcButton {
+        transition: ease .3s;
+        width: 45px;
+        height: 100%;
+        font-size: 24px;
+        color: white;
+        background-color: black;
+        padding: 0px;
+        border-radius: 10px;
+        transition: ease .5s;
     }
 }
