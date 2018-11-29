@@ -270,9 +270,15 @@ h1
 .features
 {
     font-size: 18px;
+    text-align: left;
+    margin-left: 20%;
 }
 
-
+.btn-primary{
+        margin: 10px;
+        text-align: center;
+        padding-left: 50px;
+    }
 
 /*.topnav {*/
     /*!*width:auto;*!*/
@@ -292,3 +298,10 @@ h1
 /*}*/
 
 
+@media screen and (max-width: 740px) {
+    .btn{
+        margin: 10px;
+        text-align: center;
+        padding-left: 50px;
+    }
+}
