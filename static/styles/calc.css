@@ -170,13 +170,13 @@
     background-color: black;
     padding: 0px;
     border-radius: 10px;
-    transition: ease .5s;
+
 }
 /*Some text box styling to make it fit better and adjust the font size*/
 .container>#display
 {
     height: 100%;
-    width: 340px;
+    width: 345px;
     border-radius: 10px;
     font-size: 24px;
     transition: ease .3s;
@@ -184,7 +184,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 
     .container
     {
@@ -203,14 +203,14 @@
         font-size: 16px;
         color: white;
         background-color: black;
-        padding: 0px;
+
         border-radius: 10px;
-        transition: ease .5s;
+
     }
 
     .container>#display {
         height: 100%;
-        width: 220px;
+        width: 225px;
         border-radius: 10px;
         font-size: 24px;
         transition: ease .3s;
@@ -218,18 +218,19 @@
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 740px) {
+@media screen and (min-width: 401px) and (max-width: 740px) {
 
     .container
     {
         transition: ease .3s;
         width: 90%;
         height: 30%;
+        grid-template-columns: 75px 75px 75px 75px;
     }
 
     .container>#display {
         height: 100%;
-        width: 220px;
+        width: 285px;
         border-radius: 10px;
         font-size: 24px;
         transition: ease .3s;
@@ -238,13 +239,13 @@
 
     .container>.calcButton {
         transition: ease .3s;
-        width: 75px;
+        width: 60px;
         height: 100%;
         font-size: 24px;
         color: white;
         background-color: black;
-        padding: 0px;
+
         border-radius: 10px;
-        transition: ease .5s;
+
     }
 }
