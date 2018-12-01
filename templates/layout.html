@@ -38,12 +38,16 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/dark.css') }}">
     {% elif theme == 'highC' %}
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/highC.css') }}">
+    {% elif theme == 'classic' %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/classic.css') }}">
     {% else %}
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/blue.css') }}">
     {% endif %}
 
 </head>
 <body>
+
+
     {% block navbar %}{% endblock %}
     {% block content %}{% endblock %}
 </body>

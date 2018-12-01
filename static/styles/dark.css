@@ -27,6 +27,12 @@ body{
     color: white;
 }
 
+.btn:hover
+{
+    background-color: gray;
+    color: white;
+}
+
 .fancyButton:hover
 {
     background-color: gray;
@@ -75,4 +81,22 @@ body{
 .pics
 {
     border: none;
+}
+
+#themeDropdown-Content
+{
+    background-color: dimgray;
+    color: white;
+}
+
+/*Formatting for File Manager*/
+table, td, thead{
+    table-layout:auto;
+    border:3px solid dimgray;
+}
+thead{
+    font-weight:bold;
+    background-color: dimgray;
+    color:white;
+    text-align:center;
 }
