@@ -13001,3 +13001,87 @@
 2018-11-30 11:51:09.488176 - theme cookie is dark
 2018-11-30 11:51:09.489391 - Getting theme
 2018-11-30 11:51:09.489747 - theme cookie is dark
+2018-12-01 22:00:30.861840 - Getting theme
+2018-12-01 22:00:30.867516 - theme cookie is dark
+2018-12-01 22:00:30.869863 - Getting theme
+2018-12-01 22:00:30.870289 - theme cookie is dark
+2018-12-01 22:01:57.487008 - Getting theme
+2018-12-01 22:01:57.487868 - theme cookie is dark
+2018-12-01 22:01:58.858570 - Getting theme
+2018-12-01 22:01:58.858937 - theme cookie is dark
+2018-12-01 22:02:01.890550 - Getting theme
+2018-12-01 22:02:01.891050 - theme cookie is dark
+2018-12-01 22:03:15.667143 - Getting theme
+2018-12-01 22:03:15.671568 - theme cookie is dark
+2018-12-01 22:03:26.673484 - Getting theme
+2018-12-01 22:03:26.673971 - theme cookie is dark
+2018-12-01 22:03:35.003022 - Getting theme
+2018-12-01 22:03:35.003427 - theme cookie is dark
+2018-12-01 22:09:53.882567 - Getting theme
+2018-12-01 22:09:53.884930 - theme cookie is dark
+2018-12-01 22:10:41.861936 - Getting theme
+2018-12-01 22:10:41.869447 - theme cookie is dark
+2018-12-01 22:10:45.861637 - Getting theme
+2018-12-01 22:10:45.862171 - theme cookie is dark
+2018-12-01 22:11:09.331472 - Getting theme
+2018-12-01 22:11:09.332127 - theme cookie is dark
+2018-12-01 22:11:14.533591 - Getting theme
+2018-12-01 22:11:14.534119 - theme cookie is dark
+2018-12-01 22:12:12.434141 - Setting theme
+2018-12-01 22:12:12.437288 - Theme requested is blue
+2018-12-01 22:12:12.438298 - Response created
+2018-12-01 22:12:12.439147 - Cookie set to blue
+2018-12-01 22:12:18.778581 - Setting theme
+2018-12-01 22:12:18.779423 - Theme requested is dark
+2018-12-01 22:12:18.780367 - Response created
+2018-12-01 22:12:18.780939 - Cookie set to dark
+2018-12-01 22:12:24.064980 - Setting theme
+2018-12-01 22:12:24.065807 - Theme requested is classic
+2018-12-01 22:12:24.066978 - Response created
+2018-12-01 22:12:24.067598 - Cookie set to classic
+2018-12-01 22:12:29.902856 - Setting theme
+2018-12-01 22:12:29.903490 - Theme requested is blue
+2018-12-01 22:12:29.904227 - Response created
+2018-12-01 22:12:29.904771 - Cookie set to blue
+2018-12-01 22:12:46.836493 - Setting theme
+2018-12-01 22:12:46.837853 - Theme requested is blue
+2018-12-01 22:12:46.879189 - Response created
+2018-12-01 22:12:46.879806 - Cookie set to blue
+2018-12-01 22:12:54.535545 - Setting theme
+2018-12-01 22:12:54.536405 - Theme requested is red
+2018-12-01 22:12:54.537350 - Response created
+2018-12-01 22:12:54.538025 - Cookie set to red
+2018-12-01 22:13:01.415061 - Getting theme
+2018-12-01 22:13:01.415695 - theme cookie is red
+2018-12-01 22:13:33.098889 - Getting theme
+2018-12-01 22:13:33.106511 - theme cookie is red
+2018-12-01 22:13:37.227140 - Getting theme
+2018-12-01 22:13:37.227931 - theme cookie is red
+2018-12-01 22:13:41.500001 - Getting theme
+2018-12-01 22:13:41.500422 - theme cookie is red
+2018-12-01 22:13:41.500763 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-12-01 22:13:41.500945 - Directory: Documents
+2018-12-01 22:13:41.501106 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-12-01 22:13:41.501260 - Getting path
+2018-12-01 22:13:41.501466 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-12-01 22:13:41.501663 - Directory: Documents
+2018-12-01 22:13:41.501843 - Path: /static/media/Documents/
+2018-12-01 22:13:41.502003 - Getting Short Path
+2018-12-01 22:13:41.502169 - Short Path: /static/media/Documents/
+2018-12-01 22:13:41.502451 - Root: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant
+2018-12-01 22:13:41.502611 - Directory: Documents
+2018-12-01 22:13:41.502796 - Path: /Users/benjaminbond/Documents/Code/OU/CSI2999/SwissArmyAssistant/static/media/Documents
+2018-12-01 22:13:44.253970 - Getting theme
+2018-12-01 22:13:44.254383 - theme cookie is red
+2018-12-01 22:13:57.957281 - Getting theme
+2018-12-01 22:13:57.957662 - theme cookie is red
+2018-12-01 22:14:01.506078 - Setting theme
+2018-12-01 22:14:01.506813 - Theme requested is blue
+2018-12-01 22:14:01.508073 - Response created
+2018-12-01 22:14:01.508991 - Cookie set to blue
+2018-12-01 22:14:20.316702 - Getting theme
+2018-12-01 22:14:20.317177 - theme cookie is blue
+2018-12-01 22:14:34.787476 - Getting theme
+2018-12-01 22:14:34.789393 - theme cookie is blue
+2018-12-01 22:14:38.666894 - Getting theme
+2018-12-01 22:14:38.667748 - theme cookie is blue
