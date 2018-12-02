@@ -61,37 +61,13 @@ def getLastModified(tag):
     path = setFilePath(tag)
     print("File Path: " + path)
 
+    #------------------References for Loop Functionality in file.py and upload.html--------------------------
     #https://stackoverflow.com/questions/38943625/how-to-use-getmtime-for-multiple-files
-    # for file in os.listdir(path):
-    #     fileToIndex = os.path.join(path, str(file))
-    #     mTime = os.path.getmtime(fileToIndex)
-    #     lastMod = datetime.fromtimestamp(mTime).replace(microsecond=0)
-        #https://stackoverflow.com/questions/31487732/simple-way-to-drop-milliseconds-from-python-datetime-datetime-object
-
-    #return lastMod
-
-    # for file in dir_listing(path):
-    #     fileToIndex = os.path.join(path, str(file))
-    #     mTime = os.stat(fileToIndex).st_mtime
-    #     lastMod = datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')
-
-    # lastMod = ""
-    # fileandMod = ""
-    # for file in os.listdir(path):
-    #     fileToIndex = os.path.join(path, str(file))
-    #     print(fileToIndex)
-    #     mTime = os.path.getmtime(fileToIndex)
-    #     print("mTime: " + str(mTime))
-    #     curLastMod = datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')
-    #     curFile = str(file)
-    #     fileandMod = curFile + ',' + curLastMod
-    #
-    #     lastMod += fileandMod + ','
-    #     print(lastMod)
-
-
-
-
+    #https://stackoverflow.com/questions/31487732/simple-way-to-drop-milliseconds-from-python-datetime-datetime-object
+    #https://stackoverflow.com/questions/7537439/how-to-increment-a-variable-on-a-for-loop-in-jinja-template
+    #https://stackoverflow.com/questions/9486393/jinja2-change-the-value-of-a-variable-inside-a-loop
+    #https://stackoverflow.com/questions/38509802/get-the-current-and-next-value-in-a-jinja-for-loop
+    #https://stackoverflow.com/questions/17691838/range-in-jinja2-inside-a-for-loop
 
     file_list = []
 
@@ -103,17 +79,6 @@ def getLastModified(tag):
 
         file_list.append(curFile)
         file_list.append(mTimeFmt)
-
-
-
-    # file_list = []
-    #
-    # for i in directoryList:
-    #     a = os.path.join(path, i)
-    #     mTime = os.path.getmtime(a)
-    #     file_list.append([datetime.fromtimestamp(mTime).strftime('%Y-%m-%d %H:%M:%S')])
-    #
-    # return file_list
 
     return file_list
 

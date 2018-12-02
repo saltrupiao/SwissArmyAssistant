@@ -31,18 +31,9 @@
                     <td>Last Modified</td>
                 </thead>
                 <tbody>
-                    {# {% set list1 = lastMod.split(',') %} #}
-{#                    {% for i in range(lastMod) %}#}
-
                     {% set count = namespace(a=0) %}
                     {% for i in range(lastMod| length) %}
                     <tr>
-{#                        {% set fileName, timeStamp = lastMod[i], lastMod[i + 1] %}#}
-{#                        {% if loop.index is divisibleby 2 %}#}
-{#                            <td><a class="filesList" href="{{ shortPath }}{{ i }}">{{ i }}</a></td>#}
-{#                        {% else %}#}
-{#                            <td>{{ i }}</td>#}
-{#                        {% endif %}#}
                         <td><a class="filesList" href="{{ shortPath }}{{ lastMod[count.a] }}">{{ lastMod[count.a] }}</a></td>
 
                         {% set count.a = count.a + 1 %}
@@ -53,12 +44,6 @@
 
                     </tr>
                     {% endfor %}
-{#                    {% for file in list1 %}#}
-{#                    <tr>#}
-{#                        <td><a class="filesList" href="{{ shortPath }}{{ file }}">{{ file }}</a></td>#}
-{##}
-{#                    </tr>#}
-{#                    {% endfor %}#}
                 </tbody>
             </table>
         </div>

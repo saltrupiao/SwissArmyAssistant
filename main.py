@@ -115,7 +115,6 @@ def file():
 @app.route('/music')
 def music():
     # These functions are a straight ripped from file.py and modified for music player functionality
-    # Connor / Sal will know how these work in more detail
     theme = getTheme()
     mtag = request.form.get('folder')
     path = setFilePathMusic(mtag)
