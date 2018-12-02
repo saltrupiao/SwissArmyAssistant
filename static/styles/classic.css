@@ -4,7 +4,7 @@ body{
 
 @keyframes pulse {
     0% {
-        background-color: dodgerblue;
+        background-color: blue;
     }
     100% {
         background-color: ghostwhite;
@@ -16,7 +16,7 @@ body{
         background-color: transparent;
     }
     100% {
-        background-color: dodgerblue;
+        background-color: blue;
     }
 }
 
@@ -28,20 +28,20 @@ body{
 
 .fancyButton:hover
 {
-    background-color: dodgerblue;
+    background-color: blue;
     color: white;
 }
 
 .btn:hover
 {
-    background-color: dodgerblue;
+    background-color: blue;
     color: white;
 }
 
 /*Finally, the hover effects for the buttons (drop shadows)*/
 .container>.calcButton:hover
 {
-    background-color: dodgerblue;
+    background-color: blue;
     transition: ease .5s;
     cursor: pointer;
     box-shadow: 2px 2px 10px #000000;
@@ -49,7 +49,7 @@ body{
 
 .container-audio
 {
-    background-color: dodgerblue;
+    background-color: blue;
 }
 
 .title{
@@ -62,7 +62,7 @@ body{
 
 
 .active{
-    background-color: dodgerblue;
+    background-color: blue;
     color: white;
 }
 
@@ -73,7 +73,7 @@ body{
 
 #themeDropdown-Content
 {
-    background-color: dodgerblue;
+    background-color: blue;
     color: white;
 }
 
