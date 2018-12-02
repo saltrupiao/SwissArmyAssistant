@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d17847e-2310-4a7f-a8e0-79a519aa68b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/classic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/classic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="294" column="4" lean-forward="true" selection-start-line="294" selection-start-column="4" selection-end-line="294" selection-end-column="4" />
+            <state relative-caret-position="411">
+              <caret line="122" column="2" lean-forward="true" selection-start-line="122" selection-start-column="2" selection-end-line="123" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -556,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="294" column="4" lean-forward="true" selection-start-line="294" selection-start-column="4" selection-end-line="294" selection-end-column="4" />
+        <state relative-caret-position="411">
+          <caret line="122" column="2" lean-forward="true" selection-start-line="122" selection-start-column="2" selection-end-line="123" selection-end-column="29" />
         </state>
       </provider>
     </entry>
