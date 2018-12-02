@@ -21,14 +21,14 @@ body
     animation-duration: 2s;
     animation-name: fadeIn;
 }
-h2{
-    animation-duration: 2s;
-    animation-name: fadeIn;
-}
-h1{
-    animation-duration: 2s;
-    animation-name: fadeIn;
-}
+/*h2{*/
+    /*animation-duration: 2s;*/
+    /*animation-name: fadeIn;*/
+/*}*/
+/*h1{*/
+    /*animation-duration: 2s;*/
+    /*animation-name: fadeIn;*/
+/*}*/
 /*.nav{*/
     /*animation-duration: 2s;*/
     /*animation-name: fadeIn;*/
@@ -114,14 +114,14 @@ h1{
     margin: 20px auto;
     overflow: hidden;
     /*animation: pulse2 7s;*/
-    animation: pulse2 3s;
+    /*animation: pulse2 3s;*/
 }
 
 audio {
     width:100%;
 
-    animation-duration: 2s;
-    animation-name: fadeIn;
+    /*animation-duration: 2s;*/
+    /*animation-name: fadeIn;*/
 }
 
 #notepad
@@ -178,11 +178,6 @@ thead, td{
     color: black;
 }
 
-/* Add an active class to highlight the current page */
-/*.active {*/
-    /*background-color: #4CAF50;*/
-    /*color: white;*/
-/*}*/
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -271,37 +266,31 @@ h1
 {
     font-size: 18px;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .btn-primary{
-        margin: 10px;
-        text-align: center;
+        margin: 10px auto;
+        /*text-align: center;*/
         padding-left: 50px;
+        display: block;
     }
 
-/*.topnav {*/
-    /*!*width:auto;*!*/
-    /*margin:0 auto;*/
-    /*list-style:none;*/
-/*}*/
-
-/*.topnav li {*/
-    /*float:left;*/
-/*}*/
-
-/*.topnav a {*/
-    /*display:block;*/
-    /*text-align:center;*/
-    /*width:150px; !* fixed width *!*/
-    /*text-decoration:none;*/
-/*}*/
+.weatherwidget-io{
+    margin: 10px auto;
+    /*display: -webkit-inline-flex;*/
 
 
-@media screen and (max-width: 740px) {
-    .btn{
-        margin: 10px;
-        text-align: center;
-        padding-left: 50px;
+}
+
+
+@media screen and (min-width: 591) and (max-width: 782px) {
+    .btn-primary{
+        margin: 10px auto;
+        display:block;
     }
+}
+
+.topnav{
+    z-index: 999;
 }
