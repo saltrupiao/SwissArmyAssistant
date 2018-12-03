@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from CalcClass import CalcClass
 from NoteClass import NoteClass
-from file import dir_listing, setFilePath, upload, setShortFilePath, getLastModified
+from file import dir_listing, setFilePath, upload, setShortFilePath
 from music import dir_listing_music, setFilePathMusic
 from theme import getTheme, setTheme
 from log import writeLog
@@ -92,8 +92,6 @@ def file():
     writeLog("Getting Short Path")
     writeLog("Short Path: " + shortPath)
 
-    lastMod = getLastModified(tag)
-
     if request.method == 'POST':
         writeLog("Method is POST")
         if "upload" in request.form:
@@ -105,12 +103,10 @@ def file():
 
     files = dir_listing(path)
 
-
-
     if tag == None:
         tag = "Documents"
 
-    return render_template('upload.html', files = files, path = tag, shortPath = shortPath, theme = theme, lastMod = lastMod)
+    return render_template('upload.html', files = files, path = tag, shortPath = shortPath, theme = theme)
 
 @app.route('/music')
 def music():

@@ -29,20 +29,12 @@
             <table>
                 <thead>
                     <td>File Name</td>
-                    <td>Last Modified</td>
                 </thead>
                 <tbody>
-                    {% set count = namespace(a=0) %}
-                    {% for i in range(lastMod| length) %}
+                    {% for file in files %}
+
                     <tr>
-                        <td><a class="filesList" href="{{ shortPath }}{{ lastMod[count.a] }}">{{ lastMod[count.a] }}</a></td>
-
-                        {% set count.a = count.a + 1 %}
-
-                        <td>{{ lastMod[count.a] }}</td>
-
-                        {% set count.a = count.a + 1 %}
-
+                        <td><a class="filesList" href="{{ shortPath }}{{ file }}">{{ file }}</a></td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -50,8 +42,6 @@
         </div>
     </div>
 </div>
-
-<!--<li><p>{{ file }}</p></li>-->
 
 <!--input type="hidden" id="hiddenTag" name="hiddenTag" value="null"-->
 
