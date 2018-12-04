@@ -23,23 +23,26 @@
 
                 <input type="file" name="files">
                 <input type="submit" name="upload" value="Upload">
-            </form>
+            </form><br><br><br>
         </div>
-        <div class="col-sm-8">
+    </div>
+    <div class="container" style="align-content:center">
+    <div class="row">
+        <div class="col">
             <table>
                 <thead>
-                    <td>File Name</td>
+                <td>File Name</td>
                 </thead>
                 <tbody>
-                    {% for file in files %}
-
+                {% for file in files %}
                     <tr>
                         <td><a class="filesList" href="{{ shortPath }}{{ file }}">{{ file }}</a></td>
                     </tr>
-                    {% endfor %}
+                {% endfor %}
                 </tbody>
             </table>
         </div>
+    </div>
     </div>
 </div>
 
