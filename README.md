@@ -7,13 +7,12 @@
 <ul>
     <li>A Calculator, able to perform over two billion different mathmatical equations</li>
     <li>Real time weather tracking, with helpful graphics for the numerically impaired</li>
-    <li>Unlimited* cloud storage</li>
+    <li>Unlimited cloud storage</li>
     <li>Notepad, with support for every letter in the English language, and beyond</li>
     <li>Dynamic and versatile themes featuring over two colors</li>
     <li>A music player which could play grammy award winning musical tracks</li>
     <li>Integrated news from reputable journalists and Fox</li>
 </ul>
-<p>*Unlimited cloud storage must not exceed 4Gb</p>
 <p>Team members:</p>
 <ul>
     <li>Connor</li>
